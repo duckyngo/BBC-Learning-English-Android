@@ -1,0 +1,1041 @@
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                              xmlns:app="http://schemas.android.com/apk/res-auto"
+                                              xmlns:tools="http://schemas.android.com/tools"
+                                              android:id="@+id/refresh_layout"
+                                              android:layout_width="match_parent"
+                                              android:layout_height="match_parent"
+                                              tools:context="com.duckydev.mvpdagger.category.CategoryFragment">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/category_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/lightest_grey">
+
+            <TextView
+                android:id="@+id/title_1"
+                style="@style/CategoryTitleTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Six Minute English"/>
+
+            <HorizontalScrollView
+                android:id="@+id/scroll_view_1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/episode_cat_height"
+                android:layout_below="@+id/title_1"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/custom_horizontal_listview_01"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/EpisodeCategorySubCoverImage"
+                                android:src="@drawable/test1"/>
+
+                            <TextView
+                                style="@style/EpisodeCategorySubTitle"
+                                android:text="@string/test_string_1"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/EpisodeCategorySubCoverImage"
+                                android:src="@drawable/test2"/>
+
+                            <TextView
+                                style="@style/EpisodeCategorySubTitle"
+                                android:text="@string/test_string_2"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/EpisodeCategorySubCoverImage"
+                                android:src="@drawable/test3"/>
+
+                            <TextView
+                                style="@style/EpisodeCategorySubTitle"
+                                android:text="@string/test_string_3"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/EpisodeCategorySubCoverImage"
+                                android:src="@drawable/test1"/>
+
+                            <TextView
+                                style="@style/EpisodeCategorySubTitle"
+                                android:text="@string/test_string_4"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/EpisodeCategorySubCoverImage"
+                                android:src="@drawable/test2"/>
+
+                            <TextView
+                                style="@style/EpisodeCategorySubTitle"
+                                android:text="@string/test_string_1"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <RelativeLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:text="See all"
+                                android:textSize="@dimen/course_title_text_size"
+                                android:textStyle="bold"/>
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/title_2"
+                style="@style/CategoryTitleTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/scroll_view_1"
+                android:text="The English We Speak"/>
+
+            <HorizontalScrollView
+                android:id="@+id/scroll_view_2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/episode_cat_height"
+                android:layout_below="@+id/title_2"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/custom_horizontal_listview_02"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/EpisodeCategorySubCoverImage"
+                                android:src="@drawable/test1"/>
+
+                            <TextView
+                                style="@style/EpisodeCategorySubTitle"
+                                android:text="@string/test_string_1"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/EpisodeCategorySubCoverImage"
+                                android:src="@drawable/test2"/>
+
+                            <TextView
+                                style="@style/EpisodeCategorySubTitle"
+                                android:text="@string/test_string_2"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/EpisodeCategorySubCoverImage"
+                                android:src="@drawable/test3"/>
+
+                            <TextView
+                                style="@style/EpisodeCategorySubTitle"
+                                android:text="@string/test_string_3"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/EpisodeCategorySubCoverImage"
+                                android:src="@drawable/test1"/>
+
+                            <TextView
+                                style="@style/EpisodeCategorySubTitle"
+                                android:text="@string/test_string_4"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/EpisodeCategorySubCoverImage"
+                                android:src="@drawable/test2"/>
+
+                            <TextView
+                                style="@style/EpisodeCategorySubTitle"
+                                android:text="@string/test_string_1"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <RelativeLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:text="See all"
+                                android:textSize="@dimen/course_title_text_size"
+                                android:textStyle="bold"/>
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/title_3"
+                style="@style/CategoryTitleTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/scroll_view_2"
+                android:text="English At Work"/>
+
+            <HorizontalScrollView
+                android:id="@+id/scroll_view_3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/episode_cat_height"
+                android:layout_below="@+id/title_3"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/custom_horizontal_listview_03"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/EpisodeCategorySubCoverImage"
+                                android:src="@drawable/test1"/>
+
+                            <TextView
+                                style="@style/EpisodeCategorySubTitle"
+                                android:text="@string/test_string_1"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/EpisodeCategorySubCoverImage"
+                                android:src="@drawable/test2"/>
+
+                            <TextView
+                                style="@style/EpisodeCategorySubTitle"
+                                android:text="@string/test_string_2"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/EpisodeCategorySubCoverImage"
+                                android:src="@drawable/test3"/>
+
+                            <TextView
+                                style="@style/EpisodeCategorySubTitle"
+                                android:text="@string/test_string_3"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/EpisodeCategorySubCoverImage"
+                                android:src="@drawable/test1"/>
+
+                            <TextView
+                                style="@style/EpisodeCategorySubTitle"
+                                android:text="@string/test_string_4"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/EpisodeCategorySubCoverImage"
+                                android:src="@drawable/test2"/>
+
+                            <TextView
+                                style="@style/EpisodeCategorySubTitle"
+                                android:text="@string/test_string_1"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <RelativeLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:text="See all"
+                                android:textSize="@dimen/course_title_text_size"
+                                android:textStyle="bold"/>
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:id="@+id/title_4"
+                style="@style/CategoryTitleTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/scroll_view_3"
+                android:text="LingoHack"/>
+
+            <HorizontalScrollView
+                android:id="@+id/scroll_view_4"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/episode_cat_height"
+                android:layout_below="@+id/title_4"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/custom_horizontal_listview_04"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/EpisodeCategorySubCoverImage"
+                                android:src="@drawable/test1"/>
+
+                            <TextView
+                                style="@style/EpisodeCategorySubTitle"
+                                android:text="@string/test_string_1"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/EpisodeCategorySubCoverImage"
+                                android:src="@drawable/test2"/>
+
+                            <TextView
+                                style="@style/EpisodeCategorySubTitle"
+                                android:text="@string/test_string_2"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/EpisodeCategorySubCoverImage"
+                                android:src="@drawable/test3"/>
+
+                            <TextView
+                                style="@style/EpisodeCategorySubTitle"
+                                android:text="@string/test_string_3"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/EpisodeCategorySubCoverImage"
+                                android:src="@drawable/test1"/>
+
+                            <TextView
+                                style="@style/EpisodeCategorySubTitle"
+                                android:text="@string/test_string_4"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/EpisodeCategorySubCoverImage"
+                                android:src="@drawable/test2"/>
+
+                            <TextView
+                                style="@style/EpisodeCategorySubTitle"
+                                android:text="@string/test_string_1"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <RelativeLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:text="See all"
+                                android:textSize="@dimen/course_title_text_size"
+                                android:textStyle="bold"/>
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/title_5"
+                style="@style/CategoryTitleTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/scroll_view_4"
+                android:text="Drama"/>
+
+            <HorizontalScrollView
+                android:id="@+id/scroll_view_5"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/episode_cat_height"
+                android:layout_below="@+id/title_5"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/custom_horizontal_listview_05"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/EpisodeCategorySubCoverImage"
+                                android:src="@drawable/test1"/>
+
+                            <TextView
+                                style="@style/EpisodeCategorySubTitle"
+                                android:text="@string/test_string_1"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/EpisodeCategorySubCoverImage"
+                                android:src="@drawable/test2"/>
+
+                            <TextView
+                                style="@style/EpisodeCategorySubTitle"
+                                android:text="@string/test_string_2"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/EpisodeCategorySubCoverImage"
+                                android:src="@drawable/test3"/>
+
+                            <TextView
+                                style="@style/EpisodeCategorySubTitle"
+                                android:text="@string/test_string_3"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/EpisodeCategorySubCoverImage"
+                                android:src="@drawable/test1"/>
+
+                            <TextView
+                                style="@style/EpisodeCategorySubTitle"
+                                android:text="@string/test_string_4"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/EpisodeCategorySubCoverImage"
+                                android:src="@drawable/test2"/>
+
+                            <TextView
+                                style="@style/EpisodeCategorySubTitle"
+                                android:text="@string/test_string_1"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <RelativeLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:text="See all"
+                                android:textSize="@dimen/course_title_text_size"
+                                android:textStyle="bold"/>
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/title_6"
+                style="@style/CategoryTitleTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/scroll_view_5"
+                android:text="News Report"/>
+
+            <HorizontalScrollView
+                android:id="@+id/scroll_view_6"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/episode_cat_height"
+                android:layout_below="@+id/title_6"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/custom_horizontal_listview_06"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/EpisodeCategorySubCoverImage"
+                                android:src="@drawable/test1"/>
+
+                            <TextView
+                                style="@style/EpisodeCategorySubTitle"
+                                android:text="@string/test_string_1"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/EpisodeCategorySubCoverImage"
+                                android:src="@drawable/test2"/>
+
+                            <TextView
+                                style="@style/EpisodeCategorySubTitle"
+                                android:text="@string/test_string_2"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/EpisodeCategorySubCoverImage"
+                                android:src="@drawable/test3"/>
+
+                            <TextView
+                                style="@style/EpisodeCategorySubTitle"
+                                android:text="@string/test_string_3"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/EpisodeCategorySubCoverImage"
+                                android:src="@drawable/test1"/>
+
+                            <TextView
+                                style="@style/EpisodeCategorySubTitle"
+                                android:text="@string/test_string_4"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/EpisodeCategorySubCoverImage"
+                                android:src="@drawable/test2"/>
+
+                            <TextView
+                                style="@style/EpisodeCategorySubTitle"
+                                android:text="@string/test_string_1"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        style="@style/EpisodeCardView"
+                        app:cardBackgroundColor="@color/whiteFa"
+                        app:cardCornerRadius="2.0dip"
+                        app:cardElevation="4.0dip"
+                        app:cardUseCompatPadding="true">
+
+                        <RelativeLayout
+                            android:layout_width="@dimen/episode_cat_width"
+                            android:layout_height="@dimen/episode_cat_height">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:text="See all"
+                                android:textSize="@dimen/course_title_text_size"
+                                android:textStyle="bold"/>
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+        </RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.v4.widget.SwipeRefreshLayout>

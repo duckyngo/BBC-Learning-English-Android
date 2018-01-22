@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/filter_all"
+          android:title="All"/>
+
+    <item android:id="@+id/filter_downloaded"
+          android:title="Downloaded"/>
+
+    <item android:id="@+id/filter_favorited"
+          android:title="Favorited"/>
+</menu>

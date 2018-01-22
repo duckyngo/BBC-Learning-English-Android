@@ -1,0 +1,166 @@
+"<h3>18 - Emergency</h3>
+ <p>Things are getting busy for Mary at the University of Studies. Does Abi have a solution to help Mary let her hair down and have some fun? And what are Professor Not and Sharon doing at the yoga class?</p>
+ <h3>Language focus</h3>
+ <p><strong>Getting help in an emergency</strong></p>
+ <p>Mary gets help for Professor Not after his accident by using these phrases…</p>
+ <ul>
+  <li>We have an emergency in the yoga class. We need help.</li>
+  <li>How long do you think you'll be?</li>
+  <li>Please could you come as soon as possible.</li>
+  <li>Is there anything we can do before you arrive?</li>
+ </ul>"
+"<h3>17 - Take note</h3>
+ <p>It's the New Year and term is starting again at the University of Studies. After the break, Mary's finding it difficult to keep up in Professor Not's lecture and write down what he's saying. How will she cope and has Daniel got a technological solution?</p>
+ <h3>Language focus</h3>
+ <p><strong>Asking for guidance about note taking and tips on how to do it</strong></p>
+ <p>Mary asks Professor Not for some advice about what to write down in his lecture by using these phrases…</p>
+ <ul>
+  <li>Could you say that again please?</li>
+  <li>You're going a bit too fast for me.</li>
+  <li>Have you any guidance about how to take notes?</li>
+ </ul>
+ <p>And here are Professor Not's note taking tips...</p>
+ <ul>
+  <li>Write down the important bits… I'll emphasise these bits in the lecture.</li>
+  <li>Write down what I say in your own words – although if I quote someone, make sure you write it down word-for-word.</li>
+  <li>Use words, abbreviations, symbols or even pictures to summarise what I say. If you miss something, leave a gap in your notes, and get the information from me later.</li>
+  <li>Remember to read through your notes after the lecture.</li>
+ </ul>"
+"<h3>16 - A home from home</h3>
+ <p>The first term is over at the University of Studies. All the students are packing up and heading home for the holidays – all except Mary, that is! She couldn't get a flight home for Christmas so she will have to find somewhere else to stay...</p>
+ <h3>Language focus</h3>
+ <p><strong>Showing gratitude and clearing up confusion</strong></p>
+ <p>Daniel's parents come to the rescue by letting Mary stay awith them for Christmas. She shows how thankful she is by using these phrases…</p>
+ <ul>
+  <li>I'm very touched that you've allowed me to stay with you.</li>
+  <li>I'm really grateful to have somewhere to stay.</li>
+  <li>You're such nice people to spend the holidays with.</li>
+ </ul>
+ <p>But they think Mary is Daniel's girlfriend! She clears up this mistake by saying...</p>
+ <ul>
+  <li>I think there's been some confusion.</li>
+  <li>Can I just make it clear… we're not together.</li>
+ </ul>"
+"<h3>15 - Feedback</h3>
+ <p>Mary's in Professor Not's office today to get feedback on her work. Will she be happy with the grade she's been given or is it a case of 'could do better'?</p>
+ <h3>Language focus</h3>
+ <p><strong>Giving and getting feedback</strong></p>
+ <p>Giving feedback is supposed to be a positive and useful experience but Professor Not seems to have gone too far by using these phrases…</p>
+ <ul>
+  <li>Work is average.</li>
+  <li>Needs to work on expressing ideas more clearly.</li>
+  <li>I'm a bit concerned about your progress.</li>
+  <li>A little wet behind the ears.</li>
+ </ul>
+ <p>Mary stood her ground with these phrases…</p>
+ <ul>
+  <li>I feel I have put in 100 per cent effort this term.</li>
+  <li>I find your comments a bit harsh.</li>
+  <li>What evidence do you have for your feedback?</li>
+ </ul>"
+"<h3>14 - Lost property</h3>
+ <p>Mary's having trouble with her university assignment again. She saved her work on a memory stick - which has gone missing in Daniel's chaotic bedroom. Has anyone handed in the missing memory stick to the Lost Property office?</p>
+ <h3>Language focus</h3>
+ <p><strong>Asking for something you've lost&nbsp;</strong></p>
+ <p>I wonder if you can help me please?<br />Has anyone handed in my memory stick?<br />If somebody hands it in, please can you let me know?<br />Here are my contact details.</p>"
+"<h3>13 - Deadlines!</h3>
+ <p>Mary's a good student and always does her work on time. The problem is Daniel's broken her laptop and lost her assignment. She's going to have to ask for more time to finish he work. Will she succeed?</p>
+ <h3>Language focus</h3>
+ <p><strong>Asking for extra time to complete your work&nbsp;</strong></p>
+ <p>I'm having problems meeting the deadline for my assignment<br />Is it possible to get an extension for my assignment please?<br />I have a very good reason for asking.<br />If I could have just one more day before I hand it in, I'd be most grateful.<br />It won't happen again.</p>"
+"<h3>12 - Reboot!</h3>
+ <p>Mary's been set some work – to write an assignment about business. Always studious and keen to do well, she's getting on with it in the peace and quiet of the library. Then Daniel arrives and ruins things for her...</p>
+ <h3>Language focus</h3>
+ <p><strong>Learn phrases used to get you out of a tricky situation</strong></p>
+ <p>I seem to have lost my work, what can I do?<br />Do you think you can restore my work please?<br />Is there anything you do?</p>"
+"<h3>11 - Study skills</h3>
+ <p>Mary attends Professor Not's study skills workshop but it sounds like she knows more about studying than him! Listen out for the advice she gives the group.</p>
+ <h3>Language focus</h3>
+ <p><strong>Learn phrases used to introduce a suggestion:</strong></p>
+ <p>Maybe I could offer some suggestions?<br />From what I understand…<br />What works for me is…</p>
+ <p><strong>Here are Mary's tips for studying well:</strong></p>
+ <p>You must study every day<br />Choose a place and time to do it<br />Plan your time and decide what you want to achieve<br />Don't be afraid to ask for help<br />Choose a learning style that helps you learn best</p>"
+"<h3>10 - Getting down to business</h3>
+ <p>Mary's course in Business Studies is underway, but she hasn't really learnt much yet. Also, she's not quite sure what it is Prof. Not wants. She learns how to ask for clarification when there's something she doesn't understand.</p>
+ <h3>Language focus</h3>
+ <p><strong>Learn phrases about asking for clarification</strong></p>
+ <p>I need some more details before I begin my assignment please.<br />I really need to know the theme of the assignment.<br />How many words do you want?<br />How would you like it presented?<br />How should we deliver it to you when it's finished?<br />When is the deadline for completing our assignment?</p>"
+"<h3>9 - Dinner time</h3>
+ <p>It's the most important time of the day – dinner time – and Mary's gone to the canteen with Abi. But Mary's hasn't quite worked out the system for getting what she wants.</p>
+ <h3>Language focus</h3>
+ <p><strong>Learn phrases you can use in a canteen:</strong></p>
+ <p>Excuse me, can you tell me if you have any food suitable for vegetarians please?<br />Has this got meat in it?<br />Where can I find…?<br />Do you have any…?<strong><br /></strong></p>"
+"<h3>8 - The Library</h3>
+ <p>New student Mary is settling into university life but still hasn't visited the most important place you'll need to go to, to help you with your studies. It's a great place for a bookworm like Mary – it's the library.</p>
+ <h3>Language focus</h3>
+ <p><strong>Learn phrases about asking for help finding a book:</strong></p>
+ <p>Please could you check if you have any of these books in stock?<br />Could reserve them for me please?<br />Could you put them by for me when they come in please?<br />When do you think they will be available?<br /><br /><strong>Here are some other phrases you could use:</strong></p>
+ <p>Could you see if you have any of these books available to borrow?<br />Could I book them for as soon as they next become free?<br />Could you set them aside for me when they get handed in?<br />Do you know when they are due to be returned?&nbsp;</p>"
+"<h3>7 -&nbsp;<strong>The Seminar</strong>&nbsp;</h3>
+ <p>Mary's had her first Business Studies lecture and now she's decided to go to Professor Not's evening seminar – that's when a group of students meet with their teacher to discuss what they've learnt. But the problem is there's always a chatterbox – you know, someone who likes to do all the talking!</p>
+ <h3>Language focus</h3>
+ <p><strong>Learn phrases about getting yourself heard:</strong><strong><br /></strong></p>
+ <p>Would you mind if I had a chance to speak please?<br />I would like to say something too, if you don't mind.<br />Thank you for giving me the chance to speak.<br />I'd like to contribute to the discussion please.</p>
+ <p><strong>Here are some other phrases you could use:</strong><strong><br /></strong></p>
+ <p>If you don't mind, I think it's my turn to speak.<br />Would you like to hear my thoughts on the subject?<br />If I could interupt you there...</p>"
+"<h3>6 -&nbsp;Lectures begin&nbsp;</h3>
+ <p>Mary's a new student who has just arrived at the University of Studies and now after settling in, her studying can finally begin but she's feeling a bit nervous.</p>
+ <h3>Language focus</h3>
+ <p><strong>Learn phrases about saying you don't understand and need something explained&nbsp;</strong></p>
+ <p>Could you say that again please?<br />Sorry, I don't understand what you mean.<br />Could you explain that in a different way please?</p>
+ <p><strong>Here are some other phrases you could use:</strong></p>
+ <p>Would you mind going over that again please?<br />I'm not sure what you mean, could you explain it again please?<br />You've lost me - could you start again please?&nbsp;</p>"
+"<h3>5 - Registration</h3>
+ <p>Mary's met her new roommate Abi and is settling in to university life. Before her lectures finally begin there's some 'admin' to do but first she needs to know what 'admin' is and how to do it.</p>
+ <h3>Language focus</h3>
+ <p><strong>Learn useful phrases to ask for help when filling in forms</strong></p>
+ <p>I'm really sorry but I'm not sure what to write.<br />Could you explain this form to me please?<br />I know you're busy but I'd be grateful if you could help me.<br />Could I borrow a pen please?</p>
+ <p><strong>Here are some other phrases you could use:</strong></p>
+ <p>I'm finding this form a bit tricky to complete, could you help me please?<br />What is this form for?<br />Could you see if I have filled this form in correctly please?&nbsp;</p>"
+"<h3>4 - Freshers' Week</h3>
+ <p>Mary's a new student who has just arrived at the University of Studies, but before her lectures begin there's an important event she can't miss. It's a week&nbsp;of activities that'll help her get to know other new students - or 'freshers'. She can also make friends, and find her way around the campus, and hopefully start getting used to living in the UK.</p>
+ <h3>Language focus</h3>
+ <p><strong>Learn&nbsp;phrases about saying 'no'</strong></p>
+ <p>I'll have a think about it.<br />Sorry, I don't think I've got the time.<br />It's not my cup of tea.</p>
+ <p><strong>Here are some other phrases you could use:</strong></p>
+ <p>I'd rather not thanks.<br />I'm really not interested.<br />No thanks, maybe another time.</p>"
+"<h3>3 - Roommate</h3>
+ <p>Mary's finally found her way to the university no thanks to new student, Daniel. She's managed to find her way to the accommodation block and is looking for her new room.</p>
+ <h3>Language focus</h3>
+ <p><strong>Learn useful phrases about compromise:</strong></p>
+ <p>Could we set some ground rules please?<br />Would you mind… keeping the room a bit more tidy?<br />It would be great if I could have some space on the desk to put my things.<br />Would that be a reasonable compromise?</p>
+ <p><strong>Here are some other phrases you could use:</strong></p>
+ <p>As there are now two of us, how about tidying up a bit?<br />Would you mind not making so much mess please?<br />Let's start as we mean to go on and keep this room tidy!&nbsp;</p>"
+"<h3>2 - Just landed</h3>
+ <p>Mary's just landed in London and is heading off for the University of Studies – but there's a problem – she's already lost. Will the 'helpful and friendly' people of Britain help her to get where she wants to go?</p>
+ <h3>Language focus</h3>
+ <p><strong>Learn phrases about asking for directions:</strong></p>
+ <ul>
+  <li>Excuse me, could you tell me the way to…</li>
+  <li>I wonder if you could help me please?</li>
+  <li>Please could you give me directions to…</li>
+  <li>I don't suppose you could show me the way, could you?</li>
+ </ul>
+ <p><strong>Here are some other phrases you could use:<br /><br /></strong>Do you know where I could find...<br />Excuse me, which way is it to...<br />Could you point me in the direction of... please.&nbsp;</p>"
+"<h3><strong>Welcome to English at University!</strong></h3>
+ <p>Join us for this new funny and exciting drama series that brings you the English words and phrases you need to help you through your first year at university. Every week you can&nbsp;follow new student Mary, through her first year of study abroad - at The University of Studies – that's the UK's thirty-second best university - where she's been offered a place to study for a degree in Business.</p>
+ <h3><strong>1 - Leaving Home</strong></h3>
+ <p>Mary's got a place at a British university to study Business but this means leaving home for the first time.&nbsp;It's a great opportunity for her but as you'll see and hear, her mum and dad are sad to see her go.</p>
+ <h3>Language focus</h3>
+ <p><strong>Learn phrases you might use&nbsp;when people are&nbsp;leaving home:</strong></p>
+ <ul>
+  <li>I'm proud of you.</li>
+  <li>It's the opportunity of a lifetime.</li>
+  <li>Don't do anything I wouldn't do!</li>
+  <li>Have a good time and don't get into trouble!</li>
+  <li>Make the most of it.</li>
+  <li>Safe journey!</li>
+  <li>Have a good trip.</li>
+  <li>Keep in touch!</li>
+ </ul>
+ <p><strong>Here are some other phrases you could use:</strong></p>
+ <ul>
+  <li>Look after yourself!</li>
+  <li>Be lucky!</li>
+  <li>You're going to have a great time.</li>
+ </ul>"

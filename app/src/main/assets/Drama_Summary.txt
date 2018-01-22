@@ -1,0 +1,279 @@
+" <p>Journey back to Victorian London with us for the final episode of The Importance of Being Earnest, based on the original comedy by Oscar Wilde.</p>
+ <p>Everyone is gathered at Jack's house in the country. Jack is still arguing with Lady Bracknell, but, as soon as Miss Prism arrives, everything changes. It's time to find out who the real Ernest is...</p>
+ "
+" <p>Journey back to Victorian London with us for the ninth episode of The Importance of Being Earnest, based on the original comedy by Oscar Wilde.</p>
+ <p>Lady Bracknell makes a surprise appearance. And she's not pleased that Algernon is in love with Cecily.</p>
+ "
+" <p>Journey back to Victorian London with us for the eighth episode of The Importance of Being Earnest, based on the original comedy by Oscar Wilde.</p>
+ <p>It's time for the men to admit they're not called Ernest. How will Gwendolen and Cecily react?</p>
+ "
+" <p>Journey back to Victorian London with us for the seventh episode of The Importance of Being Earnest, based on the original comedy by Oscar Wilde.</p>
+ <p>Cecily and Gwendolen both think they're engaged to someone called Ernest. When they meet it can't go well, can it?</p>
+ "
+" <p>Journey back to Victorian London with us for the sixth episode of The Importance of Being Earnest, based on the original comedy by Oscar Wilde.</p>
+ <p>Algernon has fallen madly in love with Cecily. But when he tells her about his deep emotions, what she says surprises him.</p>
+ "
+" <p>Journey back to Victorian London with us for the fifth episode of The Importance of Being Earnest, based on the original comedy by Oscar Wilde.</p>
+ <p>Algernon is pretending to be Jack's younger brother, Ernest, so he can win Cecily's heart. But Jack arrives and says his brother Ernest has just died. What will happen when Jack sees Algernon there? This can't end well...</p>
+ "
+" <p>Journey back to Victorian London with us for the fourth episode of The Importance of Being Earnest, based on the original comedy by Oscar Wilde.</p>
+ <p>Algernon has secretly managed to find out the address of Jack's house in the country - the house where he lives with Cecily. He decides to pay Cecily a visit, pretending to be Jack's wicked younger brother, Ernest.</p>
+ <p>While you listen to the audio, see how many examples of the past perfect continuous you can spot. Then take a look at the transcript to see them in bold.</p>
+ "
+" <p>Journey back to Victorian London with us for the third episode of The Importance of Being Earnest, based on the original comedy by Oscar Wilde.</p>
+ <p>Jack has proposed to his darling Gwendolen, and she has accepted. But Gwendolen's mother, Lady Bracknell, has other ideas. Meanwhile, Algernon has become interested in Jack's cousin, Cecily.</p>
+ <p>While you listen to the audio, see how many examples of comparatives and superlatives you can spot. Then take a look at the transcript to see them in bold.</p>
+ "
+" <p>Journey back to Victorian London with us in the second episode of The Importance of Being Earnest, based on the original comedy by Oscar Wilde.</p>
+ <p>Jack and Algernon are two wealthy, young, unmarried men - but Jack plans to change that. He's in love with Algernon's cousin Gwendolen. He plans to propose to her when she comes to visit later that day. But first, he has to explain to Algernon why he's leading a double life.</p>
+ <p>While you listen to the audio, see how many examples of the passive voice you can spot. Then take a look at the transcript to see them in bold.</p>
+ "
+" <p>Journey back to Victorian London with us in the first episode of The Importance of Being Earnest, based on the original comedy by Oscar Wilde.</p>
+ <p>Algernon Moncreiff lives the lazy and luxurious life of a young, unmarried man in London. His friend Ernest visits and declares he wants to marry Algernon's cousin. But Ernest is not exactly who he says he is.</p>
+ "
+" <p>The Vicar of Altarnum&nbsp;knows the awful truth about who killed&nbsp;Mary's uncle and aunt.&nbsp;She has a&nbsp;dangerous journey ahead now, but help comes from an unexpected place.</p>
+ "
+" <p>Mary has gone to vicar's house. She wants to talk to him about the murder of her uncle but he's not there. But later he arrives and he has some important news to tell her. What can it be?</p>
+ "
+" <p>After the shocking events on the coast, Mary's uncle is now planning to escape from Jamaica Inn. He fears that someone is coming to kill him – someone who has been giving him the orders to&nbsp;<strong>wreck&nbsp;</strong>ships. &nbsp;She has to escape first to tell someone what she has seen but who can she trust?&nbsp;</p>
+ "
+" <p>Mary has been forced by her Uncle Joss to travel with him and his drunken men on Christmas Eve. She fell asleep but she's about to wake up and discover what Joss and his gang of bad men really get up to at night.</p>
+ "
+" <p>Following Mary's uncle's shocking confession - how he&nbsp;<strong>lures</strong>&nbsp;ships onto the rocks and drowns women and children - she escapes from the Inn and goes with his brother, Jem, to the horse market in Launceston. But things don't go to plan.</p>
+ "
+" <p>Joss has returned to Jamaica Inn and is very angry about Mr Bassat's visit. He storms out of the house and sets off across the moor.&nbsp;Mary decides to follow him.</p>
+ "
+" <p>Mary finds herself attracted to a visitor to Jamaica Inn. But who is he - and can he be trusted? Meanwhile, another visitor discovers some suspicious objects in an upstairs&nbsp;room...&nbsp;</p>
+ "
+" <p>Mary has to work in the bar of Jamaica Inn on Saturday night.&nbsp;She gets to meet a group of rough and drunk men. Later that night there are some strange goings-on in the yard outside. What's&nbsp;happening - and why are people talking about murder?</p>
+ "
+" <p>Mary arrives at Jamaica Inn and meets her Aunt Patience and Uncle Joss. Immediately she discovers what a mean and scary man her uncle is. He sets the rules and tells her what to do. On her second day there she discovers a locked room – what is inside?</p>
+ "
+" <p>When Mary's mother dies, she goes to live with her aunt and uncle who run the Jamaica Inn.&nbsp;&nbsp;It lies in a remote and bleak corner of England. On her journey there she is warned to keep away. But why?</p>
+ "
+" <h3>The last leg</h3>
+ <p>&quot;We were sailing through a huge hurricane when a massive wave hit us. Oh why did I try to sail through this storm? I was hoping to get back home in 80 days but that seems impossible now. I must make sure my crew is ok – I need them now more than ever.&quot;</p>
+ "
+" <h3>Plain sailing</h3>
+ <p>&quot;It's a miracle! I didn't hit any rocks and we are safe in the harbour at Papeete on the island of Tahiti. It's just a quick stop to clean up the yacht and take on fresh water. I'm going to find one more souvenir to take home as part of my challenge.&quot;</p>
+ "
+" <h3>Aye aye Captain Phil!</h3>
+ <p>&quot;We've made it to Papua New Guinea and the capital city of Port Moresby. We've decided to sail in a straight line across the Pacific Ocean and then we're taking a shortcut through the Panama Canal. It's a long, long way so we need plenty of supplies.&quot;</p>
+ "
+" <h3>Shipwrecked</h3>
+ <p>&quot;Passepartout and I were sleeping like babies when we suddenly heard a loud creaking and cracking sound. What could it be? We're in the middle of the Indian Ocean so we can't have hit any rocks. Sophia is up on deck steering the yacht – I need to find out what's going on.&quot;</p>
+ "
+" <h3>Find our yacht!</h3>
+ <p>&quot;Disaster! Our yacht has been stolen. We were on Reunion Island when someone cut the ropes and took it. Where is it – and how are we going to find it? Does this mean we're going to lose the race?&quot;</p>
+ "
+" <h3>All at sea!</h3>
+ <p>&quot;We've just missed being hit by a huge container ship. We're all so tired and we didn't see it coming. We've been at sea for several days and without our satellite navigation system it's hard to know which way we're going. Passepartout needs medical help - and we have to get more food supplies. We must find land soon.&quot;</p>
+ "
+" <h3>All at sea!</h3>
+ <p>&quot;It's day 15. We're in Sao Tome and trying to smuggle our new friend Sophia off the island and onto our boat. She wants to escape from her violent husband and return to her home in the UK. I'm always happy to help someone in distress. But there's no time to hang around – I only have 65 days left to sail around the world.&quot;</p>
+ "
+" <h3>Any port in a storm</h3>
+ <p>&quot;We're in the Cape Verde islands and, no, we didn't sink! We have made it to port. Unfortunately, we can't stay here for long – we are in a race after all, around the world!&quot;</p>
+ "
+" <h3>Start the clock!</h3>
+ <p>&quot;It's Phil here. You may know that I've been set a challenge to sail around the world in 80 days – it's an impossible challenge especially as I have never sailed a yacht before. But I said 'yes' – so here goes!&quot;</p>
+ "
+" <h3>The challenge is set</h3>
+ <p>&quot;Hello, I'm Phil. I'm about to face a challenge that could give me a great adventure – and a lot of money. What could it be? Find out now in episode one of The Race.&quot;</p>
+ "
+" <p>Ebenezer Scrooge has been taken to several different places by three spirits. He saw that if he died, nobody would care because he is a bad man. How will this experience change Scrooge's life?</p>
+ "
+" <p>Ebenezer Scrooge is getting used to the company of ghosts, but here's one he doesn't expect.</p>
+ "
+" <p>Ebenezer Scrooge seems to be changing his ways. He has learnt a lesson from a ghost which took him to the past and now is ready to be visited by the Spirit of Christmas Present.</p>
+ "
+" <p>Selfish businessman Ebenezer Scrooge receives a visit from the first of three spirits. This is the Spirit of Christmas Past.</p>
+ "
+" <p>In this episode, you'll get to know Ebenezer Scrooge. Nobody seems to be able to get a kind word or even a smile out of him.</p>
+ <p>Listen to what he has to say and, after that, test your skills with our quiz.</p>
+ "
+" <p>Dick Whittington is a young man from the city who has a big ambition: he wants to be Lord Mayor of London! This is a traditional British pantomime – a comic play that is performed in the UK around Christmas time. Will Dick and his cat Apple beat the villainous Franky Banky? Listen to our Christmas performance to find out!</p>
+ "
+" <p>Alice is at the trial of the Knave of Hearts - and&nbsp;she is taller than ever before. The King asks the jury to give their verdict - but will the Queen let Alice escape without a punishment?&nbsp;</p>
+ "
+" <p>Alice finds herself at a trial. Did the Knave of Hearts steal the Queen's tarts? What does the Hatter know about it - and what's that funny feeling Alice is having?</p>
+ "
+" <p>Now Alice has finally found the beautiful garden she gets to play croquet with the Queen. Is it possible to play croquet with a hedgehog as a ball? And if the Queen wants to chop off everyone's head, is Alice in danger?</p>
+ "
+" <p>Alice finds the Hatter and the March Hare having a very strange tea-party. They manage to make Alice angry but how? And do riddles always have answers?</p>
+ "
+" <p>Someone inside the Duchess's house is angry - but who?&nbsp;The Duchess's baby is making some very strange sounds and the Cheshire-Cat smiles while the cook throws things. Will Alice meet anyone who isn't mad?</p>
+ "
+" <p>Alice is beginning to wonder who she is, when a caterpillar gives her some advice about a magical mushroom. But is it good advice – and who thinks Alice is a snake?</p>
+ "
+" <p>Alice is too big to fit inside the White Rabbit's house. The problem is, she's already inside it! How does she get out - and why is everyone throwing cakes?</p>
+ "
+" <p>Alice swims in a pool of her own tears, and joins in a Caucus-race. But who is the winner, and who will give the prizes?</p>
+ "
+" <p>Alice keeps getting bigger… and smaller. No wonder she cries a pool of tears!</p>
+ "
+" <p>Alice is an ordinary girl, until the day she meets a talking rabbit and enters a&nbsp;Wonderland of adventure...</p>
+ "
+" <p><strong>The final encounter...</strong><br />Hatred and fear melt in the cold Arctic when the Creature finally sees its creator again.</p>
+ <p><strong>Language focus<br /></strong>What examples of past simple, present simple, present perfect, present continuous can you spot in this episode? It indicates past habits. You can check by looking for the bolded phrases in the transcript below. For vocabulary help, scroll down past the transcript for key words and definitions.</p>
+ "
+" <p><strong>Our story continues...</strong><br />Viktor Frankenstein’s life seems to be&nbsp;getting better. He travels to&nbsp;Lake Como, Italy, with his new wife. But the scientist is tense - there's a threat in the air...</p>
+ <p><strong>Language focus<br /></strong></p>
+ <p>What examples of&nbsp;'too much', 'too many', 'enough' and 'very' can you spot in this episode?&nbsp;You can check by looking for the <strong>bolded</strong> phrases in the transcript below. For vocabulary help, scroll down past the transcript for key words and definitions.</p>
+ "
+" <p><strong>When will the nightmare end for Viktor Frankenstein?</strong><br />The scientist is arrested, accused of murder. Is he guilty?</p>
+ <p><strong>Language focus<br /></strong><span> </span></p>
+ <p>What examples of&nbsp;questions without auxiliaries can you spot in this episode? <span>It</span> indicates past habits. You can check by looking for the <strong>bolded</strong> phrases in the transcript below. For vocabulary help, scroll down past the transcript for key words and definitions.</p>
+ "
+" <p><strong>Will we have a new monster in the story?</strong><br />Viktor Frankenstein goes to Britain and works alone to build a bride for the Creature. But the scientist is tormented: will the couple go away and leave&nbsp;him and his family in peace or will&nbsp;the mosnters&nbsp;kill more people together?</p>
+ <p><strong>Language focus<br /></strong>What examples of 'used to' can you spot in this episode? It indicates past habits. You can check by looking for the <strong>bolded</strong> phrases in the transcript below. For vocabulary help, scroll down past the transcript for key words and definitions.</p>
+ "
+" <p><strong>Our story continues...<br /></strong>Welcome to episode&nbsp;six of our version of the classic horror story, Frankenstein. In this episode, the Creature explains the killings and puts a condition to leave everybody in peace. But what does he want in return?</p>
+ <p><strong>Language focus</strong><br />What examples of 'may', 'might' and 'could' can you spot in this episode? They indicate probable situations and future possibilities. You can check by looking for the&nbsp;<strong>bolded</strong>&nbsp;phrases in the transcript below. For vocabulary help, scroll down past the transcript for key words and definitions.&nbsp;</p>
+ "
+" <p><strong>Our story continues...<br /></strong>Welcome to episode&nbsp;five of our version of the classic horror story, Frankenstein. In this episode, Viktor Frankenstein's Creature&nbsp;meets a loving family. They are poor but kind to each other.&nbsp;Will they extend their love to&nbsp;someone most consider a monster?&nbsp;Will they flee from the Creature?</p>
+ <p><strong>Language focus</strong><br />Listen out for examples of relative clauses - 'who', 'which', 'where' and 'that'.&nbsp;You can check by looking for the&nbsp;<strong>bolded</strong>&nbsp;phrases in the transcript below. For vocabulary help, scroll down past the transcript for key words and definitions.&nbsp;</p>
+ "
+" <p><strong>Our story continues...<br /></strong>Welcome to episode four of our version of the classic horror story, Frankenstein. In this episode, Viktor Frankenstein finally meets the creature he's brought to life. Is the creature friendly towards the scientist? Will they come to an understanding?</p>
+ <p><strong>Language focus</strong><br />Listen out for examples of comparatives and superlatives. You can check by looking for the&nbsp;<strong>bolded</strong>&nbsp;phrases in the transcript below. For vocabulary help, scroll down past the transcript for key words and definitions.&nbsp;</p>
+ "
+" <p><strong>Our story continues...<br /></strong>Welcome to episode three of our version of the classic horror story, Frankenstein. In this episode, Viktor Frankenstein describes the investigation into the murder of his younger brother. The police believe they have caught the killer - but Viktor Frankenstein knows better...</p>
+ <p><strong>Language focus</strong><br />Listen out for examples of the present perfect with <strong>just, already</strong> and <strong>yet</strong>. You can check by looking for the <strong>bolded</strong> phrases in the transcript below. For vocabulary help, scroll down past the transcript for key words and definitions.&nbsp;</p>
+ "
+" "
+" "
+" "
+" "
+" "
+" "
+" "
+" "
+" "
+" "
+" "
+" "
+" "
+" "
+" "
+" "
+" "
+" "
+" "
+" "
+" "
+" "
+" "
+" "
+" "
+" "
+" "
+" <p>Gordon the chef has had some good news which has made him unusually happy. Everyone is concerned about his cheerful mood but it's not long before he's back to his usual self. Watch this episode to find out what made him happy and what's made his cheerfulness so short-lived.</p>
+ "
+" <p>Poor Gordon - he just wants to cook but there's so much activity in the kitchen he's getting annoyed again. What's making his blood boil and what does Ceilia, the boss, reveal about her past with Gordon? Find out by watching episode four and listen out for the phrases they used about being annoyed.</p>
+ "
+" <p>The restaurant finally gets a customer which gives Gordon, the chef, a chance to try out his special recipe. But there's a problem... the cooker is broken and a solution needs to be found quickly. Will Gordon get the chance to finally prove himself as a culinary genius?!</p>
+ "
+" "
+" "
+" "
+" <p>Join us for Part 9 of our drama Gulliver's Travels, based on the famous story by Jonathan Swift.</p>
+ <p>Horses can't talk, can they? In the world of Gulliver's Travels, anything is possible. Join Gulliver as he meets the incredible inhabitants of the last island on his journey.</p>
+ <p>While you listen to the audio you will hear different examples of&nbsp;<strong>verb patterns</strong>. Then take a look at the transcript to see them in bold.</p>
+ "
+" "
+" "
+" "
+" "
+" "
+" "
+" "
+" "
+" <p>Journey back to Victorian London with us for the final episode of The Importance of Being Earnest, based on the original comedy by Oscar Wilde.</p>
+ <p>Everyone is gathered at Jack's house in the country. Jack is still arguing with Lady Bracknell, but, as soon as Miss Prism arrives, everything changes. It's time to find out who the real Ernest is...</p>
+ "
+" <p>Journey back to Victorian London with us for the ninth episode of The Importance of Being Earnest, based on the original comedy by Oscar Wilde.</p>
+ <p>Lady Bracknell makes a surprise appearance. And she's not pleased that Algernon is in love with Cecily.</p>
+ "
+" <p>Journey back to Victorian London with us for the eighth episode of The Importance of Being Earnest, based on the original comedy by Oscar Wilde.</p>
+ <p>It's time for the men to admit they're not called Ernest. How will Gwendolen and Cecily react?</p>
+ "
+" <p>Journey back to Victorian London with us for the seventh episode of The Importance of Being Earnest, based on the original comedy by Oscar Wilde.</p>
+ <p>Cecily and Gwendolen both think they're engaged to someone called Ernest. When they meet it can't go well, can it?</p>
+ "
+" <p>Journey back to Victorian London with us for the sixth episode of The Importance of Being Earnest, based on the original comedy by Oscar Wilde.</p>
+ <p>Algernon has fallen madly in love with Cecily. But when he tells her about his deep emotions, what she says surprises him.</p>
+ "
+" <p>Journey back to Victorian London with us for the fifth episode of The Importance of Being Earnest, based on the original comedy by Oscar Wilde.</p>
+ <p>Algernon is pretending to be Jack's younger brother, Ernest, so he can win Cecily's heart. But Jack arrives and says his brother Ernest has just died. What will happen when Jack sees Algernon there? This can't end well...</p>
+ "
+" <p>Journey back to Victorian London with us for the fourth episode of The Importance of Being Earnest, based on the original comedy by Oscar Wilde.</p>
+ <p>Algernon has secretly managed to find out the address of Jack's house in the country - the house where he lives with Cecily. He decides to pay Cecily a visit, pretending to be Jack's wicked younger brother, Ernest.</p>
+ <p>While you listen to the audio, see how many examples of the past perfect continuous you can spot. Then take a look at the transcript to see them in bold.</p>
+ "
+" <p>Journey back to Victorian London with us for the third episode of The Importance of Being Earnest, based on the original comedy by Oscar Wilde.</p>
+ <p>Jack has proposed to his darling Gwendolen, and she has accepted. But Gwendolen's mother, Lady Bracknell, has other ideas. Meanwhile, Algernon has become interested in Jack's cousin, Cecily.</p>
+ <p>While you listen to the audio, see how many examples of comparatives and superlatives you can spot. Then take a look at the transcript to see them in bold.</p>
+ "
+" <p>Journey back to Victorian London with us in the second episode of The Importance of Being Earnest, based on the original comedy by Oscar Wilde.</p>
+ <p>Jack and Algernon are two wealthy, young, unmarried men - but Jack plans to change that. He's in love with Algernon's cousin Gwendolen. He plans to propose to her when she comes to visit later that day. But first, he has to explain to Algernon why he's leading a double life.</p>
+ <p>While you listen to the audio, see how many examples of the passive voice you can spot. Then take a look at the transcript to see them in bold.</p>
+ "
+" <p>Journey back to Victorian London with us in the first episode of The Importance of Being Earnest, based on the original comedy by Oscar Wilde.</p>
+ <p>Algernon Moncreiff lives the lazy and luxurious life of a young, unmarried man in London. His friend Ernest visits and declares he wants to marry Algernon's cousin. But Ernest is not exactly who he says he is.</p>
+ "
+" <p>The Vicar of Altarnum&nbsp;knows the awful truth about who killed&nbsp;Mary's uncle and aunt.&nbsp;She has a&nbsp;dangerous journey ahead now, but help comes from an unexpected place.</p>
+ "
+" <p>Mary has gone to vicar's house. She wants to talk to him about the murder of her uncle but he's not there. But later he arrives and he has some important news to tell her. What can it be?</p>
+ "
+" <p>After the shocking events on the coast, Mary's uncle is now planning to escape from Jamaica Inn. He fears that someone is coming to kill him – someone who has been giving him the orders to&nbsp;<strong>wreck&nbsp;</strong>ships. &nbsp;She has to escape first to tell someone what she has seen but who can she trust?&nbsp;</p>
+ "
+" <p>Mary has been forced by her Uncle Joss to travel with him and his drunken men on Christmas Eve. She fell asleep but she's about to wake up and discover what Joss and his gang of bad men really get up to at night.</p>
+ "
+" <p>Following Mary's uncle's shocking confession - how he&nbsp;<strong>lures</strong>&nbsp;ships onto the rocks and drowns women and children - she escapes from the Inn and goes with his brother, Jem, to the horse market in Launceston. But things don't go to plan.</p>
+ "
+" <p>Joss has returned to Jamaica Inn and is very angry about Mr Bassat's visit. He storms out of the house and sets off across the moor.&nbsp;Mary decides to follow him.</p>
+ "
+" <p>Mary finds herself attracted to a visitor to Jamaica Inn. But who is he - and can he be trusted? Meanwhile, another visitor discovers some suspicious objects in an upstairs&nbsp;room...&nbsp;</p>
+ "
+" <p>Mary has to work in the bar of Jamaica Inn on Saturday night.&nbsp;She gets to meet a group of rough and drunk men. Later that night there are some strange goings-on in the yard outside. What's&nbsp;happening - and why are people talking about murder?</p>
+ "
+" <p>Mary arrives at Jamaica Inn and meets her Aunt Patience and Uncle Joss. Immediately she discovers what a mean and scary man her uncle is. He sets the rules and tells her what to do. On her second day there she discovers a locked room – what is inside?</p>
+ "
+" <p>When Mary's mother dies, she goes to live with her aunt and uncle who run the Jamaica Inn.&nbsp;&nbsp;It lies in a remote and bleak corner of England. On her journey there she is warned to keep away. But why?</p>
+ "
+" <p>Alice is at the trial of the Knave of Hearts - and&nbsp;she is taller than ever before. The King asks the jury to give their verdict - but will the Queen let Alice escape without a punishment?&nbsp;</p>
+ "
+" <p>Alice finds herself at a trial. Did the Knave of Hearts steal the Queen's tarts? What does the Hatter know about it - and what's that funny feeling Alice is having?</p>
+ "
+" <p>Now Alice has finally found the beautiful garden she gets to play croquet with the Queen. Is it possible to play croquet with a hedgehog as a ball? And if the Queen wants to chop off everyone's head, is Alice in danger?</p>
+ "
+" <p>Alice finds the Hatter and the March Hare having a very strange tea-party. They manage to make Alice angry but how? And do riddles always have answers?</p>
+ "
+" <p>Someone inside the Duchess's house is angry - but who?&nbsp;The Duchess's baby is making some very strange sounds and the Cheshire-Cat smiles while the cook throws things. Will Alice meet anyone who isn't mad?</p>
+ "
+" <p>Alice is beginning to wonder who she is, when a caterpillar gives her some advice about a magical mushroom. But is it good advice – and who thinks Alice is a snake?</p>
+ "
+" <p>Alice is too big to fit inside the White Rabbit's house. The problem is, she's already inside it! How does she get out - and why is everyone throwing cakes?</p>
+ "
+" <p>Alice swims in a pool of her own tears, and joins in a Caucus-race. But who is the winner, and who will give the prizes?</p>
+ "
+" <p>Alice keeps getting bigger… and smaller. No wonder she cries a pool of tears!</p>
+ "
+" <h3>A rabbit with a pocket-watch?</h3>
+ <p>Alice is an ordinary girl, until the day she meets a talking rabbit and enters a&nbsp;Wonderland of adventure... Sit back and relax while you listen to episode 1 of the classic tale of Alice's Adventures in Wonderland. Scroll down if you want to read a transcript while you listen.&nbsp;</p>
+ <p>___________________________________________________________________________</p>
+ <p><strong>Did you enjoy that? Why not listen to another episode... or try our version of Jamaica Inn!</strong></p>
+ <p><a href=""http://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-22/session-5""><img src=""http://ichef.bbci.co.uk/images/ic/208xn/p04wr9dc.jpg"" id=""1_p04wr9dc"" data-type=""image"" data-pid=""p04wr9dc"" data-title=""Alice_2_link_image.jpg"" data-description="""" srcset=""http://ichef.bbci.co.uk/images/ic/208xn/p04wr9dc.jpg 208w,http://ichef.bbci.co.uk/images/ic/416xn/p04wr9dc.jpg 416w"" width=""208"" alt=""Alice_2_link_image.jpg"" /></a>&nbsp;<a href=""http://www.bbc.co.uk/learningenglish/english/features/drama/aliceinwonderland-ep03""><img src=""http://ichef.bbci.co.uk/images/ic/208xn/p04wr9mf.jpg"" id=""1_p04wr9mf"" data-type=""image"" data-pid=""p04wr9mf"" data-title=""Alice_3_link_image.jpg"" data-description="""" srcset=""http://ichef.bbci.co.uk/images/ic/208xn/p04wr9mf.jpg 208w,http://ichef.bbci.co.uk/images/ic/416xn/p04wr9mf.jpg 416w"" width=""208"" alt=""Alice_3_link_image.jpg"" /></a>&nbsp;<a href=""http://www.live.bbc.co.uk/learningenglish/english/course/intermediate/unit-1/session-5""><img src=""http://ichef.bbci.co.uk/images/ic/208xn/p04wrcvv.jpg"" id=""1_p04wrcvv"" data-type=""image"" data-pid=""p04wrcvv"" data-title=""Jamaica_Inn_weblink_image_1.jpg"" data-description="""" srcset=""http://ichef.bbci.co.uk/images/ic/208xn/p04wrcvv.jpg 208w,http://ichef.bbci.co.uk/images/ic/416xn/p04wrcvv.jpg 416w"" width=""208"" alt=""Jamaica_Inn_weblink_image_1.jpg"" /></a> &nbsp; &nbsp;</p>
+ <p>___________________________________________________________________________</p>
+ "
+" <p>Ebenezer Scrooge has been taken to several different places by three spirits. He saw that if he died, nobody would care because he is a bad man. How will this experience change Scrooge's life?</p>
+ "
+" <p>Ebenezer Scrooge is getting used to the company of ghosts, but here's one he doesn't expect.</p>
+ "
+" <p>Ebenezer Scrooge seems to be changing his ways. He has learnt a lesson from a ghost which took him to the past and now is ready to be visited by the Spirit of Christmas Present.</p>
+ "
+" <p>Selfish businessman Ebenezer Scrooge receives a visit from the first of three spirits. This is the Spirit of Christmas Past.</p>
+ "
+" <p>In this episode, you'll get to know Ebenezer Scrooge. Nobody seems to be able to get a kind word or even a smile out of him.</p>
+ <p>Listen to what he has to say and, after that, test your skills with our quiz.</p>
+ "

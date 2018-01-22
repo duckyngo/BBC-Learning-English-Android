@@ -1,0 +1,402 @@
+"<p><strong>tombs </strong>– stone structures or underground rooms where people are buried</p>
+ <p><strong>civilisations </strong>– human societies that have developed culture and institutions</p>
+ <p><strong>ancient wonders </strong>– very old objects that cause surprise, awe, and admiration</p>
+ <p><strong>treasure </strong>– (here) a collection of valuable things – e.g. jewels and gold</p>
+ <p><strong>centuries-old heritage </strong>– hundreds-of-year-old features such as objects, traditions or language that are handed down in a culture from one generation to the next</p>"
+"<p><strong>species </strong>– group of animals or plants sharing similar characteristics that can breed with each other</p>
+ <p><strong>DNA </strong>– (deoxyribonucleic acid) a chemical substance that contains genetic information and is found in all living cells</p>
+ <p><strong>genetic comparisons </strong>– looking at differences between the genes in more than one living thing</p>
+ <p><strong>evolutionary history </strong>– biological and physical changes over millions of years</p>
+ <p><strong>breakthrough </strong>– new and important discovery following much hard work</p>"
+"<p><strong>biological clock </strong>– &nbsp;a system in the body that controls when certain regular activities happen</p>
+ <p><strong>open-heart surgery </strong>– a medical operation in which the body is cut open and the heart is repaired</p>
+ <p><strong>complications </strong>– issues that make a medical problem harder or more difficult to treat</p>
+ <p><strong>high-risk patients </strong>– people receiving medical care who are at more risk of dying</p>
+ <p><strong>medicine </strong>– (here) the practice of treating or preventing illnesses</p>"
+"<p><strong>resistant </strong>– (adjective) not affected by something</p>
+ <p><strong>antibiotics </strong>– (noun, plural) drugs that can kill harmful bacteria</p>
+ <p><strong>transmitted </strong>– (verb, past tense) passed from one person to another</p>
+ <p><strong>prophylaxis </strong>– (noun) the use of medical treatment for preventing disease or infection</p>
+ <p><strong>disinfect </strong>– (verb) clean with chemicals that kill bacteria</p>"
+"<p><strong>sinister </strong>– (adjective) gives the impression something bad will happen</p>
+ <p><strong>threatening </strong>– (adjective) something that feels hostile</p>
+ <p><strong>in distress </strong>– in need of help</p>
+ <p><strong>do more harm than good </strong>– make things worse rather than better</p>"
+"<p><strong>dumped </strong>– (verb) thrown away carelessly</p>
+ <p><strong>collections </strong>– occasions when items are gathered and taken away</p>
+ <p><strong>sustainable materials </strong>– (noun) substances that last a long time and cause little damage to the environment</p>
+ <p><strong>break down </strong>– (verb) divide into smaller particles</p>
+ <p><strong>micro level </strong>– extremely small level</p>"
+"<p><strong>desertification </strong>– (noun) process where land becomes too dry for farming</p>
+ <p><strong>erode </strong>– (verb) gradually wear away the rock or land so it disappears</p>
+ <p><strong>humidity </strong>– (noun) moisture in the air</p>
+ <p><strong>drought-resistant </strong>– (adjective) not effected by long periods of no rain</p>
+ <p><strong>planting </strong>– (noun) the act of putting seeds or trees into the ground</p>"
+"<p><strong>get connected </strong>– (verb) become able to communicate through a computer network</p>
+ <p><strong>chip </strong>– (here as a noun) small computer part used for locating things</p>
+ <p><strong>tracked </strong>– (verb) followed</p>
+ <p><strong>tagging </strong>– (verb) attaching a small piece of electronic equipment to something</p>
+ <p><strong>smarter </strong>– (adjective) better connected, using computer systems&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>"
+"<p><strong>a comeback – </strong>a return</p>
+ <p><strong>brought back from the dead – </strong>stopped being extinct</p>
+ <p><strong>breeding programme – </strong>planned process of mating and producing young animals</p>
+ <p><strong>staging its return – </strong>organising its return</p>
+ <p><strong>released back into the wild – </strong>put into their natural environment to survive by themselves</p>"
+"<p><strong>therapist </strong>– person who treats people with a particular mental or physical illness</p>
+ <p><strong>anxiety </strong>– a feeling of worry or nervousness about something</p>
+ <p><strong>depression </strong>– feeling of unhappiness which affects your health</p>
+ <p><strong>therapeutic quality </strong>– characteristic that causes someone to feel happier and healthier</p>
+ <p><strong>stimulating </strong>– making your mind or body feel more active</p>"
+"<p><strong>Saturn </strong>– sixth planet in distance from the Sun</p>
+ <p><strong>ring system </strong>– group of discs running around a planet</p>
+ <p><strong>aurora </strong>– natural light display</p>
+ <p><strong>probe </strong>– vehicle used for collecting information in space and sending it back to earth</p>
+ <p><strong>atmosphere </strong>– mixture of gases surrounding a planet</p>"
+"<p><strong>penetrate<br /> </strong>get into or through<br /> <strong><br /> ponder<br /> </strong>think carefully about something over a long period of time</p>
+ <p><strong>notorious<br /> </strong>well known for being bad</p>
+ <p><strong>blanket ban<br /> </strong>order that completely prevents something from happening</p>"
+"<p><strong>outraged<br /> </strong>very angry and shocked</p>
+ <p><strong>inspired by fiction<br /> </strong>influenced by stories not based on real people and facts</p>
+ <p><strong>crowned<br /> </strong>given the title for winning a competition</p>
+ <p><strong>podiatrist<br /> </strong>person who treats problems and diseases of people's feet</p>"
+"<p><strong>impunity<br /> </strong>freedom from any risk of being punished for doing something wrong or bad</p>
+ <p><strong>uncharted<br /> </strong>completely new; not seen on any map</p>
+ <p><strong>keep up with the Joneses<br /> </strong>do and buy things in order to appear as successful, rich or important as friends and neighbours</p>
+ <p><strong>child's play<br /> </strong>easy to do</p>"
+"<p><strong>elective<br /></strong>voluntary</p>
+ <p><strong>forsaking<br /> </strong>stop using; giving up</p>
+ <p><strong>fairly and squarely<br /> </strong>completely; totally</p>
+ <p><strong>top dog<br /> </strong>(here) the winner; the best</p>"
+"<p><strong><span>segregated<br /></span></strong>separated according to race, sex, or religion</p>
+ <p><strong>front-runner<br /></strong>someone or something that is most likely to win something</p>
+ <p><strong><span>vehicles<br /></span></strong>machines, usually with wheels and an engine, used to move people or goods, mainly on roads</p>
+ <p><strong>internal combustion engine<br /></strong>an engine used in most cars that produces energy by burning fuel within itself</p>"
+"<p><strong>breadwinner<br /> </strong>person who earns the money that the family needs</p>
+ <p><strong>habitat<br /> </strong>natural environment in which an animal or plant usually lives</p>
+ <p><strong>drastically<br /> </strong>extremely; in a big way</p>"
+"<p><strong>vicious cycle</strong> <br /> bad situation where one problem leads to another problem</p>
+ <p><strong>vices<br /></strong>bad habits</p>
+ <p><strong>welfare<br /></strong>health and happiness</p>"
+"<p><strong>cap<br /></strong>limit on something</p>
+ <p><strong>stood down<br /></strong>left a post or position</p>
+ <p><strong>remains<br /></strong>parts left after something has gone</p>"
+"<p><strong>brainpower</strong><br /> mental ability</p>
+ <p><strong>humorously</strong><br /> amusingly</p>
+ <p><strong>crowd-pleaser</strong><br /> someone or something that is very popular</p>"
+"<p><strong>immune system<br /></strong>system in the body which helps defend it from infections</p>
+ <p><strong>buzz<br /></strong>(informal) feeling of excitement</p>
+ <p><strong>mammals<br /></strong>animals that feed their young on milk they produce</p>"
+"<p><strong>set off</strong><br /> started a journey</p>
+ <p><strong>the wild</strong><br /> natural environment</p>
+ <p><strong>volunteers</strong><br /> people willing to do things for no payment</p>"
+"<p><strong>tumours<br /></strong>masses of unnaturally growing cells</p>
+ <p><strong>remedy<br /></strong>cure</p>
+ <p><strong>influx<br /></strong>mass arrival</p>"
+"<p><strong>bacteria<br /></strong>small living things that can cause disease</p>
+ <p><strong>hub<br /></strong>the main or most active part of something</p>
+ <p><strong>turn their lives around<br /></strong>improve their personal situation</p>"
+"<p><strong>grieving<br /></strong>feeling very sad after someone has died</p>
+ <p><strong>overdrive<br /></strong>state of excessive activity</p>
+ <p><strong>coordinated<br /></strong>organised effectively</p>"
+"<p><strong>myth<br /></strong>widely held but false belief</p>
+ <p><strong>smuggle<br /></strong>move goods illegally in and out of a place or country</p>
+ <p><strong>has a knack for<br /></strong>has a natural talent for</p>"
+"<p><strong>condition<br /></strong>illness</p>
+ <p><strong>draw<br /></strong>attraction</p>
+ <p><strong>is down to<br /></strong>as a result of</p>"
+"<p><strong>trawled through</strong><br /> thoroughly searched</p>
+ <p><strong>persuaded</strong><br /> convinced someone</p>
+ <p><strong>obsession</strong><br /> persistent preoccupation with something</p>"
+"<p><strong>solar power<br /></strong>energy from the sun that has been converted into electricity</p>
+ <p><strong>remarkable<br /></strong>unusual; worthy of attention</p>
+ <p><strong>sanctuary<br /></strong>place of safety and protection</p>"
+"<p><strong>tunnelling<br /> </strong>used for digging passages through the ground</p>
+ <p><strong>put a spin on<br /> </strong>present something in a particular way</p>
+ <p><strong>camaraderie<br /> </strong>a feeling of friendship towards someone</p>"
+"<p><strong>side-effects<br /></strong>undesirable reaction to a medicine</p>
+ <p><strong>green businesses<br /></strong>companies with a minimal negative impact on the environment<br /><br /><strong>backstory<br /></strong>a story of the life of a fictional character</p>"
+"<p><strong>scarce<br /></strong>insufficient in quantity</p>
+ <p><strong>crammed<br /></strong>full to the point of overflowing</p>
+ <p><strong>plight<br /></strong>difficult and dangerous situation</p>"
+"<p><strong>triggered<br /> </strong>made to start</p>
+ <p><strong>unpick<br /> </strong>carefully and gradually undo or remove</p>
+ <p><strong>unfolding<br /> </strong>developing; happening</p>
+ <p><strong>hologram<br /> </strong>three-dimensional picture created using lasers</p>"
+"<p><strong>underway<br /> </strong>in progress</p>
+ <p><strong>stands out<br /> </strong>is very noticeable</p>
+ <p><strong>making history<br /> </strong>doing something never done before that people will remember</p>"
+"<p><strong>besieged<br /> </strong>surrounded, preventing people from doing things</p>
+ <p><strong>salvo<br /> </strong>sudden attack</p>
+ <p><strong>turnaround<br /> </strong>important change causing something to improve</p>
+ <p><strong>upstaged<br /> </strong>became the focus of attention</p>"
+"<p><strong>steeped in<br /> </strong>with lots of <br /> <br /> <strong>emissions<br /> </strong>amounts of gas being sent into the air</p>
+ <p><strong> far-fetched <br /></strong>difficult to believe</p>"
+"<p><strong>upside<br /></strong>positive aspect of something</p>
+ <p><strong>catching their breath<br /></strong>struggling to breathe normally after physical activity</p>
+ <p><strong>dexterity<br /></strong>skill in performing tasks</p>"
+"<p><strong>visually impaired<br /></strong>partially or completely blind</p>
+ <p><strong>engineered<br /></strong>designed and built</p>
+ <p><strong>heading out<br /></strong>departing, going in a particular direction</p>"
+"<p><strong>fall from grace<br /></strong>loss of status or respect</p>
+ <p><strong>rip-off goods<br /></strong>items which are inferior imitations of others</p>
+ <p><strong>a range of<br /></strong>a variety of</p>"
+"<p><strong>relics<br /></strong>objects from an earlier era which have survived</p>
+ <p><strong>comprehensive<br /></strong>complete</p>
+ <p><strong>sorted<br /></strong>prepared; organised</p>"
+"<p><strong>outrageous<br /></strong>shockingly bad</p>
+ <p><strong>looking into<br /></strong>examining</p>
+ <p><strong>hermit<br /></strong>person who lives alone in a remote place</p>"
+"<p><strong>premature<br /></strong>before its due date</p>
+ <p><strong>wholesome<br /></strong>benefit to someone's well-being</p>
+ <p><strong>obesity<br /></strong>state of being so fat that it is a risk to your health</p>"
+"<p><strong>predominantly<br /> </strong>mainly; mostly</p>
+ <p><strong>devastating<br /> </strong>very harmful; damaging</p>
+ <p><strong>cited<br /> </strong>mentioned as evidence or proof</p>
+ <p><strong>controversial<br /> </strong>something people disagree about</p>"
+"<p><strong>seedy<br /> </strong>dirty, connected with illegal or morally wrong activity</p>
+ <p><strong>urban areas<br /> </strong>towns, cities or suburbs</p>
+ <p><strong>cubs<br /> </strong>young animals (bears, foxes, lions)</p>"
+"<p><strong>mock-up<br /> </strong>a realistic model of something yet to be built</p>
+ <p><strong>social isolation<br /> </strong>lack of contact with other people</p>
+ <p><strong>daredevils<br /> </strong>people who like to do dangerous things</p>"
+"<p><strong>pioneering<br /> </strong>doing something never done before</p>
+ <p><strong>safe haven<br /> </strong>a place of protection from threats</p>
+ <p><strong>distracted<br /> </strong>having the attention taken by something&nbsp;<span>&nbsp;</span><strong>&nbsp;</strong></p>"
+"<p><strong>cabin feverish (to have cabin fever)<br /> </strong>frustrating and boring because you have been indoors for too long</p>
+ <p><strong>harness<br /> </strong>control and make use of</p>
+ <p><strong>holographic<br /> </strong>three-dimensional and life-like, created by lasers</p>
+ <p><strong>companion<br /> </strong>a person you spend a lot of time with</p>"
+"<p><strong>a testament<br /> </strong>evidence that something exists</p>
+ <p><strong>lived rough<br /> </strong>lived outside, often on the streets</p>
+ <p><strong>sanctuaries<br /> </strong>safe places</p>
+ <p><strong>urban oasis<br /> </strong>a quiet place in a built up area</p>"
+"<p><strong>in labour<br /></strong>in the last stage of pregnancy when the baby is pushed out</p>
+ <p><strong><span>keeping up<br /></span></strong>progressing at the same rate as something else</p>
+ <p><strong><span>up close<br /></span></strong>very near something</p>"
+"<p><strong>mourning<br /> </strong>process of sadness after someone has died</p>
+ <p><strong>cathartic release</strong></p>
+ <p>letting out of strong feelings that had not been shown before</p>
+ <p><strong>prognosis</strong></p>
+ <p>statement about what is likely to happen in the future</p>
+ <p><strong>advance</strong></p>
+ <p>development; improvement</p>"
+"<p><strong>a murky world<br /></strong>complicated and badly understood&nbsp;</p>
+ <p><strong>fell into the hands</strong> <strong>of<br /></strong>went to the wrong person or people</p>
+ <p><strong>falling well short<br /></strong>not achieving what is expected</p>
+ <p><strong>boom<br /> </strong>sudden economic increase</p>"
+"<p><strong>evade tax<br /></strong>not pay money you owe the government by law&nbsp;</p>
+ <p><strong>traces<br /></strong>extremely small quantities</p>
+ <p><strong>solving<br /></strong>finding an reason, explanation or answer to a question or problem</p>"
+"<p><strong>storm<br /></strong>move with force</p>
+ <p><strong>shattering the dreams<br /> </strong>ending the hopes</p>
+ <p><strong>makeshift<br /></strong>temporary;&nbsp; usually of poor quality</p>
+ <p><strong>inspired<br /></strong>influenced positively</p>"
+"<p><strong>airlifted<br /></strong>transported by aircraft</p>
+ <p><strong>side effects<br /></strong>additional unpleasant result of taking a drug</p>
+ <p><strong>released<br /></strong>set free</p>"
+"<p><strong>given the green light<br /></strong>approved to proceed</p>
+ <p><strong>severity<br /></strong>seriousness</p>
+ <p><strong>charity<br /></strong>organisation that raises money for a particular purpose of public interest</p>"
+"<p><strong>classified<br /></strong>accessible only to authorised people (for example: documents)</p>
+ <p><strong>deficiency<br /></strong>lack or shortage of something</p>
+ <p><strong>vessel<br /></strong>large boat</p>"
+"<p><strong>destabilise<br /> </strong>make a political or economic system less safe or reliable</p>
+ <p><strong>appetite<br /></strong>demand or interest</p>
+ <p><strong>limiting the damage<br /></strong>reducing the negative effects</p>
+ <p><strong>nudge<br /></strong>gently encourage</p>"
+"<p><strong>inability<br /> </strong>lack of effort or skill needed to do something</p>
+ <p><strong>deadline<br /></strong>final time when something should have been completed</p>
+ <p><strong>stigma<br /> </strong>shame</p>
+ <p><strong>auctioned<br /></strong>sold to whoever pays the highest price</p>"
+"<p><strong>forging<br /></strong>creating (something) that lasts</p>
+ <p><strong>injuries<br /></strong>occurrences of physical damage to a person</p>
+ <p><strong>novel<br /></strong>(here as an adjective) original; not seen before</p>"
+"<p><strong>potential<br /></strong>possible</p>
+ <p><strong>saddened<br /></strong>made unhappy</p>
+ <p><strong>sensation<br /></strong>(here) something or someone very popular</p>"
+"<p><strong>address<br /></strong>formal speech</p>
+ <p><strong>leaked<br /></strong>made secret information public</p>
+ <p><strong>cracked<br /></strong>(here) understood something previously unexplained</p>"
+"<p><strong>outbreaks<br /></strong>sudden occurrences of disease or war</p>
+ <p><strong>passed away<br /></strong>died</p>
+ <p><strong>spotted<br /></strong>noticed after looking carefully</p>"
+"<p><strong>marine reserve<br /></strong>area of ocean protected by the law</p>
+ <p><strong>orbiting<br /></strong>moving in a circular path around an object (especially for planets)</p>
+ <p><strong>mourning<br /></strong>sadness because someone has died</p>"
+"<p><strong>peer<br /></strong>look carefully or closely</p>
+ <p><strong>underestimated<br /></strong>thought something was lower than it really was</p>
+ <p><strong>put (something) down to<br /></strong>(phrasal verb) gave something as a reason for something else</p>"
+"<p><strong>wondering<br /></strong>asking oneself</p>
+ <p><strong>to log<br /></strong>to make an official record</p>
+ <p><strong>stylish<br /></strong>elegant and fashionable</p>
+ <p><strong>unveiled<br /></strong>made public in a ceremony</p>"
+"<p><strong>questioned<br /></strong>(here) expressed doubts about</p>
+ <p><strong>remotely<br /></strong>from a distance</p>
+ <p><strong>insight<br /></strong>understanding</p>"
+"<p><strong>breaking through<br /></strong>forcefully opening the way through (a barrier)</p>
+ <p><strong>eluded<br /></strong>failed to be achieved</p>
+ <p><strong>blazes<br /></strong>very large fires</p>
+ <p><strong>prematurely<br /></strong>before its expected time</p>"
+"<p><strong>candidate<br /></strong>person who applies for a job or a post</p>
+ <p><strong>damning<br /></strong>very critical</p>
+ <p><strong>trend<br /> </strong>general development in a situation</p>"
+"<p><strong>pressing<br /></strong>needs quick action</p>
+ <p><strong>scene&nbsp;<br /></strong>(here) place where an incident happened</p>
+ <p><strong>malnutrition<br /></strong>bad health caused by a poor diet</p>
+ <p><strong>so-called<br /></strong>(adjective) named informally by many people</p>"
+"<p><strong>on such a scale<br /></strong>(here) of a large size</p>
+ <p><strong>judgement<br /></strong>ability to make good decisions</p>
+ <p><strong>on record<br /></strong>officially measured</p>
+ <p><strong>loggers<br /></strong>people who cut down trees</p>
+ <p><strong>orbiting<br /></strong>moving around a planet or star</p>"
+"<p><strong>propaganda </strong><br /> information, often false, designed to promote a particular point of view</p>
+ <p><strong>urged<br /></strong>strongly advised</p>
+ <p><strong>distinguished<br /></strong>respected, admired and successful</p>"
+"<p><strong>cracks down<br /></strong>starts to deal with a situation in a more severe way</p>
+ <p><strong>merciless<br /> </strong>unforgiving / very hard</p>
+ <p><strong>infrastructure<br /> </strong>system that enables something to run smoothly</p>
+ <p><strong>think tank<br /> </strong>group of experts who together develop ideas on a certain subject</p>"
+"<p><strong>on high alert </strong><br /> prepared for a likely bad event</p>
+ <p><strong>paddling<br /></strong>walking or playing in shallow water</p>
+ <p><strong>range<br /></strong>a group of things which are similar</p>"
+"<p><strong>to contest<br /> </strong>[here] attempt to win</p>
+ <p><strong>victimised<br /> </strong>deliberately treated unfairly</p>
+ <p><strong>swells<br /> </strong>up and down movement of the waves</p>"
+"<p><strong>bitter stand-off<br /> </strong>angry or unhappy situation where two groups of people cannot agree</p>
+ <p><strong>the heart of<br /> </strong>the middle or centre of</p>
+ <p><strong>thriving<br /> </strong>very successful</p>"
+"<p><strong>bailout funds</strong><br /> money offered by governments to save a failing economy or business</p>
+ <p><strong>samples&nbsp;<br /></strong>small parts of something to be studied by scientists</p>
+ <p><strong>collaborative<br /></strong>involving people working together</p>"
+"<p><strong>missing </strong><br /> unaccounted for</p>
+ <p><strong>submerged&nbsp;<br /></strong>completely below the surface of the water</p>
+ <p><strong>rapturous<br /></strong>joyful, enthusiastic</p>"
+"<p><strong>highly symbolic</strong> &nbsp;&nbsp;&nbsp;&nbsp; <br /> showing or representing something that is extremely important</p>
+ <p><strong>obliterated</strong> <br /> completely destroyed</p>
+ <p><strong>inflicted <br /> </strong>something unpleasant or harmful forced on someone or something</p>
+ <p><strong>exoplanets<br /> </strong>planets outside the Earth's solar system</p>"
+"<p><strong>presumptive<br /> </strong>likely to be</p>
+ <p><strong>inappropriately<br /> </strong>in the wrong way</p>
+ <p><strong>long-standing<br /></strong>existing for a long time</p>"
+"<p><strong>catastrophically<br /> </strong>disastrously; dangerously</p>
+ <p><strong>fall silent<br /> </strong>stop making any sound</p>
+ <p><strong>scaffolding<br /> </strong>metal poles and wooden planks erected outside of a building for people to stand on when they are working on the building</p>
+ <p><strong>glimpse<br /> </strong>brief view or look</p>
+ <p><strong>delivery<br /> </strong>(here) process of giving birth</p>"
+"<p><strong>to date <br /> </strong>up to now</p>
+ <p><strong>precious<br /></strong>valuable</p>
+ <p><strong>released<br /></strong>(here) made public</p>"
+"<p><strong>ambitious <br /> </strong>(here) difficult to achieve</p>
+ <p><strong>exceptional<br /> </strong>extreme; greater than normal</p>
+ <p><strong>triumph<br /> </strong>great achievement</p>
+ <p><strong>the height of<br /> </strong>a time when a situation is most active</p>
+ <p><strong>winning hearts<br /> </strong>getting the affection of people</p>"
+"<p><strong>prominent</strong> <br /> important, well known</p>
+ <p><strong>prompted<br /> </strong>brought about, caused</p>
+ <p><strong>honoured<br /></strong>publicly praised for doing something good</p>"
+"<p><strong>driverless<br /> </strong>not controlled by a person</p>
+ <p><strong>choking<br /> </strong>not able to breathe</p>
+ <p><strong>toxic<br /> </strong>poisonous; harmful</p>
+ <p><strong>abundance<br /> </strong>in large quantities</p>
+ <p><strong>predominantly<br /> </strong>mainly or mostly</p>"
+"<p><strong>mourning</strong> <br /> a time when people show sadness after a death or deaths</p>
+ <p><strong>odious<br /></strong>very unpleasant</p>
+ <p><strong>abnormally<br /></strong>unusually; not as expected</p>
+ <p><strong>unrealistic<br /> </strong>something that cannot be achieved </p>"
+"<p><strong>triggered<br /> </strong>caused something to happen</p>
+ <p><strong>remarkable&nbsp;&nbsp;&nbsp; <br /> </strong>unexpected and therefore surprising</p>
+ <p><strong>outrage<br /></strong>very strong reaction of anger</p>"
+"<p><strong>violate<br /> </strong>act against; break</p>
+ <p><strong>solar eclipse<br /></strong>moment when the view of the sun is blocked by the moon</p>
+ <p><strong>influential<br /></strong>affecting people's behaviour, opinions or decisions</p>
+ <p><strong>accomplishments<br /> </strong>achievements or successes as a result of hard work</p>"
+"<p><strong>dominated<br /> </strong>been the most successful</p>
+ <p><strong>warning<br /> </strong>making people aware of danger</p>
+ <p><strong>manned<br /> </strong>(of a machine) operated by people who are carried inside it</p>"
+"<p><strong>have come out<br /> </strong>have stated publicly, have declared</p>
+ <p><strong>recalling<br /> </strong>(here) asking consumers to return a faulty product</p>
+ <p><strong>caesarean<br /> </strong>operation in which a baby is born by cutting open the mother's womb</p>"
+"<p><strong>restoring<br /> </strong>bringing back as it was before</p>
+ <p><strong>seized<br /> </strong>took away forcibly (usually describes police action)</p>
+ <p><strong>went under the knife<br /> </strong>had surgery, was operated on by a doctor</p>"
+"<p><strong>outsider</strong><br />(here) a competitor with little chance of winning</p>
+ <p><strong>refurbishing<br /> </strong>making changes to a building to improve it</p>
+ <p><strong>adapting<br /> </strong>changing behaviour to suit a new situation</p>"
+"<p><strong>hailed<br /> </strong>announced publicly how good or important something is</p>
+ <p><strong>hampering<br /> </strong>making it difficult to do something</p>
+ <p><strong>backlog<br /> </strong>a number of things that should have been done before now</p>
+ <p><strong>prediction<br /> </strong>what you think will happen in the future</p>"
+"<p><strong>crossing<br /> </strong>moving from one side to the other</p>
+ <p><strong>sporadic&nbsp;&nbsp; <br /> </strong>happening at irregular intervals</p>
+ <p><strong>spot</strong> <br /> notice something that is difficult to find or see</p>"
+"<p><strong>evenly<br /></strong>in equal amounts</p>
+ <p><strong>condition<br /></strong>illness or disease</p>
+ <p><strong>boycott<br /></strong>refuse to take part as a protest</p>"
+"<p><strong>vowed<br /></strong>promised (to do something)</p>
+ <p><strong>partisan<br /></strong>supporting the political views of just one party</p>
+ <p><strong>bold ambition<br /></strong>big or difficult aim, requiring lots of effort</p>
+ <p><strong>census<br /></strong>official count and collection of information about a population</p>
+ <p><strong>iconic<br /></strong>famous person or object which is thought to represent an idea or style from a particular time<strong><br /></strong></p>"
+"<p><strong>announcement<br /></strong>the act of giving official information</p>
+ <p><strong>suspended<br /></strong>not allowed to go to work for a period of time</p>
+ <p><strong>bionic<br /></strong>electronic parts used to improve body parts that don't work properly</p>"
+"<p><strong>nominate<br /> </strong>to officially suggest someone for a job</p>
+ <p><strong>replacement&nbsp; </strong></p>
+ <p>something which takes the place of another</p>
+ <p><strong>manned</strong> <br /> (of a machine) carrying a person who operates it</p>"
+"<p><strong>confront<br /> </strong>deal with a difficult situation</p>
+ <p><strong>reinforces&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br /> </strong>confirms</p>
+ <p><strong>stepping down</strong><br /> resigning from his position</p>"
+"<p><strong>plant<br /></strong>(here) type of factory which generates electricity</p>
+ <p><strong>broke new ground<br /></strong>did something nobody has ever done before</p>
+ <p><strong>to renovate<br /></strong>to improve its condition</p>"
+"<p><strong>ceasefire<br /></strong>agreement to stop fighting</p>
+ <p><strong>ringleader&nbsp;&nbsp;&nbsp;&nbsp; <br /></strong>leader of a criminal group</p>
+ <p><strong>allegations</strong> <br />statements that haven't been confirmed</p>"
+"<p><strong>extremists<br /></strong>people who have views others think are very unreasonable</p>
+ <p><strong>raids&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br /></strong>short, unexpected military attacks</p>
+ <p><strong>pledged</strong> <br />made a formal promise (here to give away something)</p>"
+"<p><strong>striving<br /> </strong>trying hard to achieve something<strong><br /> <br /> offset<br /> </strong>balancing one influence against an opposite one so no great change happens<br /> <br /> <strong>revolutionary advances</strong><br /> completely new developments that change the way things are done or made</p>
+ <p><strong>ambassadors</strong><br /> people who are chosen to represent a group or organisation</p>"
+"<p><strong>on the run<br /></strong>trying to hide from or avoid being caught by someone</p>
+ <p><strong>legacy</strong> <strong>of</strong><br /> result or consequence of</p>
+ <p><strong>inevitable anxiety<br /> </strong>certain and understandable feeling of worry</p>
+ <p><strong>symptomatic</strong> <strong>of<br /></strong>caused by; proof that something exists</p>"
+"<p><strong>stem the flow<br /> </strong>stop the movement</p>
+ <p><strong>deteriorating<br /> </strong>becoming worse</p>
+ <p><strong>retaliatory steps</strong> <br /> action to harm someone because they have harmed you</p>
+ <p><strong>star lot</strong> &nbsp;<br /> (here) most popular item in an auction</p>"
+"<p><strong>investigated<br /> </strong>examined a situation to find out the truth</p>
+ <p><strong>to secure<br /> </strong>(here) to get something with difficulty</p>
+ <p><strong>artisans<br /> </strong>skilled workers who make things with their hands</p>
+ <p><strong>donations<br /> </strong>money or things given to an organisation to help them</p>"
+"<p><strong>vast army<br /> </strong>large group of people organised and trained to do a task</p>
+ <p><strong>cutting edge<br /></strong>most modern and advanced point in the development of something</p>
+ <p><strong>vaping<br /></strong>using an electronic cigarette</p>
+ <p><strong>kick the habit<br /></strong>stop doing something that you have been doing regulary</p>
+ <p><strong>&nbsp;</strong></p>"
+"<p><strong>displaced<br /></strong>forced out of someone's or something's original position</p>
+ <p><strong>launched offensives<br /></strong>started military attacks</p>
+ <p><strong>defining moment<br /></strong>a point in time that decides what happens in the future</p>
+ <p><strong>controversy<br /></strong>disagreement or argument about something because people feel strongly about it</p>
+ <p><strong>&nbsp;</strong></p>"
+"<p><strong>a wave of<br /> </strong>a large number of related things happening at the same time</p>
+ <p><strong>wiped out<br /> </strong>completely destroyed</p>
+ <p><strong>thriving<br /> </strong>very healthy or successful</p>
+ <p><strong>centres on<br /> </strong>concentrates on the subject of</p>"
+"<p><strong>seize<br /> </strong>take with official authority</p>
+ <p><strong>therapy<br /> </strong>treatment to make someone feel better</p>
+ <p><strong>upheaval<br /> </strong>a big change that causes great difficulty</p>
+ <p><strong>miraculous<br /> </strong>unexpected and difficult to believe</p>"
+"<p><strong>running high</strong><br /> (here) getting extreme</p>
+ <p><strong>human conveyor belt<br /> </strong>line of people passing objects from one place to another</p>
+ <p><strong>haul<br /> </strong>large amount of illegal items such as drugs or weapons</p>
+ <p><strong>to inspire<br /> </strong>to make people feel they can do the same thing</p>"
+"<p><strong>probe<br /></strong>(here) attempt to discover the real facts about a problem or issue</p>
+ <p><strong>rigging<br /></strong>acting in a dishonest way to achieve a certain result&nbsp;</p>
+ <p><strong>compulsory quotas<br /></strong>fixed quantities required by law (here, the number of refugees that each country is required to accept)</p>
+ <p><strong>immortalised<br /></strong>made famous for a very long time</p>"
+"<p><strong>frustrated<br /></strong>feeling annoyed and upset because you can't achieve what you want to&nbsp;</p>
+ <p><strong>spending the night<br /></strong>staying or sleeping at a particular location</p>
+ <p><strong>consumed<br /></strong>(here) completely destroyed</p>
+ <p><strong>on the brink of&nbsp;<br /></strong>close to or at a point in time when something good or bad is about to happen</p>"

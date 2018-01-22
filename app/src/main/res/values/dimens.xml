@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_text_size">16sp</dimen>
+    <dimen name="common_side_padding_16">16dp</dimen>
+    <dimen name="video_time_label_text_size">12sp</dimen>
+    <dimen name="scrubber_thumb_size_pressed">16dp</dimen>
+    <dimen name="scrubber_thumb_size">16dp</dimen>
+    <dimen name="common_side_padding_4">4dp</dimen>
+    <dimen name="side_padding">16dp</dimen>
+    <dimen name="new_feature_intro_font_size">22sp</dimen>
+    <dimen name="hamburger_padding_half">4dp</dimen>
+    <dimen name="discussion_reply_user_font_size">16sp</dimen>
+    <dimen name="common_side_padding_8">8dp</dimen>
+    <dimen name="translate_repeat_text_size">14sp</dimen>
+    <dimen name="english_repeat_text_size">18sp</dimen>
+    <dimen name="episode_cat_width">250dp</dimen>
+    <dimen name="episode_cat_height">220dp</dimen>
+    <dimen name="detail_backdrop_height">256dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="collapsing_toolbar_wrapper_height">56dp</dimen>
+    <dimen name="view_pager_indicator_radius">2dp</dimen>
+    <dimen name="list_item_padding">8dp</dimen>
+</resources>

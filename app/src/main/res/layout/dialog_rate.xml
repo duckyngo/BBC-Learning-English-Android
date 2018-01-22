@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/rate_main_tip"
+        android:layout_width="fill_parent"
+        android:layout_height="64.0dip"
+        android:gravity="center"
+        android:text="@string/rate_main_message"
+        android:textColor="@color/md_text_gray"
+        android:textSize="16.0sp"/>
+
+    <RelativeLayout
+        android:id="@+id/rate_star_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/rate_1_value_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/rate_1_value_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12.0dip"
+                    android:paddingRight="12.0dip"
+                    android:src="@drawable/ic_rate_off"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5.0dip"
+                    android:text="1"
+                    android:textColor="@color/md_text_gray"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/rate_1_value_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12.0dip"
+                    android:paddingRight="12.0dip"
+                    android:src="@drawable/ic_rate_off"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5.0dip"
+                    android:text="2"
+                    android:textColor="@color/md_text_gray"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/rate_1_value_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12.0dip"
+                    android:paddingRight="12.0dip"
+                    android:src="@drawable/ic_rate_off"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5.0dip"
+                    android:text="3"
+                    android:textColor="@color/md_text_gray"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/rate_1_value_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12.0dip"
+                    android:paddingRight="12.0dip"
+                    android:src="@drawable/ic_rate_off"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5.0dip"
+                    android:text="4"
+                    android:textColor="@color/md_text_gray"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/rate_1_value_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12.0dip"
+                    android:paddingRight="12.0dip"
+                    android:src="@drawable/ic_rate_off"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5.0dip"
+                    android:text="5"
+                    android:textColor="@color/md_text_gray"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/rate_finger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/rate_1_value_layout"
+            android:layout_below="@+id/rate_1_value_layout"
+            android:layout_marginRight="6.0dip"
+            android:src="@drawable/ic_rate_finger"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/rate_layout_main_buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:layout_marginBottom="8.0dip"
+        android:layout_marginTop="20.0dip"
+        android:gravity="center|right"
+        android:orientation="horizontal"
+        android:paddingLeft="24.0dip"
+        android:paddingRight="8.0dip">
+
+        <TextView
+            android:id="@+id/rate_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="36.0dip"
+            android:layout_marginRight="8.0dip"
+            android:background="?selectableItemBackground"
+            android:gravity="center"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="8.0dip"
+            android:text="@string/cancel"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14.0sp"/>
+
+        <TextView
+            android:id="@+id/rate_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="36.0dip"
+            android:background="?selectableItemBackground"
+            android:gravity="center"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="12.0dip"
+            android:text="@string/rate"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14.0sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rate_layout_review"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="24.0dip"
+            android:paddingRight="24.0dip">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/rate_on_store_tip"
+                android:textColor="@color/md_text_gray"
+                android:textSize="16.0sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/rate_tip"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8.0dip"
+            android:layout_marginRight="8.0dip"
+            android:layout_marginTop="20.0dip"
+            android:gravity="center|right"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="48.0dip">
+
+                <TextView
+                    android:id="@+id/rate_review_rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36.0dip"
+                    android:background="?selectableItemBackground"
+                    android:gravity="center"
+                    android:paddingLeft="12.0dip"
+                    android:paddingRight="12.0dip"
+                    android:text="@string/rate_on_google"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="14.0sp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rate_layout_feedback"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8.0dip"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="24.0dip"
+            android:paddingRight="24.0dip"
+            android:paddingTop="24.0dip">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/suggestion_please"
+                android:textColor="@color/md_text_black"
+                android:textSize="20.0sp"/>
+
+            <EditText
+                android:id="@+id/edit_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36.0dip"
+                android:background="@android:color/transparent"
+                android:gravity="left"
+                android:hint="@string/write_sth"
+                android:textColor="@color/md_text_gray"
+                android:textColorHint="#42000000"
+                android:textCursorDrawable="@null"
+                android:textSize="16.0sp"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginBottom="8.0dip"
+                android:layout_marginTop="8.0dip"
+                android:src="#1e000000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8.0dip"
+            android:layout_marginTop="20.0dip"
+            android:gravity="center|right"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="48.0dip">
+
+                <TextView
+                    android:id="@+id/rate_feedback_send"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36.0dip"
+                    android:background="?selectableItemBackground"
+                    android:gravity="center"
+                    android:paddingLeft="12.0dip"
+                    android:paddingRight="12.0dip"
+                    android:text="@string/send_review"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="14.0sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="48.0dip">
+
+                <TextView
+                    android:id="@+id/rate_feedback_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36.0dip"
+                    android:background="?selectableItemBackground"
+                    android:gravity="center"
+                    android:paddingLeft="12.0dip"
+                    android:paddingRight="12.0dip"
+                    android:text="@string/cancel"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="14.0sp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

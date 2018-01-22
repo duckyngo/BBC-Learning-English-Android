@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">MVP_Dagger</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="feedback_email_title">Ducky Dev\'s App Learning English</string>
+    <string name="feedback_mail_text">System info</string>
+
+    <string name="btnCancel">Cancel</string>
+    <string name="suggestion_please">Suggestion please</string>
+    <string name="write_sth">Write something</string>
+    <string name="send_review">Send the review</string>
+
+    <string name="rate">Rate</string>
+    <string name="rate_dislike">Dislike it!</string>
+    <string name="rate_hate_it">Hated it!</string>
+    <string name="rate_it_is_ok">"It's OK!"</string>
+    <string name="rate_main_message">Do you like IELTS Listening Preparation?</string>
+    <string name="rate_main_tip">Please rate IELTS Listening Preparation:</string>
+    <string name="rate_on_google">Rate on Google play</string>
+    <string name="rate_on_store_tip">Please rate and review on Google play, it will give great help for others.</string>
+    <string name="rate_very_like">Thank you for liking IELTS Listening Preparation</string>
+
+
+    <string name="action_settings">Settings</string>
+
+    <string name="drawer_item_home">Home</string>
+    <string name="drawer_item_free_play">Free Play</string>
+    <string name="drawer_item_custom">Custom</string>
+    <string name="drawer_item_section_header">Section Header</string>
+    <string name="drawer_item_settings">Settings</string>
+    <string name="drawer_item_help">Help</string>
+    <string name="drawer_item_open_source">Open Source</string>
+    <string name="drawer_item_contact">Contact</string>
+
+    <string name="drawer_item_beginner">Beginner</string>
+    <string name="drawer_item_intermediate">Intermediate</string>
+    <string name="drawer_item_advanced">Advanced</string>
+
+    <string name="drawer_item_the_english_we_speak">The English We Speak</string>
+    <string name="drawer_item_express_english">Express English</string>\
+    <string name="drawer_item_news_report">News Report</string>\
+    <string name="drawer_item_english_at_university">English at University</string>\
+    <string name="drawer_item_english_at_work">English at Work</string>\
+    <string name="drawer_item_lingohack">LingoHack</string>\
+    <string name="drawer_item_words_in_the_news">Words In The News</string>\
+    <string name="drawer_item_six_minute_english">6 Minute English</string>\
+    <string name="drawer_item_six_minute_grammar">6 Minute Grammar</string>\
+    <string name="drawer_item_six_minute_vocabulary">6 Minute Vocabulary</string>\
+    <string name="drawer_item_drama">Drama</string>
+    <string name="kenny_ngo">Kenny Ngo</string>
+    <string name="drawer_item_my_collections">My Collections</string>
+    <string name="drawer_item_vocabularies">Vocabularies</string>
+    <string name="drawer_item_favorites">Favorites</string>
+    <string name="drawer_item_downloads">Downloads</string>
+    <string name="drawer_item_others">Others</string>
+    <string name="drawer_item_dictionary">Dictionary</string>
+    <string name="drawer_item_rate">Rate</string>
+    <string name="drawer_item_share">Share</string>
+    <string name="drawer_item_playlist">Playlist</string>
+    <string name="drawer_item_recent_audios">Recent Audios</string>
+    <string name="drawer_item_videos">Videos</string>
+    <string name="drawer_item_history">History</string>\
+
+    <string name="test_string_1">A Christmas Carol - Part 1: Marley\'s ghost</string>
+    <string name="test_string_2">Jamaica Inn: Part 9: The Vicar of Altarnum</string>
+    <string name="test_string_3">A room with a view</string>
+    <string name="test_string_4">Jamaica Inn: Part 3: Strange goings-on</string>
+    <string name="description_sample">Following Mary\'s uncle\'s shocking confession - how he lures ships onto the rocks and drowns women and children - she escapes from the Inn and goes with his brother, Jem, to the horse market in Launceston. But things don\'t go to plan</string>
+
+    <string name="defaultCurrentTimeString">00:00:00</string>
+    <string name="defaultCurrentTimeStringMilis">00:00</string>
+    <string name="playback_speed_options">Playback Speed</string>
+    <string name="settings">Settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_internet_dialog_lesson_message">The application need access to the Internet to download audio files then you can listen it in offline.</string>
+    <string name="no_internet_dialog_lesson_title">No Internet Connection.</string>
+    <string name="promote_app_dialog_title">TEDlang - Learn TED Talks, multi language subtitle</string>
+    <string name="download">Download Now</string>
+    <string name="promote_app_dialog_message">Download TEDlang to get full features like download offline mode, repeat listening and view full transcript</string>
+
+    <string-array name="list_features">
+        <item>Drama</item>
+        <item>English at University</item>
+        <item>English at Work</item>
+        <item>The English We Speak</item>
+        <item>LingoHack</item>
+        <item>News Report</item>
+        <item>Pronunciation</item>
+        <item>6 Minute English</item>
+        <item>Words in the News</item>
+        <item>Express English</item>
+        <item>Six Minute Grammar</item>
+        <item>Six Minute Vocabulary</item>
+        <item>Recent Audios</item>
+        <item>Favorites</item>
+        <item>Downloads</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,443 @@
+"<h3>The story…</h3> 
+ <p>Protecting Sudan's 'forgotten' pyramids</p> 
+ <h3><strong>Learn language related to…</strong></h3> 
+ <p>Ancient history</p>"
+"<h3>The story…</h3> 
+ <p>New ape species discovered</p> 
+ <h3><strong>Learn language related to…</strong></h3> 
+ <p>Animal discovery</p>"
+"<h3>The story…</h3> 
+ <p>Heart surgery and your body clock</p> 
+ <h3><strong>Learn language related to…</strong></h3> 
+ <p>Health</p>"
+"<h3>The story…</h3> 
+ <p>The risks of meat consumption</p> 
+ <h3>Learn language related to…</h3> 
+ <p>Bacteria</p>"
+" <p><em>Footage: Courtesy Little Ripper / UTS</em></p> 
+ <h3>The story…</h3> 
+ <p>Shark-detecting drones</p> 
+ <h3>Learn language related to…</h3> 
+ <p>Danger</p>"
+"<h3>The story…</h3> 
+ <p>Tackling the sea of plastic</p> 
+ <h3>Learn language related to…</h3> 
+ <p>Recycling</p>"
+"<h3>The story…</h3> 
+ <p>Africa's Great Green Wall</p> 
+ <h3>Learn language related to…</h3> 
+ <p>The environment</p>"
+"<h3>The story…</h3> 
+ <p>'Online' bees</p> 
+ <h3>Learn language related to…</h3> 
+ <p>Technology</p>"
+"<h3>The story…</h3> 
+ <p>Extinct giant tortoise returns</p> 
+ <h3>Learn language related to…</h3> 
+ <p>Survival</p>"
+"<h3>The story…</h3> 
+ <p>Using sun and sea to beat depression</p> 
+ <h3><strong>Learn language related to…</strong></h3> 
+ <p>Mental health</p>"
+"<h3>The story…</h3> 
+ <p>'Grand finale' for Cassini space mission</p> 
+ <h3><strong>Learn language related to…</strong></h3> 
+ <p>Space</p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Painless flu jab trial<br /> <br /> Tucking into Alaskan reindeer<br /> <br /> Reunion Island's shark problem</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Bear cub hunting in Alaska</strong></p> 
+ <p><strong>Indonesia's owls at risk</strong></p> 
+ <p><strong>Toe wrestling champions</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Using a bus to stop corruption</strong></p> 
+ <p><strong>Sailing to the North Pole </strong></p> 
+ <p><strong>Spoiling our babies</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Turkey's rise in C-section births</strong></p> 
+ <p><strong>Opera for babies</strong></p> 
+ <p><strong>Surfing dogs in California</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Fighting ethnically divided education</strong></p> 
+ <p><strong>Power boost for batteries</strong></p> 
+ <p><strong>End of the road for petrol and diesel cars</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Giving money to strangers</strong></p> 
+ <p><strong>Sapphire mining threat to rare lemurs</strong></p> 
+ <p><strong>Helping cows to help the planet</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Finland's experiment for the unemployed</strong></p> 
+ <p><strong>A longer life for coffee drinkers?</strong></p> 
+ <p><strong>Beef farmer's happy cows</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>India's farmers fight anti-tobacco plan</strong></p> 
+ <p><strong>Tate Modern's first female director</strong></p> 
+ <p><strong>Giant presidents' statues crumble in field</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p class=""wordsection1""><strong>Study launched on sleep deprivation</strong></p> 
+ <p><strong>British schoolboys wear skirts in protest</strong></p> 
+ <p><strong>Meet the world’s ugliest dog</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Vaccine to reduce bad cholesterol trialled</strong></p> 
+ <p><strong>Flying car at Paris Air Show</strong></p> 
+ <p><strong>How Britons are coping with a heatwave</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>British astronaut capsule on show </strong></p> 
+ <p><strong>Stranded turtle rescued in the UK</strong></p> 
+ <p><strong>Learn how to move without a van</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Promising UK ovarian cancer drug trialled</strong></p> 
+ <p><strong>Fish skin used to treat burns in Brazil </strong></p> 
+ <p><strong>Motorcycle sales boost Togo's economy</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Antibiotic breakthrough</strong></p> 
+ <p><strong>Water shortage in India's Silicon Valley</strong></p> 
+ <p><strong>Free pizza for the homeless on your behalf</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Manchester shows unity after suicide bombing</strong></p> 
+ <p><strong>Could depression be caused by our immune system? </strong></p> 
+ <p><strong>British airport to revolutionise air traffic control</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>You can't be obese and healthy, says study</strong></p> 
+ <p><strong>UK prison tests anti-drone technology</strong></p> 
+ <p><strong>Family in Zimbabwe turns rubbish into art</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Statins could be used to treat multiple sclerosis</strong></p> 
+ <p><strong>Pollution is damaging Buddha's birthplace in Nepal</strong></p> 
+ <p><strong>Meet the 105-year-old man still working</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>60% of world's primates at risk of extinction</strong></p> 
+ <p><strong>Freedom for Korean dogs</strong></p> 
+ <p><strong>Creating art in an instant</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Scientists in Germany create world's largest artificial sun </strong></p> 
+ <p><strong>101-year-old Indian runner wins medal</strong></p> 
+ <p><strong>English village saves hedgehogs</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>London to build super-sewer</strong></p> 
+ <p><strong>Harry Potter fans do yoga with a magical twist</strong></p> 
+ <p><strong>Pets in the office? Some UK firms welcome them</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <h3 class=""wordsection1""><strong>US anti-vaccine movement grows more daring</strong></h3> 
+ <h3 class=""wordsection1""><strong>Future of Welsh national parks report criticised</strong></h3> 
+ <h3 class=""wordsection1""><strong>Damian Hirst opens new exhibition in Venice</strong></h3>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>New material could make sea water drinkable </strong></p> 
+ <p><strong>China's bike hire schemes create fight for street space </strong></p> 
+ <p><strong>Congo's beauty queen challenges prejudice</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Brexit: What next for UK?</strong></p> 
+ <p><strong>Syria's World Cup hopes</strong></p> 
+ <p><strong>New British coin 'most secure in the world'</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Researchers develop lip-reading machine<br /> <br /> More women in the UK working into their 70s<br /> <br /> Italian woman first to manage male football team</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Drought disaster for Somalia<br /> <br /> Freedom for baby chimp<br /> <br /> Professor's family's unexpected fame</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Artist Banksy's hotel view</strong></p> 
+ <p><strong>London's new black cabs put to Arctic test</strong></p> 
+ <p><strong>Pollution-fighting pigeons</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>London WW2 bunker turns into farm</strong></p> 
+ <p><strong>The growing industry of corporate wellness</strong></p> 
+ <p><strong>Meet the kung fu grandmother</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Indian perfume firm offers jobs for the blind</strong></p> 
+ <p><strong>Slippery bottle solves a sticky problem </strong></p> 
+ <p><strong>Women prepare for South Pole trek</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Trump's national security adviser resigns</strong></p> 
+ <p><strong>Australia’s campaign to ban fake aboriginal art </strong></p> 
+ <p><strong>Music good enough to eat</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>The growth of the National Front in France</strong></p> 
+ <p><strong>David Hockney in Tate Britain retrospective </strong></p> 
+ <p><strong>Disabled cast put on a Manchester show </strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p class=""wordsection1""><strong>British MPs to investigate 'fake news'</strong></p> 
+ <p><strong>More babies than expected affected by Zika virus</strong></p> 
+ <p><strong>Unusual job vacancy in Austria</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Help for UK babies</strong></p> 
+ <p><strong>Tempting bird-watchers to Uganda</strong></p> 
+ <p><strong>The secret to Dutch children's happiness</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Rising knife crime in UK</strong></p> 
+ <p><strong>Giraffes facing 'silent extinction'</strong></p> 
+ <p><strong>Meet one of Spain's four female bullfighters&nbsp;</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Denmark's drug-taking rooms for addicts</strong></p> 
+ <p><strong>Dementia rates higher near busy roads, says study</strong></p> 
+ <p><strong>Meet the baby red pandas at a US zoo </strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>UK develops app with advice on terror attack</strong></p> 
+ <p><strong>Charity offers surplus food to homeless</strong></p> 
+ <p><strong>Steepest street turns into tourist attraction </strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Ebola vaccine on trial is 'highly effective' </strong></p> 
+ <p><strong>Madagascar's lemurs under threat</strong></p> 
+ <p><strong>Hoop dance inspires Native American youth</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Beijing's 'giant toxic cloud'</strong></p> 
+ <p><strong>Iceland's volcanic powers</strong></p> 
+ <p><strong>A 'virtual wife' for lonely men</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Yemen at ‘breaking point’</strong></p> 
+ <p><strong>Bus for the homeless</strong></p> 
+ <p><strong>City living for honeybees</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Caesarean births 'affecting human evolution'</strong></p> 
+ <p><strong>UK ranked 15th for school science education </strong></p> 
+ <p><strong>Researchers to uncover secret life of seals</strong></p>"
+"<h3>Today's Headlines:</h3>
+ <p><strong>Football fans hold vigil for team</strong></p> 
+ <p><strong>Worst destruction ever for Great Barrier Reef</strong></p> 
+ <p><strong>Mission to clean space</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Tracing the origins of Islamic State group's weapons</strong></p> 
+ <p><strong>Making UK health tourism pay</strong></p> 
+ <p><strong>Building the world's biggest wind farm</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>India withdraws rupee notes<br /></strong><br /><strong>Molecules on your phone reveal your lifestyle</strong><br /><strong><br />Robot sets new Rubik's Cube record</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Trump beats Clinton to take the White House</strong></p> 
+ <p><strong>India's cinema for the homeless</strong></p> 
+ <p><strong>Poetry in a box</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Nepal drains dangerous Everest lake </strong></p> 
+ <p><strong>Promising signs for new male contraceptive</strong></p> 
+ <p><strong>New home for thousands of baby turtles </strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Heathrow airport expansion approved </strong></p> 
+ <p><strong>Time with parents can improve children's autism</strong></p> 
+ <p><strong>Dogs are trained as lifeguards </strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Ecuador limits Julian Assange's internet access </strong></p> 
+ <p><strong>Sweet potato helps tackle child malnutrition</strong></p> 
+ <p><strong>Work starts on British polar research ship</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Is Russia hacking the US election?</strong></p> 
+ <p><strong>The end of Samsung's Galaxy Note 7</strong></p> 
+ <p><strong>The zoo where chimps 'learn to be chimps'</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Rubbish threat to Machu Picchu</strong></p> 
+ <p><strong>Prince Harry on HIV awareness campaign</strong></p> 
+ <p><strong>David Bowie's collection on show</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Former Israel President Shimon Peres dies </strong></p> 
+ <p><strong>Button batteries risk to children</strong></p> 
+ <p><strong>The farmer who paints sheep</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Benefits of statins underestimated</strong></p> 
+ <p><strong>'Brangelina' is no more</strong></p> 
+ <p><strong>Karaoke star Ted, 80, lands record deal</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>EU not at risk after Brexit, says Juncker </strong></p> 
+ <p><strong>US athletes' medical files hacked </strong></p> 
+ <p><strong>Human ancestor mystery solved </strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Two billion 'at risk of Zika in Africa and Asia'</strong></p> 
+ <p><strong>First face transplant patient dies in France</strong></p> 
+ <p><strong>Rare white whale filmed in Australia</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>World's largest protected area created off Hawaii </strong></p> 
+ <p><strong>New Earth-like planet discovered</strong></p> 
+ <p><strong>Goodbye Cookie: pink cockatoo dies at 83 </strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>China opens longest glass bridge</strong></p> 
+ <p><strong>HRT increases risk of cancer</strong></p> 
+ <p><strong>Hindu monk claims to be 120 years old</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Michael Phelps swims into Olympic history</strong></p> 
+ <p><strong>Scientists find new marine species in Scotland</strong></p> 
+ <p><strong>Scary Lucy statue is replaced in the US</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Obama says Trump unfit to be president</strong></p> 
+ <p><strong>Singapore scientists create cyborg beetle</strong></p> 
+ <p><strong>Scans reveal how teenage brain develops</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Hillary Clinton makes history</strong></p> 
+ <p><strong>Thousands flee California wildfires</strong></p> 
+ <p><strong>Cloned animals aging no differently</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <ul> 
+  <li><strong>Trump seals Republican nomination</strong></li> 
+  <li><strong>IOC to take legal advice on Russia</strong></li> 
+  <li><strong>Hottest ever June is recorded</strong></li> 
+ </ul>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>The UK has a new PM</strong></p> 
+ <p><strong>Train crash investigation in Italy</strong></p> 
+ <p><strong>Indian state introduces 'fat tax'</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Chilcot Iraq War report published</strong></p> 
+ <p><strong>People killed for defending their land</strong></p> 
+ <p><strong>Juno space probe success</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Bomb in Turkey </strong></p> 
+ <p><strong>Brexit: Cameron meets EU leaders</strong></p> 
+ <p><strong>Hockney's latest exhibition</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>A dangerous route to Europe</strong></p> 
+ <p><strong>Safety concerns for Mumbai's sewer workers</strong></p> 
+ <p><strong>Bad news for some British school pupils</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>French police warn against football violence</strong></p> 
+ <p><strong>Alligator drags boy into water</strong></p> 
+ <p><strong>London's Tate Modern opens new extension </strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Hillary Clinton claims historic moment for women</strong></p> 
+ <p><strong>Chelsea doctor settles dismissal case</strong></p> 
+ <p><strong>Surf's up in Australia</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Workers' unrest in France</strong></p> 
+ <p><strong>World's longest rail tunnel to open</strong></p> 
+ <p><strong>An unusual kind of race</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>More EU money for Greece </strong></p> 
+ <p><strong>Russian athletes' doping confirmed</strong></p> 
+ <p><strong>Friendly robots at Paris event </strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Mudslide in Sri Lanka</strong></p> 
+ <p><strong>Art rescued from the sea</strong></p> 
+ <p><strong>Football heroes' welcome</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Obama to visit Hiroshima but no apology</strong></p> 
+ <p><strong>Canada wildfire aftermath</strong></p> 
+ <p><strong>NASA discovers new planets</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Trump knocks Cruz out at primary</strong></p> 
+ <p><strong>Antibiotics overprescribed</strong></p> 
+ <p><strong>Escalator behaviour trial</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Hillsborough disaster: Inquest finds fans unlawfully killed</strong></p> 
+ <p><strong>London's Big Ben to stop chiming for repairs</strong></p> 
+ <p><strong>Gorilla surprise at Prague Zoo</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Diabetes increase warning</strong></p> 
+ <p><strong>World heritage sites under threat</strong></p> 
+ <p><strong>UK stamps celebrate Queen at 90</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Hawking backs interstellar travel project</strong></p> 
+ <p><strong>Russia celebrates cosmonaut anniversary</strong></p> 
+ <p><strong>Baby wallaby becomes an internet star</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Fifa president contract in Panama Papers</strong></p> 
+ <p><strong>Discovery might stop Sydney railway</strong></p> 
+ <p><strong>War-wounded dog gets medal</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Commuting in a driverless car</strong></p> 
+ <p><strong>Cleaning up Delhi's air</strong></p> 
+ <p><strong>Solving South Africa's power crisis</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Belgium in mourning after attacks</strong></p> 
+ <p><strong>Zika virus victims increase</strong></p> 
+ <p><strong>Negative reaction to online 'fitness challenge'</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Severe drought in Ethiopia</strong></p> 
+ <p><strong>Treatment hope for MS patients</strong></p> 
+ <p><strong>French anger at new spelling</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>UN legal concerns over new EU-Turkey plan</strong></p> 
+ <p><strong>Indonesia's three minutes of darkness</strong></p> 
+ <p><strong>'Fifth Beatle' Sir George Martin dies</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Super Tuesday gains for Trump and Clinton</strong></p> 
+ <p><strong>Zika threat to the US</strong></p> 
+ <p><strong>Back from space after a year</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Republicans against Guantanamo closure</strong></p> 
+ <p><strong>Plastic found in Mars bars</strong></p> 
+ <p><strong>Gorilla born at UK zoo</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>US-Cuba flights return</strong></p> 
+ <p><strong>Australia drug bust</strong></p> 
+ <p><strong>Male cosmetic surgery surge</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Trump and Sanders win New Hampshire</strong></p> 
+ <p><strong>Zuma in court for home improvement</strong></p> 
+ <p><strong>Horses don't like 'long faces'</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>UK's draft EU deal</strong></p> 
+ <p><strong>China's stranded travellers</strong></p> 
+ <p><strong>Groundhog Phil predicts the weather</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>A million migrants and refugees in Europe</strong></p> 
+ <p><strong>Ebola outbreak over </strong></p> 
+ <p><strong>High-tech device detects brain injuries </strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>New rules for migrants considered</strong></p> 
+ <p><strong>Irregular heartbeat 'riskier for women'</strong></p> 
+ <p><strong>Spike Lee says 'no' to all-white Oscar</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Obama's final State of the Union address</strong></p> 
+ <p><strong>Counting Africa's elephants from the sky</strong></p> 
+ <p><strong>Australia celebrates Elvis</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>North Korea's 'H-bomb'</strong></p> 
+ <p><strong>Fifa boss ban discussed</strong></p> 
+ <p><strong>Chip makes woman see again</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>UN urged to appoint female head</strong></p> 
+ <p><strong>A new flag for Pacific nation?</strong></p> 
+ <p><strong>Apollo 11 makes history again</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>US-UK forces in Afghanistan</strong></p> 
+ <p><strong>Cancer not just 'bad luck'</strong></p> 
+ <p><strong>Athletics boss steps down</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>A new solar superpower</strong></p> 
+ <p><strong>A first for South Africa's navy</strong></p> 
+ <p><strong>Historic hospital demolished</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Syrian rebels leave Homs</strong></p> 
+ <p><strong>Paris: Missed warnings</strong></p> 
+ <p><strong>Lions poisoned </strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>UK vote on Syria air strikes</strong></p> 
+ <p><strong>US to deploy special force to Iraq</strong></p> 
+ <p><strong>Facebook founder giveaway</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Global climate event</strong></p> 
+ <p><strong>Artificial intelligence versus humans</strong></p> 
+ <p><strong>Being disabled in Rio&nbsp;</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Investigations continue into Paris attacks</strong></p> 
+ <p><strong>Football fans pay Paris tribute</strong></p> 
+ <p><strong>Traffic chaos at APEC summit</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>EU and Africa heads discuss migrant crisis</strong></p> 
+ <p><strong>Russia's weapons threat</strong></p> 
+ <p><strong>Rare diamond sells for more than $28m</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Sinai plane crash</strong></p> 
+ <p><strong>Germany FIFA crisis</strong></p> 
+ <p><strong>Famous fountain flows again</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>India's domestic workers law</strong></p> 
+ <p><strong>Fighting online crime</strong></p> 
+ <p><strong>E-cigarettes less damaging, says study</strong></p> 
+ <p>&nbsp;</p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Thousands of people flee Aleppo</strong></p> 
+ <p><strong>British-Chinese relations</strong></p> 
+ <p><strong>Restoring Tutankhamun's beard</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Israel responds to Jerusalem attacks</strong></p> 
+ <p><strong>Wolf war in French Alps<br /> <br /> Man Booker winner announced</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>EU to catch smuggler's boats</strong></p> 
+ <p><strong>Iraqi girls tell their stories on stage</strong></p> 
+ <p><strong>Toddler's miracle operation</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Dengue fever outbreak in Delhi</strong></p> 
+ <p><strong>Drugs raid in the Caribbean Sea</strong></p> 
+ <p><strong>UK starts womb transplants</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>US investigates Volkswagen</strong></p> 
+ <p><strong>Europe's migrant plan</strong></p> 
+ <p><strong>The art of Pele</strong></p>"
+"<h3>Today's Headlines:</h3> 
+ <p><strong>Border closes for migrants</strong></p> 
+ <p><strong>Wildfires in California</strong></p> 
+ <p><strong>Crisis for world's oceans</strong></p>"

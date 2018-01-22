@@ -1,0 +1,157 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Toolbar" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="TalkSubTitle">
+        <item name="android:textSize">@dimen/default_text_size</item>
+        <item name="android:textColor">@color/silver</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">3</item>
+    </style>
+
+    <style name="CategoryTitleTV">
+        <item name="android:textSize">@dimen/course_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/medium_jungle_green</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="EpisodeCategorySubTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:padding">@dimen/common_side_padding_8</item>
+
+    </style>
+
+    <style name="EpisodeCategorySubCoverImage">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">140.5dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="EpisodeCardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:layout_marginTop">-3dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+
+    </style>
+
+    <style name="Color1SwitchStyle">
+        <item name="colorControlActivated">@color/action_bar_bg</item>
+    </style>
+
+    <style name="SeekBarUdemyTheme" parent="@android:style/Widget.SeekBar">
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:maxHeight">16.0dip</item>
+        <item name="android:indeterminateDrawable">
+            @drawable/scrubber_progress_horizontal_holo_light
+        </item>
+        <item name="android:progressDrawable">@drawable/scrubber_progress_horizontal_holo_light
+        </item>
+        <item name="android:minHeight">16.0dip</item>
+        <item name="android:thumb">@drawable/thumb_image</item>
+        <item name="android:thumbOffset">16.0dip</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/udemy_color</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyleNoWindow" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="colorAccent">@color/udemy_color</item>
+    </style>
+
+    <style name="AppTheme.SearchView" parent="@style/Widget.AppCompat.SearchView">
+        <item name="android:editTextColor">@android:color/white</item>
+        <item name="searchHintIcon">@null</item>
+    </style>
+
+    <style name="DuckyTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:seekBarStyle">@style/SeekBarUdemyTheme</item>
+        <!--<item name="android:actionBarStyle">@style/DuckyTheme.ActionBar</item>-->
+        <item name="android:actionBarSize">@dimen/action_bar_height</item>
+        <item name="android:alertDialogTheme">@style/AppCompatAlertDialogStyleNoWindow</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_thumb_holo</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="actionBarSize">@dimen/action_bar_height</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="searchViewStyle">@style/AppTheme.SearchView</item>
+        <item name="colorPrimary">@color/udemy_color</item>
+        <item name="colorPrimaryDark">@color/udemy_color_dark</item>
+        <item name="colorAccent">@color/darker_grey</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/udemy_color</item>
+        <item name="alertDialogTheme">@style/AppCompatAlertDialogStyle</item>
+        <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+    </style>
+
+    <style name="DuckyTheme.ToolBar" parent="@style/Theme.AppCompat">
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:seekBarStyle">@style/SeekBarUdemyTheme</item>
+        <!--<item name="android:actionBarStyle">@style/DuckyTheme.ActionBar</item>-->
+        <item name="android:actionBarSize">@dimen/action_bar_height</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_thumb_holo</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <!--<item name="actionBarStyle">@style/Widget.ActionBar</item>-->
+        <item name="actionBarSize">@dimen/action_bar_height</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="searchViewStyle">@style/AppTheme.SearchView</item>
+        <item name="colorPrimary">@color/udemy_color</item>
+        <item name="colorPrimaryDark">@color/udemy_color_dark</item>
+        <item name="colorAccent">@color/darker_grey</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+    </style>
+
+    <style name="CustomTabPageIndicator" parent="@style/Widget.TabPageIndicator">
+        <item name="android:textAppearance">@style/CustomTabPageIndicator.Text</item>
+        <item name="android:textSize">@dimen/tab_pager_font_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/custom_tab_indicator</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingTop">12.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:paddingBottom">12.0dip</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">8.0dip</item>
+        <item name="android:divider">@drawable/custom_tab_indicator_divider</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:showDividers">none</item>
+        <item name="android:dividerPadding">10.0dip</item>
+    </style>
+
+    <style name="CustomTabPageIndicator.Text" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+    <dimen name="course_title_text_size">21sp</dimen>
+    <dimen name="action_bar_height">56dp</dimen>
+    <dimen name="common_side_padding_32">32dp</dimen>
+    <dimen name="default_button_height">48dp</dimen>
+    <dimen name="tab_pager_font_size">12dp</dimen>
+</resources>
