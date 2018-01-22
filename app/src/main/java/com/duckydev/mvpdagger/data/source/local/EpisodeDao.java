@@ -39,8 +39,8 @@ public interface EpisodeDao {
     List<Episode> getWatchedListEpisodes(boolean isAddedWatchList);
 
     @TypeConverters(EpisodeType.class)
-    @Query("SELECT * FROM Episode WHERE mType = :type  ORDER BY mTypeIndex DESC LIMIT 5")
-    List<Episode> getFirstFiveEpisodesEachType(EpisodeType type);
+    @Query("SELECT * FROM Episode WHERE mType = :type  ORDER BY mTypeIndex DESC LIMIT :number")
+    List<Episode> getFirstNumberOfEpisodesEachType(EpisodeType type, int number);
 
     @Query("SELECT * FROM Episode WHERE _id = :id")
     Episode getEpisodeById(int id);

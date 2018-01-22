@@ -64,4 +64,6 @@ dependencies {
     // ExoMedia Dependency
     compile "com.devbrackets.android:exomedia:$rootProject.ext.exoMediaVersion"
     implementation project(':viewpagerindicator')
+
+    compile 'com.google.code.gson:gson:2.8.2'
 }

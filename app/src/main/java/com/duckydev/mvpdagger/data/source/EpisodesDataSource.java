@@ -21,7 +21,7 @@ public interface EpisodesDataSource {
 
     void getFavoritedEpisodes(@NonNull boolean isFavorited, LoadEpisodesCallback callback);
 
-    void getFirstFiveEpisodeByType(@NonNull EpisodeType type, LoadEpisodesCallback callback);
+    void getFirstNumberOfEpisodeByType(@NonNull EpisodeType type, int number, LoadEpisodesCallback callback);
 
     void markDownloadedEpisodeMedia(@NonNull Episode episode);
 

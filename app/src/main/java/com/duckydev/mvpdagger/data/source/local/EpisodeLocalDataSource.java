@@ -191,11 +191,11 @@ public class EpisodeLocalDataSource implements EpisodesDataSource {
     }
 
     @Override
-    public void getFirstFiveEpisodeByType(@NonNull final EpisodeType type, final LoadEpisodesCallback callback) {
+    public void getFirstNumberOfEpisodeByType(@NonNull final EpisodeType type, final int number, final LoadEpisodesCallback callback) {
         Runnable runnable = new Runnable() {
             @Override
             public void run() {
-                final List<Episode> episodes = mEpisodeDao.getFirstFiveEpisodesEachType(type);
+                final List<Episode> episodes = mEpisodeDao.getFirstNumberOfEpisodesEachType(type, number);
                 mAppExecutors.mainThread().execute(new Runnable() {
                     @Override
                     public void run() {

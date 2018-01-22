@@ -43,6 +43,8 @@ public interface FeaturesContract {
 
         void showNoFavoritedEpisode();
 
+        void showNoEpisode();
+
         boolean isActive();
 
         void showFilteringPopUpMenu();

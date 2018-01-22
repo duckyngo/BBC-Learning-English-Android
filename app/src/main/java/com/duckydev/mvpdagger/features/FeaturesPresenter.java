@@ -5,10 +5,7 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Environment;
 import android.support.annotation.NonNull;
-import android.widget.Button;
 
-import com.duckydev.mvpdagger.MVPDaggerApplication;
-import com.duckydev.mvpdagger.R;
 import com.duckydev.mvpdagger.data.Episode;
 import com.duckydev.mvpdagger.data.source.EpisodesDataSource;
 import com.duckydev.mvpdagger.data.source.EpisodesRepository;
@@ -101,6 +98,18 @@ public class FeaturesPresenter implements FeaturesContract.Presenter  {
     }
 
     private void processEmptyEpisodes() {
+        if (mView == null) return;
+        switch (mCurrentFiltering) {
+            case DOWNLOADED_EPISODES:
+                mView.showNoDownloadedEpisode();
+                break;
+            case FAVORITED_EPISODES:
+                mView.showNoFavoritedEpisode();
+                break;
+            default:
+                mView.showNoEpisode();
+                break;
+        }
     }
 
     @Override

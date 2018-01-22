@@ -129,9 +129,8 @@ public class EpisodesRepository implements EpisodesDataSource {
         });
     }
 
-    @Override
-    public void getFirstFiveEpisodeByType(@NonNull EpisodeType type, final LoadEpisodesCallback callback) {
-        mEpisodeLocalDataSource.getFirstFiveEpisodeByType(type, new LoadEpisodesCallback() {
+    public void getFirstNumberOfEpisodeByType(@NonNull EpisodeType type, int number, final LoadEpisodesCallback callback) {
+        mEpisodeLocalDataSource.getFirstNumberOfEpisodeByType(type, number, new LoadEpisodesCallback() {
             @Override
             public void onEpisodesLoaded(List<Episode> episodes) {
                 callback.onEpisodesLoaded(episodes);

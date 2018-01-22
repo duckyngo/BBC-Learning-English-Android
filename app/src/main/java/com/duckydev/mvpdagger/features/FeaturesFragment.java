@@ -232,9 +232,14 @@ public class FeaturesFragment extends DaggerFragment implements FeaturesContract
         showNoEpisodeViews("You have no favorited Episode", R.drawable.ic_action_book, true);
     }
 
+    @Override
+    public void showNoEpisode() {
+        showNoEpisodeViews("You have no Episodes", R.drawable.ic_action_book, true);
+    }
+
     private void showNoEpisodeViews(String mainText, int iconRes, boolean showAddView) {
-        mEpisodesView.setVisibility(View.GONE);
-        mEpisodesView.setVisibility(View.VISIBLE);
+        listView.setVisibility(View.GONE);
+        mNoEpisodesView.setVisibility(View.VISIBLE);
 
         mNoEpisodeMainView.setText(mainText);
         mNoEpisodeIcon.setImageDrawable(getResources().getDrawable(iconRes));
