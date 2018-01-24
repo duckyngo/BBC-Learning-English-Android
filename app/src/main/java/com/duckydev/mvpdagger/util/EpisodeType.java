@@ -1,6 +1,9 @@
 package com.duckydev.mvpdagger.util;
 
 import android.arch.persistence.room.TypeConverter;
+import android.content.Context;
+
+import com.duckydev.mvpdagger.R;
 
 /**
  * Created by duckyng on 12/20/2017.
@@ -35,5 +38,9 @@ public enum EpisodeType {
 
     EpisodeType(int type) {
         this.primitive_type = type;
+    }
+
+    public static String getEpisodeTypeText(EpisodeType type, Context context) {
+        return context.getResources().getStringArray(R.array.list_features)[fromEpisodeType(type)];
     }
 }

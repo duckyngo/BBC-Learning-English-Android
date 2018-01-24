@@ -32,6 +32,15 @@ dependencies {
     compile "android.arch.persistence.room:runtime:$rootProject.roomVersion"
     annotationProcessor "android.arch.persistence.room:compiler:$rootProject.roomVersion"
 
+    // Gson
+    compile "com.google.code.gson:gson:$rootProject.gsonVersion"
+
+    // Firebase
+//    compile 'com.google.firebase:firebase-core:$rootProject.firebaseVersion'
+//    compile 'com.google.firebase:firebase-config:$rootProject.firebaseVersion'
+//    compile 'com.google.firebase:firebase-storage:$rootProject.firebaseVersion'
+
+
     // Dagger dependencies
     annotationProcessor "com.google.dagger:dagger-compiler:$rootProject.daggerVersion"
     provided 'org.glassfish:javax.annotation:10.0-b28'
@@ -65,5 +74,6 @@ dependencies {
     compile "com.devbrackets.android:exomedia:$rootProject.ext.exoMediaVersion"
     implementation project(':viewpagerindicator')
 
-    compile 'com.google.code.gson:gson:2.8.2'
 }
+//apply plugin: 'com.google.gms.google-services'
+

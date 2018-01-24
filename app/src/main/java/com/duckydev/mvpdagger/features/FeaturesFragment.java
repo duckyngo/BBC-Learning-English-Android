@@ -218,6 +218,11 @@ public class FeaturesFragment extends DaggerFragment implements FeaturesContract
     }
 
     @Override
+    public void showWatchedFilterLabel() {
+
+    }
+
+    @Override
     public void showAllFilterLabel() {
 
     }
@@ -230,6 +235,12 @@ public class FeaturesFragment extends DaggerFragment implements FeaturesContract
     @Override
     public void showNoFavoritedEpisode() {
         showNoEpisodeViews("You have no favorited Episode", R.drawable.ic_action_book, true);
+    }
+
+    @Override
+    public void showNoWatchedEpisode() {
+        showNoEpisodeViews("You have no watched Episode", R.drawable.ic_delete_forever, false);
+
     }
 
     @Override
@@ -260,6 +271,9 @@ public class FeaturesFragment extends DaggerFragment implements FeaturesContract
                         break;
                     case R.id.filter_favorited:
                         mPresenter.setFiltering(EpisodesFilterType.FAVORITED_EPISODES);
+                        break;
+                    case R.id.filter_watched:
+                        mPresenter.setFiltering(EpisodesFilterType.WATCHED_EPISODES);
                         break;
                     default:
                         mPresenter.setFiltering(EpisodesFilterType.ALL_EPISODES);

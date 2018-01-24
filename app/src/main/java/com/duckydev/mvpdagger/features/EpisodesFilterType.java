@@ -10,5 +10,7 @@ public enum EpisodesFilterType {
 
     DOWNLOADED_EPISODES,
 
+    WATCHED_EPISODES,
+
     FAVORITED_EPISODES
 }

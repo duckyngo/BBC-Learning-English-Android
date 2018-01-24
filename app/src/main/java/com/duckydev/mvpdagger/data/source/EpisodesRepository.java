@@ -174,6 +174,11 @@ public class EpisodesRepository implements EpisodesDataSource {
     }
 
     @Override
+    public void insertEpisodeList(@NonNull List<Episode> episodes) {
+        mEpisodeLocalDataSource.insertEpisodeList(episodes);
+    }
+
+    @Override
     public void updateEpisode(@NonNull Episode episode) {
         mEpisodeLocalDataSource.updateEpisode(episode);
     }

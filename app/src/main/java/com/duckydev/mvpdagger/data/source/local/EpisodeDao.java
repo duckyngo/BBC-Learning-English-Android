@@ -45,8 +45,14 @@ public interface EpisodeDao {
     @Query("SELECT * FROM Episode WHERE _id = :id")
     Episode getEpisodeById(int id);
 
+    @Query("SELECT * FROM Episode WHERE _id IN :id")
+    Episode getEpisodesByIds(int[] id);
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     void insertEpisode(Episode episode);
+
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    void insertEpisodeList(List<Episode> episodes);
 
     @Update
     void updateEpisode(Episode episode);

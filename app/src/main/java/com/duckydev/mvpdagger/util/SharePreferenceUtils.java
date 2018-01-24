@@ -6,6 +6,9 @@ import android.content.SharedPreferences.Editor;
 
 import com.duckydev.mvpdagger.Constants;
 
+import java.util.HashSet;
+import java.util.StringTokenizer;
+
 
 public class SharePreferenceUtils {
     private SharedPreferences sp;
@@ -54,7 +57,73 @@ public class SharePreferenceUtils {
                 Constants.BBK_PREFERENCES, Context.MODE_PRIVATE);
         Editor editor = sharedPreferences.edit();
         editor.putInt(Constants.PREF_NUM_RATES_CLICK, numRatesClisk);
+        editor.apply();
+    }
+
+    public static int getDatabaseVersion(Context context) {
+        SharedPreferences sharedPreferences = context.getSharedPreferences(
+                Constants.BBK_PREFERENCES, Context.MODE_PRIVATE);
+        return sharedPreferences.getInt(Constants.PREF_NUM_RATES_CLICK, 0);
+    }
+
+    public static void updateDatabaseVersion(Context context, int version) {
+        SharedPreferences sharedPreferences = context.getSharedPreferences(
+                Constants.BBK_PREFERENCES, Context.MODE_PRIVATE);
+        Editor editor = sharedPreferences.edit();
+        editor.putInt(Constants.PREF_DATABASE_VERSION, version);
+        editor.apply();
+    }
+
+    public static void updateConversationHistoryId(Context context, int lessonId) {
+        SharedPreferences sharedPreferences = context.getSharedPreferences(
+                Constants.BBK_PREFERENCES, Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+
+        int[] history = getConversationHistoryId(context);
+
+        int existLessonIndex = HistoryDuplicateUtils.isConversationHistoryIdExist(history, lessonId);
+        if (existLessonIndex != -1) {
+            int valueBeingMoved = history[existLessonIndex];
+
+            for (int i = existLessonIndex; i > 0; i--) {
+                history[i] = history[i-1];
+            }
+
+            history[0] = valueBeingMoved;
+        } else {
+
+            for (int i = history.length - 1; i > 0; i--) {
+                history[i] = history[i-1];
+            }
+            history[0] = lessonId;
+
+        }
+
+
+        StringBuilder str = new StringBuilder();
+        for (int i = 0; i < history.length; i++) {
+            str.append(history[i]).append(",");
+        }
+
+        editor.putString(Constants.PREF_CONVERSATION_HISTORY_ID, str.toString());
         editor.commit();
+    }
+
+    public static int[] getConversationHistoryId(Context context) {
+        SharedPreferences sharedPreferences = context.getSharedPreferences(
+                Constants.BBK_PREFERENCES, Context.MODE_PRIVATE);
+
+        String savedString = sharedPreferences.getString(Constants.PREF_CONVERSATION_HISTORY_ID, "");
+
+        StringTokenizer st = new StringTokenizer(savedString, ",");
+        int[] savedList = new int[50];
+        for (int i = 0; i < 50; i++) {
+            if (st.hasMoreTokens()) {
+                savedList[i] = Integer.parseInt(st.nextToken());
+            }
+        }
+
+        return savedList;
     }
 
 

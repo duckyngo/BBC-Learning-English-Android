@@ -67,6 +67,10 @@ public class FeaturesPresenter implements FeaturesContract.Presenter  {
                                 episodesToShow.add(episode);
                             }
                             break;
+                        case WATCHED_EPISODES:
+                            if (episode.isPlayed()) {
+                                episodesToShow.add(episode);
+                            }
 
                     }
                 }
@@ -105,6 +109,9 @@ public class FeaturesPresenter implements FeaturesContract.Presenter  {
                 break;
             case FAVORITED_EPISODES:
                 mView.showNoFavoritedEpisode();
+                break;
+            case WATCHED_EPISODES:
+                mView.showNoWatchedEpisode();
                 break;
             default:
                 mView.showNoEpisode();
@@ -218,6 +225,10 @@ public class FeaturesPresenter implements FeaturesContract.Presenter  {
                     mView.showFavoritedFilterLabel();
                 }
                 break;
+            case WATCHED_EPISODES:
+                if (mView != null) {
+                    mView.showWatchedFilterLabel();
+                }
             default:
                 if (mView != null) {
                     mView.showAllFilterLabel();

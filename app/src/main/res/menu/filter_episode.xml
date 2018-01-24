@@ -4,6 +4,10 @@
     <item android:id="@+id/filter_all"
           android:title="All"/>
 
+    <item
+        android:id="@+id/filter_watched"
+        android:title="Watched"/>
+
     <item android:id="@+id/filter_downloaded"
           android:title="Downloaded"/>
 

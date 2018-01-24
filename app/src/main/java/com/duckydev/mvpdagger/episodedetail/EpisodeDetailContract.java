@@ -37,6 +37,10 @@ public interface EpisodeDetailContract {
         void updateBackgroundSC(boolean enabled);
 
         void setPlaySpeedText(String text);
+
+        void showFavorite(boolean isFavorited);
+
+        void showDownload(boolean isDownloaded);
     }
 
     interface Presenter extends BasePresenter<View> {
@@ -60,6 +64,12 @@ public interface EpisodeDetailContract {
         void selectPlaybackSpeed(int which);
 
         void selectPlaybackSpeedClick();
+
+        void favoriteEpisode();
+
+        void downloadEpisode();
+
+        void shareEpisode();
     }
 
 

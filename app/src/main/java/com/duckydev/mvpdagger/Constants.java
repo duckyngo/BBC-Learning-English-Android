@@ -8,6 +8,8 @@ public class Constants {
 
     public static final String BBK_PREFERENCES = "BBK_PREFERENCES";
     public static final String PREF_NUM_RATES_CLICK = "PREF_NUM_RATES_CLICK";
+    public static final String PREF_DATABASE_VERSION = "PREF_DATABASE_VERSION";
+    public static final String PREF_CONVERSATION_HISTORY_ID = "PREF_CONVERSATION_HISTORY_ID";
 
     class Urls {
         public static final String PRIVACY_POLICY = "";

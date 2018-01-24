@@ -1,6 +1,7 @@
 package com.duckydev.mvpdagger.episodedetail;
 
 import android.app.Activity;
+import android.arch.persistence.room.util.StringUtil;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -19,12 +20,15 @@ import android.widget.TextView;
 import com.duckydev.mvpdagger.Constants;
 import com.duckydev.mvpdagger.R;
 import com.duckydev.mvpdagger.data.Episode;
+import com.duckydev.mvpdagger.util.EpisodeType;
 import com.duckydev.mvpdagger.util.TxtUtils;
 
 import javax.inject.Inject;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
+import dagger.Component;
 import dagger.android.support.DaggerFragment;
 
 
@@ -39,6 +43,7 @@ public class EpisodeDetailFragment extends DaggerFragment implements EpisodeDeta
     }
 
     public int mEpisodeId = -1;
+    public String mFeatureTitle = "";
 
     @BindView(R.id.transcription_title_tv)
     TextView mTranscriptionTitleTv;
@@ -57,6 +62,24 @@ public class EpisodeDetailFragment extends DaggerFragment implements EpisodeDeta
 
     @BindView(R.id.description_tv)
     TextView mDescriptionTv;
+
+    @BindView(R.id.duration_tv)
+    TextView mIntroDurationTime;
+
+    @BindView(R.id.feature_title_tv)
+    TextView mIntroFeatureTitle;
+
+    @BindView(R.id.add_to_mylist_iv)
+    ImageView mAddToListIv;
+
+    @BindView(R.id.favorite_iv)
+    ImageView mFavoriteIv;
+
+    @BindView(R.id.download_iv)
+    ImageView mDownloadIv;
+
+    @BindView(R.id.share_iv)
+    ImageView mShareIv;
 
     SeekBar mProgressSeekbar;
 
@@ -193,7 +216,15 @@ public class EpisodeDetailFragment extends DaggerFragment implements EpisodeDeta
         } else {
             mSummaryTitleTv.setVisibility(View.GONE);
         }
+
+        mFavoriteIv.setImageResource(episode.isFavorite() ? R.drawable.ic_favorite : R.drawable.ic_favorite_border );
+        mDownloadIv.setImageResource(episode.isDownloaded() ? R.drawable.ic_cloud_download : R.drawable.ic_delete_forever);
+
         mDescriptionTv.setText(episode.getDescription());
+
+        mIntroFeatureTitle.setText(EpisodeType.getEpisodeTypeText(episode.getType(), getActivity()));
+
+        mIntroDurationTime.setText(episode.getMediaDuration());
 
         if (getActivity() != null) {
             ((EpisodeDetailActivity) getActivity()).loadBackdrop(episode.getThumbImageUrl());
@@ -258,6 +289,32 @@ public class EpisodeDetailFragment extends DaggerFragment implements EpisodeDeta
     @Override
     public void setPlaySpeedText(String text) {
         mPlaySpeedTv.setText(text);
+    }
+
+    @Override
+    public void showFavorite(boolean isFavorited) {
+        mFavoriteIv.setImageResource(isFavorited ? R.drawable.ic_favorite : R.drawable.ic_favorite_border );
+
+    }
+
+    @Override
+    public void showDownload(boolean isDownloaded) {
+        mDownloadIv.setImageResource(isDownloaded ? R.drawable.ic_delete_forever : R.drawable.ic_cloud_download);
+    }
+
+    @OnClick(R.id.favorite_iv)
+    public void favoriteEpisode(View view) {
+        mPresenter.favoriteEpisode();
+    }
+
+    @OnClick(R.id.download_iv)
+    public void downloadEpisode(View view) {
+        mPresenter.downloadEpisode();
+    }
+
+    @OnClick(R.id.share_iv)
+    public void shareEpisode(View view) {
+        mPresenter.shareEpisode();
     }
 
 }

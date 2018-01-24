@@ -13,6 +13,7 @@ import com.duckydev.mvpdagger.Constants;
 import com.duckydev.mvpdagger.data.Episode;
 import com.duckydev.mvpdagger.data.source.EpisodesDataSource;
 import com.duckydev.mvpdagger.data.source.EpisodesRepository;
+import com.duckydev.mvpdagger.util.SharePreferenceUtils;
 import com.duckydev.mvpdagger.util.TxtUtils;
 
 import javax.inject.Inject;
@@ -28,6 +29,8 @@ public class EpisodeDetailPresenter implements EpisodeDetailContract.Presenter {
     private AudioPlayer mAudioPlayer;
     private Handler mHandler = new Handler();
     private int currentPlaybackSpeedItemIndex = 2;
+
+    private Episode mCurrentEpisode;
 
 
     private Runnable mProgressRunnable = new Runnable() {
@@ -59,8 +62,14 @@ public class EpisodeDetailPresenter implements EpisodeDetailContract.Presenter {
         mEpisodesRepository.getEpisode(episodeId, new EpisodesDataSource.GetEpisodeCallback() {
             @Override
             public void onEpisodeLoaded(Episode episode) {
-                mView.showEpisode(episode);
-                setAudioPlayerDataSource(episode.getMediaUrl());
+                if (mView != null) {
+                    SharePreferenceUtils.updateConversationHistoryId(((EpisodeDetailFragment) mView).getActivity(), episode.get_id());
+                    mEpisodesRepository.markPlayedEpisode(episode);
+                    mView.showEpisode(episode);
+                    setAudioPlayerDataSource(episode.getMediaUrl());
+                    mCurrentEpisode = episode;
+                }
+
             }
 
             @Override
@@ -95,13 +104,6 @@ public class EpisodeDetailPresenter implements EpisodeDetailContract.Presenter {
                     }
                 }, 1000);
             }
-
-
-
-
-
-
-
 
 
         });
@@ -183,4 +185,35 @@ public class EpisodeDetailPresenter implements EpisodeDetailContract.Presenter {
     public void selectPlaybackSpeedClick() {
         mView.showPlaybackSpeedDialog(currentPlaybackSpeedItemIndex);
     }
+
+    @Override
+    public void favoriteEpisode() {
+        if (mCurrentEpisode.isFavorite()) {
+            mCurrentEpisode.setFavorite(false);
+            mEpisodesRepository.updateFavorite(mCurrentEpisode, false);
+        } else {
+            mCurrentEpisode.setFavorite(true);
+            mEpisodesRepository.updateFavorite(mCurrentEpisode, true);
+        }
+        mView.showFavorite(mCurrentEpisode.isFavorite());
+
+    }
+
+    @Override
+    public void downloadEpisode() {
+        if (mCurrentEpisode.isDownloaded()) {
+            mCurrentEpisode.setDownloaded(false);
+            mEpisodesRepository.markUndownloadedEpisodeMedia(mCurrentEpisode);
+        } else {
+            mCurrentEpisode.setDownloaded(true);
+            mEpisodesRepository.markDownloadedEpisodeMedia(mCurrentEpisode);
+        }
+        mView.showDownload(mCurrentEpisode.isDownloaded());
+    }
+
+    @Override
+    public void shareEpisode() {
+
+    }
+
 }

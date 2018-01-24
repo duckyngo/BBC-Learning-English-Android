@@ -1,5 +1,7 @@
 package com.duckydev.mvpdagger.category;
 
+import android.content.Context;
+
 import com.duckydev.mvpdagger.BasePresenter;
 import com.duckydev.mvpdagger.BaseView;
 import com.duckydev.mvpdagger.data.Episode;
@@ -67,7 +69,13 @@ public interface CategoryContract {
 
         void checkForUpdate();
 
+        void checkForDatabaseUpdate();
+
         void checkInternetConnection();
+
+        void shareApplication();
+
+        void rateApplication();
 
         void takeView(CategoryContract.View view);
 

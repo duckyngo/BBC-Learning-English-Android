@@ -2,13 +2,17 @@ package com.duckydev.mvpdagger.category;
 
 import android.support.annotation.Nullable;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.duckydev.mvpdagger.data.Episode;
 import com.duckydev.mvpdagger.data.source.EpisodesDataSource;
 import com.duckydev.mvpdagger.data.source.EpisodesRepository;
 import com.duckydev.mvpdagger.di.ActivityScoped;
 import com.duckydev.mvpdagger.util.EpisodeType;
+import com.duckydev.mvpdagger.util.wiget.DialogManager;
+import com.duckydev.mvpdagger.util.wiget.RateManager;
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 
 import java.io.IOException;
@@ -30,6 +34,7 @@ public class CategoryPresenter implements CategoryContract.Presenter{
     @Nullable
     private CategoryContract.View mCategoryView;
     private int NUMBER_OF_PREVIEW = 5;
+    boolean isFirstRun = true;
 
     @Inject
     public CategoryPresenter(EpisodesRepository episodesRepository) {
@@ -38,6 +43,38 @@ public class CategoryPresenter implements CategoryContract.Presenter{
 
     @Override
     public void loadAllPreviewEpisode() {
+
+//        mEpisodesRepository.getFirstNumberOfEpisodeByType(EpisodeType.ENGLISH_WE_SPEAK, 10, new EpisodesDataSource.LoadEpisodesCallback() {
+//            @Override
+//            public void onEpisodesLoaded(List<Episode> episodes) {
+//                Gson gson = new GsonBuilder().setPrettyPrinting().create();
+////                Gson gson = new Gson();
+//                String json = gson.toJson(episodes, new TypeToken<ArrayList<Episode>>() {
+//                }.getType());
+//
+//                Log.d("ky.nd", json);
+//            }
+//
+//            @Override
+//            public void onDataNotAvailable() {
+//
+//            }
+//        });
+
+        ArrayList<Episode> arrayList = new ArrayList();
+        Gson gson = new Gson();
+
+        arrayList = gson.fromJson(loadJSONFromAsset(), new TypeToken<ArrayList<Episode>>() {
+        }.getType());
+
+        Log.d("ky.nd", "" + arrayList.size());
+
+        if (!isFirstRun) {
+                mEpisodesRepository.insertEpisodeList(arrayList);
+        }
+        isFirstRun = false;
+
+
         loadPreviewEpisodes(EpisodeType.SIX_MINUTE_ENGLISH);
         loadPreviewEpisodes(EpisodeType.DRAMA);
         loadPreviewEpisodes(EpisodeType.WORK_IN_THE_NEWS);
@@ -45,27 +82,7 @@ public class CategoryPresenter implements CategoryContract.Presenter{
         loadPreviewEpisodes(EpisodeType.ENGLISH_AT_WORK);
         loadPreviewEpisodes(EpisodeType.NEWS_REPORT);
         loadPreviewEpisodes(EpisodeType.ENGLISH_WE_SPEAK);
-    }
 
-    @Override
-    public void loadPreviewEpisodes(final EpisodeType type) {
-        if (mCategoryView != null) {
-            mCategoryView.setLoadingIndicator(true);
-        }
-        mEpisodesRepository.getFirstNumberOfEpisodeByType(type, NUMBER_OF_PREVIEW, new EpisodesDataSource.LoadEpisodesCallback() {
-            @Override
-            public void onEpisodesLoaded(List<Episode> episodes) {
-                if (mCategoryView != null) {
-                    mCategoryView.showPreviewEpisodes(type, episodes);
-                    mCategoryView.setLoadingIndicator(false);
-                }
-            }
-
-            @Override
-            public void onDataNotAvailable() {
-
-            }
-        });
 
         mEpisodesRepository.getDownloadedEpisodes(true, new EpisodesDataSource.LoadEpisodesCallback() {
             @Override
@@ -95,29 +112,27 @@ public class CategoryPresenter implements CategoryContract.Presenter{
             }
         });
 
-//        mEpisodesRepository.getFirstNumberOfEpisodeByType(type, 10, new EpisodesDataSource.LoadEpisodesCallback() {
-//            @Override
-//            public void onEpisodesLoaded(List<Episode> episodes) {
-//                Gson gson = new GsonBuilder().setPrettyPrinting().create();
-////                Gson gson = new Gson();
-//                String json = gson.toJson(episodes, new TypeToken<ArrayList<Episode>>() {
-//                }.getType());
-//
-//                Log.d("ky.nd", json);
-//            }
-//
-//            @Override
-//            public void onDataNotAvailable() {
-//
-//            }
-//        });
-        ArrayList<Episode> arrayList = new ArrayList();
-        Gson gson = new Gson();
+    }
 
-        arrayList = gson.fromJson(loadJSONFromAsset(), new TypeToken<ArrayList<Episode>>() {
-        }.getType());
+    @Override
+    public void loadPreviewEpisodes(final EpisodeType type) {
+        if (mCategoryView != null) {
+            mCategoryView.setLoadingIndicator(true);
+        }
+        mEpisodesRepository.getFirstNumberOfEpisodeByType(type, NUMBER_OF_PREVIEW, new EpisodesDataSource.LoadEpisodesCallback() {
+            @Override
+            public void onEpisodesLoaded(List<Episode> episodes) {
+                if (mCategoryView != null) {
+                    mCategoryView.showPreviewEpisodes(type, episodes);
+                    mCategoryView.setLoadingIndicator(false);
+                }
+            }
 
-        Log.d("ky.nd", "" + arrayList.size());
+            @Override
+            public void onDataNotAvailable() {
+
+            }
+        });
 
     }
 
@@ -143,8 +158,27 @@ public class CategoryPresenter implements CategoryContract.Presenter{
     }
 
     @Override
+    public void checkForDatabaseUpdate() {
+
+    }
+
+    @Override
     public void checkInternetConnection() {
 
+    }
+
+    @Override
+    public void shareApplication() {
+        if (mCategoryView != null) {
+            Toast.makeText(((CategoryFragment)mCategoryView).getActivity(), "", Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    @Override
+    public void rateApplication() {
+        if (mCategoryView != null) {
+            new RateManager(((CategoryFragment)mCategoryView).getActivity(), new DialogManager()).showRate();
+        }
     }
 
     @Override

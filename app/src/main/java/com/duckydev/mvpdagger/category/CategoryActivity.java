@@ -153,49 +153,54 @@ public class CategoryActivity extends DaggerAppCompatActivity implements Categor
                                 case 2:
                                     // Recent Audios
                                     intent.putExtra(EXTRA_FEATURE, fromEpisodeType(EpisodeType.RECENT_AUDIOS));
+                                    startActivity(intent);
                                     break;
                                 case 3:
                                     // Videos
-                                    intent.putExtra(EXTRA_FEATURE, fromEpisodeType(EpisodeType.ENGLISH_WE_SPEAK));
+//                                    intent.putExtra(EXTRA_FEATURE, fromEpisodeType(EpisodeType.ENGLISH_WE_SPEAK));
                                     break;
                                 case 4:
                                     // History
-                                    intent.putExtra(EXTRA_FEATURE, fromEpisodeType(EpisodeType.LINGOHACK));
+//                                    intent.putExtra(EXTRA_FEATURE, fromEpisodeType(EpisodeType.LINGOHACK));
                                     break;
                                 case 5:
-                                    intent.putExtra(EXTRA_FEATURE, fromEpisodeType(EpisodeType.NEWS_REPORT));
+//                                    intent.putExtra(EXTRA_FEATURE, fromEpisodeType(EpisodeType.NEWS_REPORT));
                                     break;
                                 case 6:
                                     // Vocabularies
-                                    intent.putExtra(EXTRA_FEATURE, fromEpisodeType(EpisodeType.PRONUNCIATION));
+//                                    intent.putExtra(EXTRA_FEATURE, fromEpisodeType(EpisodeType.PRONUNCIATION));
                                     break;
                                 case 7:
                                     // Favorites
                                     intent.putExtra(EXTRA_FEATURE, fromEpisodeType(EpisodeType.FAVORITES));
+                                    startActivity(intent);
                                     break;
                                 case 8:
                                     // Downloads
                                     intent.putExtra(EXTRA_FEATURE, fromEpisodeType(EpisodeType.DOWNLOADS));
+                                    startActivity(intent);
                                     break;
                                 case 9:
                                     intent.putExtra(EXTRA_FEATURE, fromEpisodeType(EpisodeType.RECENT_AUDIOS));
+                                    startActivity(intent);
                                     break;
                                 case 10:
                                     // Dictionary
                                     intent.putExtra(EXTRA_FEATURE, fromEpisodeType(EpisodeType.FAVORITES));
+                                    startActivity(intent);
                                     break;
                                 case 11:
                                     // Rate
-                                    intent.putExtra(EXTRA_FEATURE, fromEpisodeType(EpisodeType.FAVORITES));
+                                    mCategoryPresenter.rateApplication();
                                     break;
                                 case 14:
                                     // Share
                                     intent.putExtra(EXTRA_FEATURE, fromEpisodeType(EpisodeType.DOWNLOADS));
+                                    startActivity(intent);
                                     break;
 
                             }
 
-                            startActivity(intent);
                         }
 
                         return false;

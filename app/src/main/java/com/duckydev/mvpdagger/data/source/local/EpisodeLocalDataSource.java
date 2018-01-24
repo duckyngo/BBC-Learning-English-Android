@@ -279,6 +279,17 @@ public class EpisodeLocalDataSource implements EpisodesDataSource {
         mAppExecutors.diskIO().execute(insertRunnable);
     }
 
+    @Override
+    public void insertEpisodeList(@NonNull final List<Episode> episodes) {
+        Runnable insertRunnable = new Runnable() {
+            @Override
+            public void run() {
+                mEpisodeDao.insertEpisodeList(episodes);
+            }
+        };
+        mAppExecutors.diskIO().execute(insertRunnable);
+    }
+
 
     @Override
     public void updateEpisode(@NonNull Episode episode) {

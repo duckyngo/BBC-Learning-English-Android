@@ -35,6 +35,8 @@ public interface EpisodesDataSource {
 
     void insertEpisode(@NonNull Episode episode);
 
+    void insertEpisodeList(@NonNull List<Episode> episodes);
+
     void updateEpisode(@NonNull Episode episode);
 
     void updateFavorite(@NonNull Episode episode, boolean isFavorite);

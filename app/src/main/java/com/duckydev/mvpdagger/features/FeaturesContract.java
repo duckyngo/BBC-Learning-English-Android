@@ -37,17 +37,22 @@ public interface FeaturesContract {
 
         void showFavoritedFilterLabel();
 
+        void showWatchedFilterLabel();
+
         void showAllFilterLabel();
 
         void showNoDownloadedEpisode();
 
         void showNoFavoritedEpisode();
 
+        void showNoWatchedEpisode();
+
         void showNoEpisode();
 
         boolean isActive();
 
         void showFilteringPopUpMenu();
+
     }
 
 

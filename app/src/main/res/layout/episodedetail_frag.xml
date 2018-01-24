@@ -29,10 +29,13 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="@dimen/common_side_padding_4"
+                    android:paddingBottom="@dimen/common_side_padding_8"
+                    android:paddingRight="@dimen/common_side_padding_8"
+                    android:paddingLeft="@dimen/common_side_padding_8"
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/feature_title_tv"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textColor="@color/black"
@@ -52,7 +55,9 @@
                         android:id="@+id/description_tv"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:padding="@dimen/common_side_padding_8"
+                        android:paddingBottom="@dimen/common_side_padding_8"
+                        android:paddingTop="@dimen/common_side_padding_8"
+                        android:paddingRight="@dimen/common_side_padding_8"
                         android:textStyle="bold"
                         android:text="@string/test_string_1" />
 
@@ -60,18 +65,25 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
-                        android:padding="@dimen/common_side_padding_4"
+                        android:paddingBottom="@dimen/common_side_padding_8"
+                        android:paddingTop="@dimen/common_side_padding_8"
+                        android:paddingRight="@dimen/common_side_padding_8"
                         >
 
                         <TextView
+                            android:id="@+id/duration_tv"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="24:21"/>
 
                         <RelativeLayout
+                            android:id="@+id/listen_rl"
                             android:paddingLeft="@dimen/common_side_padding_8"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:clickable="true"
+                            android:focusable="true">
 
                             <ImageView
                                 android:id="@+id/listen_iv"
@@ -98,32 +110,44 @@
                         android:layout_height="wrap_content">
 
                         <ImageView
+                            android:id="@+id/add_to_mylist_iv"
                             android:layout_margin="@dimen/common_side_padding_4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:src="@drawable/ic_playlist_add"
-                            />
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:clickable="true"
+                            android:focusable="true"/>
 
                         <ImageView
+                            android:id="@+id/favorite_iv"
                             android:layout_margin="@dimen/common_side_padding_4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:src="@drawable/ic_favorite"
-                            />
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:clickable="true"
+                            android:focusable="true"/>
 
                         <ImageView
+                            android:id="@+id/download_iv"
                             android:layout_margin="@dimen/common_side_padding_4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:src="@drawable/ic_cloud_download"
-                            />
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:clickable="true"
+                            android:focusable="true"/>
 
                         <ImageView
+                            android:id="@+id/share_iv"
                             android:layout_margin="@dimen/common_side_padding_4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:src="@drawable/ic_share"
-                            />
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:clickable="true"
+                            android:focusable="true"/>
 
                     </LinearLayout>
                 </LinearLayout>
