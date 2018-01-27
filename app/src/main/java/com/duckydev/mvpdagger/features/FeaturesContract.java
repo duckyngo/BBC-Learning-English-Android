@@ -1,5 +1,6 @@
 package com.duckydev.mvpdagger.features;
 
+import android.content.Context;
 import android.support.annotation.NonNull;
 
 import com.duckydev.mvpdagger.BasePresenter;
@@ -31,7 +32,7 @@ public interface FeaturesContract {
 
         void showSuccessfullyDeleteMessage();
 
-        void showDownloadComplete(Episode episode);
+        void showDownloadComplete();
 
         void showDownloadedFilterLabel();
 
@@ -58,13 +59,13 @@ public interface FeaturesContract {
 
     interface Presenter extends BasePresenter<View> {
 
-        void getEpisodeByType(EpisodeType type);
+        void loadFeaturedEpisode();
 
-        void getFavoriteEpisodes();
+        void loadFavoriteEpisodes();
 
-        void getDownloadedEpisodes();
+        void loadDownloadedEpisodes();
 
-        void getRecentAudioEpisodes();
+        void getRecentAudioEpisodes(Context context);
 
         void openEpisodeDetails(@NonNull Episode requestedEpisode);
 
@@ -79,6 +80,8 @@ public interface FeaturesContract {
         EpisodesFilterType getFiltering();
 
         void setFiltering(EpisodesFilterType requestType);
+
+        void setEpisodeType(EpisodeType episodeType);
 
     }
 

@@ -43,6 +43,8 @@ public class Episode {
 
     private String mDownloadedMediaUrl;
 
+    private String mDownloadedThumbImageUrl;
+
     private boolean isPlayed = false;
 
     private boolean isDownloaded = false;
@@ -54,7 +56,7 @@ public class Episode {
     public Episode(int _id, int typeIndex, EpisodeType type, String thumbImageUrl, String title, String episodeDate, String description, String mediaUrl,
 
                    String mediaDuration, String summary, String transcript, String todaysHeadline, String vocabulary, String exercises, String answers,
-                   String downloadedMediaUrl, boolean isPlayed, boolean isDownloaded, boolean isFavorite, boolean isAddedWatchList) {
+                   String downloadedMediaUrl, String downloadedThumbImageUrl, boolean isPlayed, boolean isDownloaded, boolean isFavorite, boolean isAddedWatchList) {
         this._id = _id;
         mTypeIndex = typeIndex;
         mType = type;
@@ -71,6 +73,7 @@ public class Episode {
         mExercises = exercises;
         mAnswers = answers;
         mDownloadedMediaUrl = downloadedMediaUrl;
+        mDownloadedThumbImageUrl = downloadedThumbImageUrl;
         this.isPlayed = isPlayed;
         this.isDownloaded = isDownloaded;
         this.isFavorite = isFavorite;
@@ -183,5 +186,13 @@ public class Episode {
 
     public void setAddedWatchList(boolean addedWatchList) {
         isAddedWatchList = addedWatchList;
+    }
+
+    public String getDownloadedThumbImageUrl() {
+        return mDownloadedThumbImageUrl;
+    }
+
+    public void setDownloadedThumbImageUrl(String downloadedThumbImageUrl) {
+        mDownloadedThumbImageUrl = downloadedThumbImageUrl;
     }
 }

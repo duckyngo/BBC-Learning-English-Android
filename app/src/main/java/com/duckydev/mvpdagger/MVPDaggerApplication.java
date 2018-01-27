@@ -1,6 +1,7 @@
 package com.duckydev.mvpdagger;
 
 import com.duckydev.mvpdagger.data.source.EpisodesRepository;
+import com.duckydev.mvpdagger.data.source.VocabularyRepository;
 import com.duckydev.mvpdagger.di.DaggerAppComponent;
 
 import javax.inject.Inject;
@@ -15,7 +16,10 @@ import dagger.android.support.DaggerApplication;
 public class MVPDaggerApplication extends DaggerApplication {
 
     @Inject
-    EpisodesRepository episodesRepository;
+    EpisodesRepository mEpisodesRepository;
+
+    @Inject
+    VocabularyRepository mVocabularyRepository;
 
     @Override
     protected AndroidInjector<? extends DaggerApplication> applicationInjector() {
@@ -24,7 +28,11 @@ public class MVPDaggerApplication extends DaggerApplication {
     }
 
     public EpisodesRepository getEpisodesRepository() {
-        return episodesRepository;
+        return mEpisodesRepository;
+    }
+
+    public VocabularyRepository getVocabularyRepository() {
+        return mVocabularyRepository;
     }
 
 }

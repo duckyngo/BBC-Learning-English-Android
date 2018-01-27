@@ -40,7 +40,7 @@ public enum EpisodeType {
         this.primitive_type = type;
     }
 
-    public static String getEpisodeTypeText(EpisodeType type, Context context) {
+    public static String getEpisodeTypeText(Context context, EpisodeType type) {
         return context.getResources().getStringArray(R.array.list_features)[fromEpisodeType(type)];
     }
 }

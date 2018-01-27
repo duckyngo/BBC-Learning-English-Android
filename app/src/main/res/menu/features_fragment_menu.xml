@@ -8,10 +8,10 @@
         android:icon="@drawable/ic_filter_list"
         app:showAsAction="always"/>
 
-    <item
-        android:id="@+id/menu_refresh"
-        android:title="Refresh"
-        app:showAsAction="never"/>
+    <!--<item-->
+        <!--android:id="@+id/menu_refresh"-->
+        <!--android:title="Refresh"-->
+        <!--app:showAsAction="never"/>-->
 
 
 </menu>

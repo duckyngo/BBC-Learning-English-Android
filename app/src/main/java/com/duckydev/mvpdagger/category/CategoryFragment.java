@@ -3,6 +3,7 @@ package com.duckydev.mvpdagger.category;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.Handler;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.widget.NestedScrollView;
@@ -26,6 +27,10 @@ import com.duckydev.mvpdagger.util.subview.DuckyViewPager;
 import com.duckydev.mvpdagger.util.subview.FeatureCirclePageIndicator;
 import com.squareup.picasso.Picasso;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.nio.channels.FileChannel;
 import java.util.List;
 
 import javax.inject.Inject;
@@ -154,12 +159,12 @@ public class CategoryFragment extends DaggerFragment implements CategoryContract
         View rootView = inflater.inflate(R.layout.category_frag, container, false);
         ButterKnife.bind(this, rootView);
 
-        mTitle01.setText(getResources().getStringArray(R.array.list_features)[EpisodeType.fromEpisodeType(EpisodeType.SIX_MINUTE_ENGLISH)]);
-        mTitle02.setText(getResources().getStringArray(R.array.list_features)[EpisodeType.fromEpisodeType(EpisodeType.ENGLISH_WE_SPEAK)]);
-        mTitle03.setText(getResources().getStringArray(R.array.list_features)[EpisodeType.fromEpisodeType(EpisodeType.ENGLISH_AT_WORK)]);
-        mTitle04.setText(getResources().getStringArray(R.array.list_features)[EpisodeType.fromEpisodeType(EpisodeType.LINGOHACK)]);
-        mTitle05.setText(getResources().getStringArray(R.array.list_features)[EpisodeType.fromEpisodeType(EpisodeType.DRAMA)]);
-        mTitle06.setText(getResources().getStringArray(R.array.list_features)[EpisodeType.fromEpisodeType(EpisodeType.NEWS_REPORT)]);
+        mTitle01.setText(EpisodeType.getEpisodeTypeText(getActivity(), EpisodeType.SIX_MINUTE_ENGLISH));
+        mTitle02.setText(EpisodeType.getEpisodeTypeText(getActivity(), EpisodeType.ENGLISH_WE_SPEAK));
+        mTitle03.setText(EpisodeType.getEpisodeTypeText(getActivity(), EpisodeType.ENGLISH_AT_WORK));
+        mTitle04.setText(EpisodeType.getEpisodeTypeText(getActivity(), EpisodeType.LINGOHACK));
+        mTitle05.setText(EpisodeType.getEpisodeTypeText(getActivity(), EpisodeType.DRAMA));
+        mTitle06.setText(EpisodeType.getEpisodeTypeText(getActivity(), EpisodeType.NEWS_REPORT));
 
         mTitle01.setOnClickListener(mOnClickListener);
         mTitle02.setOnClickListener(mOnClickListener);
@@ -186,6 +191,7 @@ public class CategoryFragment extends DaggerFragment implements CategoryContract
                 mPresenter.loadAllPreviewEpisode();
             }
         });
+//        exportDatabse("Episodes.db");
 
         return rootView;
     }
@@ -256,15 +262,15 @@ public class CategoryFragment extends DaggerFragment implements CategoryContract
 //                break;
             case SIX_MINUTE_ENGLISH:
                 feedCustomListView(type, mCustomListView01, episodes);
-                setListEpisode(episodes);
                 break;
         }
     }
 
-    private void setListEpisode(List<Episode> list) {
-        if (mDuckyViewPager != null && list != null && !list.isEmpty()) {
+    @Override
+    public void showDuckyEpisodes(List<Episode> episodes) {
+        if (mDuckyViewPager != null && episodes != null && !episodes.isEmpty()) {
             if (mFeaturedPagerAdapter == null) {
-                mFeaturedPagerAdapter = new FeaturedPagerAdapter(getActivity(), list);
+                mFeaturedPagerAdapter = new FeaturedPagerAdapter(getActivity(), episodes);
                 mDuckyViewPager.setAdapter(mFeaturedPagerAdapter);
             }
 
@@ -281,7 +287,6 @@ public class CategoryFragment extends DaggerFragment implements CategoryContract
             mHandler.postDelayed(mRunnable, 4000);
         }
     }
-
 
     @Override
     public void showEpisodes(List<Episode> episodes) {
@@ -428,27 +433,27 @@ public class CategoryFragment extends DaggerFragment implements CategoryContract
         boolean shouldScrool();
     }
 
-//    public void exportDatabse(String databaseName) {
-//        try {
-//            File sd = Environment.getExternalStorageDirectory();
-//            File data = Environment.getDataDirectory();
-//
-//            if (sd.canWrite()) {
-//                String currentDBPath = "//data//"+getActivity().getPackageName()+"//databases//"+databaseName+"";
-//                String backupDBPath = "backupname.db";
-//                File currentDB = new File(data, currentDBPath);
-//                File backupDB = new File(sd, backupDBPath);
-//
-//                if (currentDB.exists()) {
-//                    FileChannel src = new FileInputStream(currentDB).getChannel();
-//                    FileChannel dst = new FileOutputStream(backupDB).getChannel();
-//                    dst.transferFrom(src, 0, src.size());
-//                    src.close();
-//                    dst.close();
-//                }
-//            }
-//        } catch (Exception e) {
-//
-//        }
-//    }
+    public void exportDatabse(String databaseName) {
+        try {
+            File sd = Environment.getExternalStorageDirectory();
+            File data = Environment.getDataDirectory();
+
+            if (sd.canWrite()) {
+                String currentDBPath = "//data//"+getActivity().getPackageName()+"//databases//"+databaseName+"";
+                String backupDBPath = "backupname.db";
+                File currentDB = new File(data, currentDBPath);
+                File backupDB = new File(sd, backupDBPath);
+
+                if (currentDB.exists()) {
+                    FileChannel src = new FileInputStream(currentDB).getChannel();
+                    FileChannel dst = new FileOutputStream(backupDB).getChannel();
+                    dst.transferFrom(src, 0, src.size());
+                    src.close();
+                    dst.close();
+                }
+            }
+        } catch (Exception e) {
+
+        }
+    }
 }

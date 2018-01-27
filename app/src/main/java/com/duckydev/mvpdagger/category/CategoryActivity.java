@@ -6,6 +6,7 @@ import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.v4.content.ContextCompat;
+import android.support.v4.view.ViewCompat;
 import android.support.v7.app.ActionBar;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -26,6 +27,7 @@ import com.duckydev.mvpdagger.util.RateUtils;
 import com.duckydev.mvpdagger.util.subview.DuckyViewPager;
 import com.duckydev.mvpdagger.util.subview.FeatureCirclePageIndicator;
 import com.duckydev.mvpdagger.util.subview.FlingBehavior;
+import com.duckydev.mvpdagger.vocabularies.VocabulariesActivity;
 import com.mikepenz.materialdrawer.Drawer;
 import com.mikepenz.materialdrawer.DrawerBuilder;
 import com.mikepenz.materialdrawer.holder.StringHolder;
@@ -108,9 +110,9 @@ public class CategoryActivity extends DaggerAppCompatActivity implements Categor
                         new SecondaryDrawerItem().withName(R.string.drawer_item_history).withIcon(R.drawable.ic_history).withSelectable(false),
                         new SectionDrawerItem().withName(R.string.drawer_item_my_collections),
                         new SecondaryDrawerItem().withName(R.string.drawer_item_vocabularies).withIcon(R.drawable.ic_action_book).withSelectable(false),
-                        new SecondaryDrawerItem().withName(R.string.drawer_item_favorites).withIcon(R.drawable.ic_favorite).withBadge("6").withSelectable(false)
+                        new SecondaryDrawerItem().withName(R.string.drawer_item_favorites).withIcon(R.drawable.ic_favorite).withBadge("0").withSelectable(false)
                                 .withIdentifier(4),
-                        new SecondaryDrawerItem().withName(R.string.drawer_item_downloads).withIcon(R.drawable.ic_offline_pin).withBadge("12").withSelectable(false)
+                        new SecondaryDrawerItem().withName(R.string.drawer_item_downloads).withIcon(R.drawable.ic_offline_pin).withBadge("0").withSelectable(false)
                                 .withIdentifier(5),
                         new SectionDrawerItem().withName(R.string.drawer_item_others).withSelectable(false),
                         new SecondaryDrawerItem().withName(R.string.drawer_item_dictionary).withIcon(R.drawable.ic_action_book).withSelectable(false),
@@ -168,7 +170,8 @@ public class CategoryActivity extends DaggerAppCompatActivity implements Categor
                                     break;
                                 case 6:
                                     // Vocabularies
-//                                    intent.putExtra(EXTRA_FEATURE, fromEpisodeType(EpisodeType.PRONUNCIATION));
+                                    Intent vocaIntent = new Intent(CategoryActivity.this, VocabulariesActivity.class);
+                                    startActivity(vocaIntent);
                                     break;
                                 case 7:
                                     // Favorites
@@ -371,9 +374,24 @@ public class CategoryActivity extends DaggerAppCompatActivity implements Categor
         layoutParams.setBehavior(new FlingBehavior(this, null));
         mAppBarLayout.setLayoutParams(layoutParams);
         mAppBarLayout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
+            boolean isShow = false;
+            int scrollRange = -1;
             @Override
             public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
-                int totalScrollRange = appBarLayout.getTotalScrollRange();
+                scrollRange = appBarLayout.getTotalScrollRange();
+                String text = "";
+
+                if (scrollRange + verticalOffset == 0) {
+                    text = "Features";
+                    isShow = true;
+                } else if (isShow) {
+                    ViewCompat.setElevation(appBarLayout, 0.0f);
+                    isShow = false;
+                }
+
+                if (!getSupportActionBar().getTitle().toString().equals(text)) {
+                    getSupportActionBar().setTitle(text);
+                }
             }
         });
     }

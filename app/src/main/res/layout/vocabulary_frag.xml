@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/lightest_grey"
+                android:fitsSystemWindows="true"
+                tools:context="com.duckydev.mvpdagger.vocabularies.VocabulariesActivity">
+
+
+    <ListView
+        android:id="@+id/vocabulary_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lightest_grey"
+        android:divider="@null"
+        android:orientation="vertical"/>
+
+    <LinearLayout
+        android:id="@+id/noVocabularies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/noVocabulariesIcon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_report" />
+
+        <TextView
+            android:id="@+id/noVocabulariesMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="You have no Vocabularies!"
+            android:layout_marginBottom="@dimen/list_item_padding" />
+
+        <TextView
+            android:id="@+id/noVocabulariesAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:background="@drawable/touch_feedback"
+            android:gravity="center"
+            android:text="Add" />
+
+    </LinearLayout>
+
+</RelativeLayout>

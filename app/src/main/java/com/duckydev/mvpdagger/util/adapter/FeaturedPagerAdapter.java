@@ -39,7 +39,7 @@ public class FeaturedPagerAdapter extends PagerAdapter implements ViewPager.OnPa
     private final Activity mActivity;
     private LayoutInflater mLayoutInflater;
     public List<Episode> mEpisodeList;
-    private int mInitialPos = -1;
+    private int mInitialPos = 0;
     private int h;
 
     public FeaturedPagerAdapter(Activity activity, List<Episode> episodeList) {

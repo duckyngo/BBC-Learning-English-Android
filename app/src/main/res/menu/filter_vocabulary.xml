@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/filter_all"
+          android:title="All"/>
+
+    <item
+        android:id="@+id/filter_new"
+        android:title="New Vocabulary"/>
+
+    <item
+        android:id="@+id/filter_favorited"
+        android:title="New Vocabulary"/>
+
+    <item android:id="@+id/filter_learned"
+          android:title="Learned Vocabulary"/>
+
+    <item android:id="@+id/filter_delete"
+          android:title="In Trash"/>
+</menu>

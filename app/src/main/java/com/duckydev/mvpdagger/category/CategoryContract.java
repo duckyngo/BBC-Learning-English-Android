@@ -21,6 +21,8 @@ public interface CategoryContract {
 
         void showPreviewEpisodes(EpisodeType type, List<Episode> episodes);
 
+        void showDuckyEpisodes(List<Episode> episodes);
+
         void showEpisodes(List<Episode> episodes);
 
         void showFeatures(EpisodeType type);

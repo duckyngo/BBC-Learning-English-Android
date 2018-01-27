@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://E:\English\NewP\DaggerExample\NewApproach\BBC-Learning-English.iml" filepath="E:\English\NewP\DaggerExample\NewApproach\BBC-Learning-English.iml" />
-      <module fileurl="file://$PROJECT_DIR$/NewApproach.iml" filepath="$PROJECT_DIR$/NewApproach.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NewLibrary.iml" filepath="$PROJECT_DIR$/NewLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
       <module fileurl="file://$PROJECT_DIR$/viewpagerindicator/viewpagerindicator.iml" filepath="$PROJECT_DIR$/viewpagerindicator/viewpagerindicator.iml" />

@@ -15,6 +15,8 @@ public interface EpisodesDataSource {
 
     void getEpisodesByPlayState(@NonNull boolean isPlayed, @NonNull LoadEpisodesCallback callback);
 
+    void getEpisodesByListId(int[] ids, @NonNull LoadEpisodesCallback callback);
+
     void getEpisodesByTypeAndPlayState(@NonNull EpisodeType type, @NonNull boolean isPlayed, @NonNull LoadEpisodesCallback callback);
 
     void getDownloadedEpisodes(@NonNull boolean isDownloaded, LoadEpisodesCallback callback);

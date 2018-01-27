@@ -63,7 +63,7 @@ public class EpisodeDetailPresenter implements EpisodeDetailContract.Presenter {
             @Override
             public void onEpisodeLoaded(Episode episode) {
                 if (mView != null) {
-                    SharePreferenceUtils.updateConversationHistoryId(((EpisodeDetailFragment) mView).getActivity(), episode.get_id());
+                    SharePreferenceUtils.updateEpisodeHistoryId(((EpisodeDetailFragment) mView).getActivity(), episode.get_id());
                     mEpisodesRepository.markPlayedEpisode(episode);
                     mView.showEpisode(episode);
                     setAudioPlayerDataSource(episode.getMediaUrl());

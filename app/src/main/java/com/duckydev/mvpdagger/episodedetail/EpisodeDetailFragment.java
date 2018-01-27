@@ -218,11 +218,11 @@ public class EpisodeDetailFragment extends DaggerFragment implements EpisodeDeta
         }
 
         mFavoriteIv.setImageResource(episode.isFavorite() ? R.drawable.ic_favorite : R.drawable.ic_favorite_border );
-        mDownloadIv.setImageResource(episode.isDownloaded() ? R.drawable.ic_cloud_download : R.drawable.ic_delete_forever);
+        mDownloadIv.setImageResource(episode.isDownloaded() ? R.drawable.ic_delete_forever : R.drawable.ic_cloud_download);
 
         mDescriptionTv.setText(episode.getDescription());
 
-        mIntroFeatureTitle.setText(EpisodeType.getEpisodeTypeText(episode.getType(), getActivity()));
+        mIntroFeatureTitle.setText(EpisodeType.getEpisodeTypeText(getActivity(), episode.getType()));
 
         mIntroDurationTime.setText(episode.getMediaDuration());
 

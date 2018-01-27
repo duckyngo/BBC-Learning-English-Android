@@ -35,11 +35,10 @@ dependencies {
     // Gson
     compile "com.google.code.gson:gson:$rootProject.gsonVersion"
 
-    // Firebase
-//    compile 'com.google.firebase:firebase-core:$rootProject.firebaseVersion'
-//    compile 'com.google.firebase:firebase-config:$rootProject.firebaseVersion'
-//    compile 'com.google.firebase:firebase-storage:$rootProject.firebaseVersion'
-
+//     Firebase
+//    compile "com.google.firebase:firebase-core:$rootProject.firebaseVersion"
+//    compile "com.google.firebase:firebase-config:$rootProject.firebaseVersion"
+//    compile "com.google.firebase:firebase-storage:$rootProject.firebaseVersion"
 
     // Dagger dependencies
     annotationProcessor "com.google.dagger:dagger-compiler:$rootProject.daggerVersion"

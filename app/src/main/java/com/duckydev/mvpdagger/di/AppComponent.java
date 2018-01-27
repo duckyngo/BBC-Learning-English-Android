@@ -4,7 +4,8 @@ import android.app.Application;
 
 import com.duckydev.mvpdagger.MVPDaggerApplication;
 import com.duckydev.mvpdagger.data.source.EpisodesRepository;
-import com.duckydev.mvpdagger.data.source.EpisodesRepositoryModule;
+import com.duckydev.mvpdagger.data.source.RepositoryModule;
+import com.duckydev.mvpdagger.data.source.VocabularyRepository;
 
 import javax.inject.Singleton;
 
@@ -18,13 +19,15 @@ import dagger.android.support.AndroidSupportInjectionModule;
  */
 
 @Singleton
-@Component(modules = {EpisodesRepositoryModule.class,
+@Component(modules = {RepositoryModule.class,
         ApplicationModule.class,
         ActivityBindingModule.class,
         AndroidSupportInjectionModule.class})
 public interface AppComponent extends AndroidInjector<MVPDaggerApplication> {
 
     EpisodesRepository getEpisodesRepository();
+
+    VocabularyRepository getVocabulariesRepository();
 
     @Component.Builder
     interface Builder {

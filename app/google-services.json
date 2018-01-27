@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "139205003331",
+    "firebase_url": "https://bbc-learning-english-1e193.firebaseio.com",
+    "project_id": "bbc-learning-english-1e193",
+    "storage_bucket": "bbc-learning-english-1e193.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139205003331:android:f25368754f4e9dbf",
+        "android_client_info": {
+          "package_name": "com.duckydev.mvpdagger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139205003331-r00jsjsa77kcgvk3arm5lijouqbpaq0u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1QjA73WR2oXH2oN2OGFvIUH_fhX8kI8Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

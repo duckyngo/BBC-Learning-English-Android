@@ -1,7 +1,6 @@
 package com.duckydev.mvpdagger.category;
 
 import android.support.annotation.Nullable;
-import android.util.Log;
 import android.widget.Toast;
 
 import com.duckydev.mvpdagger.data.Episode;
@@ -11,9 +10,6 @@ import com.duckydev.mvpdagger.di.ActivityScoped;
 import com.duckydev.mvpdagger.util.EpisodeType;
 import com.duckydev.mvpdagger.util.wiget.DialogManager;
 import com.duckydev.mvpdagger.util.wiget.RateManager;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.reflect.TypeToken;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -27,32 +23,45 @@ import javax.inject.Inject;
  */
 
 @ActivityScoped
-public class CategoryPresenter implements CategoryContract.Presenter{
+public class CategoryPresenter implements CategoryContract.Presenter {
 
     private final EpisodesRepository mEpisodesRepository;
 
     @Nullable
     private CategoryContract.View mCategoryView;
-    private int NUMBER_OF_PREVIEW = 5;
+    private int PREVIEW_EPISODE_SIZE = 6;
+    private int DUCKY_EPISODE_SIZE = 7;
     boolean isFirstRun = true;
+    List<Episode> duckyEpisodeList = new ArrayList<>();
 
     @Inject
     public CategoryPresenter(EpisodesRepository episodesRepository) {
         mEpisodesRepository = episodesRepository;
     }
 
+//    List<Episode> episodes3 = new ArrayList<>();
+//    List<Episode> episodes2 = new ArrayList<>();
+//    List<Episode> episodes1 = new ArrayList<>();
+//    List<Episode> episodes0 = new ArrayList<>();
+
     @Override
     public void loadAllPreviewEpisode() {
 
-//        mEpisodesRepository.getFirstNumberOfEpisodeByType(EpisodeType.ENGLISH_WE_SPEAK, 10, new EpisodesDataSource.LoadEpisodesCallback() {
+
+//        mEpisodesRepository.getFirstNumberOfEpisodeByType(EpisodeType.ENGLISH_WE_SPEAK, 15, new EpisodesDataSource.LoadEpisodesCallback() {
 //            @Override
 //            public void onEpisodesLoaded(List<Episode> episodes) {
-//                Gson gson = new GsonBuilder().setPrettyPrinting().create();
-////                Gson gson = new Gson();
-//                String json = gson.toJson(episodes, new TypeToken<ArrayList<Episode>>() {
-//                }.getType());
-//
-//                Log.d("ky.nd", json);
+//                for (int i = 0; i <15; i++) {
+//                    if (i < 5) {
+//                        episodes3.add(episodes.get(i));
+//                    } else if (i < 10) {
+//                        episodes2.add(episodes.get(i));
+//                    } else if (i < 12) {
+//                        episodes1.add(episodes.get(i));
+//                    } else {
+//                        episodes0.add(episodes.get(i));
+//                    }
+//                }
 //            }
 //
 //            @Override
@@ -60,20 +69,108 @@ public class CategoryPresenter implements CategoryContract.Presenter{
 //
 //            }
 //        });
+//
+//        mEpisodesRepository.getFirstNumberOfEpisodeByType(EpisodeType.LINGOHACK, 15, new EpisodesDataSource.LoadEpisodesCallback() {
+//            @Override
+//            public void onEpisodesLoaded(List<Episode> episodes) {
+//                for (int i = 0; i <15; i++) {
+//                    if (i < 5) {
+//                        episodes3.add(episodes.get(i));
+//                    } else if (i < 10) {
+//                        episodes2.add(episodes.get(i));
+//                    } else if (i < 12) {
+//                        episodes1.add(episodes.get(i));
+//                    } else {
+//                        episodes0.add(episodes.get(i));
+//                    }
+//                }
+//            }
+//
+//            @Override
+//            public void onDataNotAvailable() {
+//
+//            }
+//        });
+//
+//        mEpisodesRepository.getFirstNumberOfEpisodeByType(EpisodeType.SIX_MINUTE_ENGLISH, 15, new EpisodesDataSource.LoadEpisodesCallback() {
+//            @Override
+//            public void onEpisodesLoaded(List<Episode> episodes) {
+//                for (int i = 0; i <15; i++) {
+//                    if (i < 5) {
+//                        episodes3.add(episodes.get(i));
+//                    } else if (i < 10) {
+//                        episodes2.add(episodes.get(i));
+//                    } else if (i < 12) {
+//                        episodes1.add(episodes.get(i));
+//                    } else {
+//                        episodes0.add(episodes.get(i));
+//                    }
+//                }
+//            }
+//
+//            @Override
+//            public void onDataNotAvailable() {
+//
+//            }
+//        });
+//
+//        mEpisodesRepository.getFirstNumberOfEpisodeByType(EpisodeType.DRAMA, 15, new EpisodesDataSource.LoadEpisodesCallback() {
+//            @Override
+//            public void onEpisodesLoaded(List<Episode> episodes) {
+//                for (int i = 0; i <15; i++) {
+//                    if (i < 5) {
+//                        episodes3.add(episodes.get(i));
+//                    } else if (i < 10) {
+//                        episodes2.add(episodes.get(i));
+//                    } else if (i < 12) {
+//                        episodes1.add(episodes.get(i));
+//                    } else {
+//                        episodes0.add(episodes.get(i));
+//                    }
+//                }
+//            }
+//
+//            @Override
+//            public void onDataNotAvailable() {
+//
+//            }
+//        });
+//
+//
+//
+//        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+////                Gson gson = new Gson();
+//        String version0 = gson.toJson(episodes0, new TypeToken<ArrayList<Episode>>() {
+//        }.getType());
+//
+//        String version1 = gson.toJson(episodes1, new TypeToken<ArrayList<Episode>>() {
+//        }.getType());
+//
+//        String version2 = gson.toJson(episodes2, new TypeToken<ArrayList<Episode>>() {
+//        }.getType());
+//
+//        String version3 = gson.toJson(episodes3, new TypeToken<ArrayList<Episode>>() {
+//        }.getType());
+//
+//
+//        Log.d("ky.nd", version0);
+//        Log.d("ky.nd", version1);
+//        Log.d("ky.nd", version2);
+//        Log.d("ky.nd", version3);
 
-        ArrayList<Episode> arrayList = new ArrayList();
-        Gson gson = new Gson();
-
-        arrayList = gson.fromJson(loadJSONFromAsset(), new TypeToken<ArrayList<Episode>>() {
-        }.getType());
-
-        Log.d("ky.nd", "" + arrayList.size());
-
-        if (!isFirstRun) {
-                mEpisodesRepository.insertEpisodeList(arrayList);
-        }
-        isFirstRun = false;
-
+//        ArrayList<Episode> arrayList = new ArrayList();
+//        Gson gson = new Gson();
+//
+//        arrayList = gson.fromJson(loadJSONFromAsset(), new TypeToken<ArrayList<Episode>>() {
+//        }.getType());
+//
+//        Log.d("ky.nd", "" + arrayList.size());
+//
+//        if (!isFirstRun) {
+//                mEpisodesRepository.insertEpisodeList(arrayList);
+//        }
+//        isFirstRun = false;
+        duckyEpisodeList.clear();
 
         loadPreviewEpisodes(EpisodeType.SIX_MINUTE_ENGLISH);
         loadPreviewEpisodes(EpisodeType.DRAMA);
@@ -82,7 +179,6 @@ public class CategoryPresenter implements CategoryContract.Presenter{
         loadPreviewEpisodes(EpisodeType.ENGLISH_AT_WORK);
         loadPreviewEpisodes(EpisodeType.NEWS_REPORT);
         loadPreviewEpisodes(EpisodeType.ENGLISH_WE_SPEAK);
-
 
         mEpisodesRepository.getDownloadedEpisodes(true, new EpisodesDataSource.LoadEpisodesCallback() {
             @Override
@@ -119,12 +215,17 @@ public class CategoryPresenter implements CategoryContract.Presenter{
         if (mCategoryView != null) {
             mCategoryView.setLoadingIndicator(true);
         }
-        mEpisodesRepository.getFirstNumberOfEpisodeByType(type, NUMBER_OF_PREVIEW, new EpisodesDataSource.LoadEpisodesCallback() {
+        mEpisodesRepository.getFirstNumberOfEpisodeByType(type, PREVIEW_EPISODE_SIZE, new EpisodesDataSource.LoadEpisodesCallback() {
             @Override
             public void onEpisodesLoaded(List<Episode> episodes) {
                 if (mCategoryView != null) {
+                    duckyEpisodeList.add(episodes.get(0));
+                    episodes.remove(0);
                     mCategoryView.showPreviewEpisodes(type, episodes);
                     mCategoryView.setLoadingIndicator(false);
+                    if (duckyEpisodeList.size() == DUCKY_EPISODE_SIZE) {
+                        mCategoryView.showDuckyEpisodes(duckyEpisodeList);
+                    }
                 }
             }
 
@@ -139,7 +240,7 @@ public class CategoryPresenter implements CategoryContract.Presenter{
     public String loadJSONFromAsset() {
         String json = null;
         try {
-            InputStream is = ((CategoryFragment)mCategoryView).getActivity().getAssets().open("yourfilename.json");
+            InputStream is = ((CategoryFragment) mCategoryView).getActivity().getAssets().open("yourfilename.json");
             int size = is.available();
             byte[] buffer = new byte[size];
             is.read(buffer);
@@ -170,14 +271,14 @@ public class CategoryPresenter implements CategoryContract.Presenter{
     @Override
     public void shareApplication() {
         if (mCategoryView != null) {
-            Toast.makeText(((CategoryFragment)mCategoryView).getActivity(), "", Toast.LENGTH_SHORT).show();
+            Toast.makeText(((CategoryFragment) mCategoryView).getActivity(), "", Toast.LENGTH_SHORT).show();
         }
     }
 
     @Override
     public void rateApplication() {
         if (mCategoryView != null) {
-            new RateManager(((CategoryFragment)mCategoryView).getActivity(), new DialogManager()).showRate();
+            new RateManager(((CategoryFragment) mCategoryView).getActivity(), new DialogManager()).showRate();
         }
     }
 

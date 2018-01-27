@@ -6,7 +6,6 @@ import android.content.SharedPreferences.Editor;
 
 import com.duckydev.mvpdagger.Constants;
 
-import java.util.HashSet;
 import java.util.StringTokenizer;
 
 
@@ -74,42 +73,37 @@ public class SharePreferenceUtils {
         editor.apply();
     }
 
-    public static void updateConversationHistoryId(Context context, int lessonId) {
+    public static void updateEpisodeHistoryId(Context context, int lessonId) {
         SharedPreferences sharedPreferences = context.getSharedPreferences(
                 Constants.BBK_PREFERENCES, Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPreferences.edit();
 
-        int[] history = getConversationHistoryId(context);
+        int[] history = getEpisodeHistoryId(context);
 
         int existLessonIndex = HistoryDuplicateUtils.isConversationHistoryIdExist(history, lessonId);
         if (existLessonIndex != -1) {
             int valueBeingMoved = history[existLessonIndex];
 
-            for (int i = existLessonIndex; i > 0; i--) {
-                history[i] = history[i-1];
-            }
+            System.arraycopy(history, 0, history, 1, existLessonIndex);
 
             history[0] = valueBeingMoved;
         } else {
 
-            for (int i = history.length - 1; i > 0; i--) {
-                history[i] = history[i-1];
-            }
+            System.arraycopy(history, 0, history, 1, history.length - 1);
             history[0] = lessonId;
 
         }
 
-
         StringBuilder str = new StringBuilder();
-        for (int i = 0; i < history.length; i++) {
-            str.append(history[i]).append(",");
+        for (int aHistory : history) {
+            str.append(aHistory).append(",");
         }
 
         editor.putString(Constants.PREF_CONVERSATION_HISTORY_ID, str.toString());
-        editor.commit();
+        editor.apply();
     }
 
-    public static int[] getConversationHistoryId(Context context) {
+    public static int[] getEpisodeHistoryId(Context context) {
         SharedPreferences sharedPreferences = context.getSharedPreferences(
                 Constants.BBK_PREFERENCES, Context.MODE_PRIVATE);
 
@@ -125,7 +119,6 @@ public class SharePreferenceUtils {
 
         return savedList;
     }
-
 
 //    public static int getLanguageCodePosition(Context context) {
 //        SharedPreferences sharedPreferences = context.getSharedPreferences(
@@ -199,12 +192,12 @@ public class SharePreferenceUtils {
 //        return sharedPreferences.getBoolean(Constants.PREF_BACKGROUND_AUDIO_MODE, true);
 //    }
 //
-//    public static void updateConversationHistoryId(Context context, int lessonId) {
+//    public static void updateEpisodeHistoryId(Context context, int lessonId) {
 //        SharedPreferences sharedPreferences = context.getSharedPreferences(
 //                Constants.BBK_PREFERENCES, Context.MODE_PRIVATE);
 //        Editor editor = sharedPreferences.edit();
 //
-//        int[] history = getConversationHistoryId(context);
+//        int[] history = getEpisodeHistoryId(context);
 //
 //        int existLessonIndex = HistoryDuplicateUtils.isConversationHistoryIdExist(history, lessonId);
 //        if (existLessonIndex != -1) {
@@ -234,7 +227,7 @@ public class SharePreferenceUtils {
 //        editor.commit();
 //    }
 //
-//    public static int[] getConversationHistoryId(Context context) {
+//    public static int[] getEpisodeHistoryId(Context context) {
 //        SharedPreferences sharedPreferences = context.getSharedPreferences(
 //                Constants.BBK_PREFERENCES, Context.MODE_PRIVATE);
 //

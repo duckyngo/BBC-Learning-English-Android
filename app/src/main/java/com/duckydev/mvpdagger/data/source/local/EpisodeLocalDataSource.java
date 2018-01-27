@@ -7,6 +7,7 @@ import com.duckydev.mvpdagger.data.source.EpisodesDataSource;
 import com.duckydev.mvpdagger.util.AppExecutors;
 import com.duckydev.mvpdagger.util.EpisodeType;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.inject.Inject;
@@ -103,6 +104,37 @@ public class EpisodeLocalDataSource implements EpisodesDataSource {
             @Override
             public void run() {
                 final List<Episode> episodes = mEpisodeDao.getEpisodesByPlayState(isPlayed);
+                mAppExecutors.mainThread().execute(new Runnable() {
+                    @Override
+                    public void run() {
+                        if (episodes.isEmpty()) {
+                            // This will be called if the table is new or just empty.
+                            callback.onDataNotAvailable();
+                        } else {
+                            callback.onEpisodesLoaded(episodes);
+                        }
+                    }
+                });
+            }
+        };
+
+        mAppExecutors.diskIO().execute(runnable);
+    }
+
+    @Override
+    public void getEpisodesByListId(final int[] ids, @NonNull final LoadEpisodesCallback callback) {
+        Runnable runnable = new Runnable() {
+            @Override
+            public void run() {
+                final List<Episode> episodes = new ArrayList<>();
+
+                for (int id : ids) {
+                    if (id == 0) {
+                        break;
+                    } else {
+                        episodes.add(mEpisodeDao.getEpisodeById(id));
+                    }
+                }
                 mAppExecutors.mainThread().execute(new Runnable() {
                     @Override
                     public void run() {

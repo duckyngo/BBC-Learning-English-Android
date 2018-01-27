@@ -32,17 +32,17 @@ public class EpisodesRepositoryTest {
             new Episode(1, 1, EpisodeType.ENGLISH_WE_SPEAK, "thumbImageUrl",
             "Title1", "episodeDate1", "Description1", "mediaUrl1", "6:50", "Summary1", "Transcript1",
             "todayHeadline1", "Vocabulary1", "Exercises1", "Answers1", "DownloadedMediaUrl1",
-            true, false, false, false),
+                    downloadedThumbImageUrl, true, false, false, false),
 
             new Episode(2, 2, EpisodeType.ENGLISH_WE_SPEAK, "thumbImageUrl",
                     "Title2", "episodeDate2", "Description2", "mediaUrl2", "3:22", "Summary2", "Transcript2",
                     "todayHeadline2", "Vocabulary2", "Exercises2", "Answers2", "DownloadedMediaUrl2",
-                    true, false, false, true),
+                    downloadedThumbImageUrl, true, false, false, true),
 
             new Episode(3, 3, EpisodeType.ENGLISH_WE_SPEAK, "thumbImageUrl",
             "Title3", "episodeDate3", "Description3", "mediaUrl3", "9:25", "Summary3", "Transcript3",
             "todayHeadline3", "Vocabulary3", "Exercises3", "Answers3", "DownloadedMediaUrl3",
-            true, false, false, false)
+                    downloadedThumbImageUrl, true, false, false, false)
             );
 
     private EpisodesRepository mEpisodesRepository;

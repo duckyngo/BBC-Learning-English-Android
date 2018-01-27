@@ -6,6 +6,8 @@ import com.duckydev.mvpdagger.episodedetail.EpisodeDetailActivity;
 import com.duckydev.mvpdagger.episodedetail.EpisodeDetailModule;
 import com.duckydev.mvpdagger.features.FeaturesActivity;
 import com.duckydev.mvpdagger.features.FeaturesModule;
+import com.duckydev.mvpdagger.vocabularies.VocabulariesActivity;
+import com.duckydev.mvpdagger.vocabularies.VocabulariesModule;
 
 import dagger.Module;
 import dagger.android.ContributesAndroidInjector;
@@ -28,5 +30,9 @@ public abstract class ActivityBindingModule {
     @ActivityScoped
     @ContributesAndroidInjector(modules = EpisodeDetailModule.class)
     abstract EpisodeDetailActivity episodeDetailActivity();
+
+    @ActivityScoped
+    @ContributesAndroidInjector(modules = VocabulariesModule.class)
+    abstract VocabulariesActivity episodeVocabulariesActivity();
 
 }

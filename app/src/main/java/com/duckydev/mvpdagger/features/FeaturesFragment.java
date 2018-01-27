@@ -2,6 +2,7 @@ package com.duckydev.mvpdagger.features;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.CardView;
 import android.view.LayoutInflater;
@@ -60,25 +61,21 @@ public class FeaturesFragment extends DaggerFragment implements FeaturesContract
 
         @Override
         public void onDownloadEpisodeClick(Episode downloadEpisodeClicked) {
-            Toast.makeText(getActivity(), "Downloaded.", Toast.LENGTH_SHORT).show();
             mPresenter.downloadEpisode(downloadEpisodeClicked);
         }
 
         @Override
         public void onFavoriteEpisodeClick(Episode favoriteEpisodeClicked) {
-            Toast.makeText(getActivity(), "Favorited", Toast.LENGTH_SHORT).show();
             mPresenter.favoriteEpisode(favoriteEpisodeClicked);
         }
 
         @Override
         public void onUnDownloadEpisodeClick(Episode unDownloadEpisodeClicked) {
-            Toast.makeText(getActivity(), "Remove Offline", Toast.LENGTH_SHORT).show();
             mPresenter.deleteDownloadedEpisode(unDownloadEpisodeClicked);
         }
 
         @Override
         public void onUnFavoriteEpisodeClick(Episode unFavoriteEpisodeClicked) {
-            Toast.makeText(getActivity(), "Unfavorite", Toast.LENGTH_SHORT).show();
             mPresenter.unFavoriteEpisode(unFavoriteEpisodeClicked);
         }
     };
@@ -93,6 +90,7 @@ public class FeaturesFragment extends DaggerFragment implements FeaturesContract
         super.onCreate(savedInstanceState);
 
         type = getActivity().getIntent().getIntExtra(EXTRA_FEATURE, 0);
+        mPresenter.setEpisodeType(EpisodeType.fromPrimetiveType(type));
         mFeatureNames = getActivity().getResources().getStringArray(R.array.list_features);
         ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle(mFeatureNames[type]);
     }
@@ -117,13 +115,13 @@ public class FeaturesFragment extends DaggerFragment implements FeaturesContract
         setupListview();
 
         if (type < EpisodeType.fromEpisodeType(EpisodeType.RECENT_AUDIOS)) {
-            mPresenter.getEpisodeByType(EpisodeType.fromPrimetiveType(type));
-        } else if (type == EpisodeType.fromEpisodeType(EpisodeType.DOWNLOADS)){
-            mPresenter.getDownloadedEpisodes();
+            mPresenter.loadFeaturedEpisode();
+        } else if (type == EpisodeType.fromEpisodeType(EpisodeType.DOWNLOADS)) {
+            mPresenter.loadDownloadedEpisodes();
         } else if (type == EpisodeType.fromEpisodeType(EpisodeType.RECENT_AUDIOS)) {
-            mPresenter.getRecentAudioEpisodes();
+            mPresenter.getRecentAudioEpisodes(getActivity());
         } else if (type == EpisodeType.fromEpisodeType(EpisodeType.FAVORITES)) {
-            mPresenter.getFavoriteEpisodes();
+            mPresenter.loadFavoriteEpisodes();
         }
 
         // Set up  no tasks view
@@ -154,9 +152,9 @@ public class FeaturesFragment extends DaggerFragment implements FeaturesContract
             case R.id.menu_filter:
                 showFilteringPopUpMenu();
                 break;
-            case R.id.menu_refresh:
-                mPresenter.getEpisodeByType(EpisodeType.fromPrimetiveType(type));
-                break;
+//            case R.id.menu_refresh:
+//                mPresenter.loadFeaturedEpisode();
+//                break;
         }
         return true;
     }
@@ -184,27 +182,27 @@ public class FeaturesFragment extends DaggerFragment implements FeaturesContract
 
     @Override
     public void showSuccessfullyFavoritedMessage() {
-
+        showMessage("Episode marked favorited");
     }
 
     @Override
     public void showSuccessfullyUnFavoritedMessage() {
-
+        showMessage("Episode removed favorited");
     }
 
     @Override
     public void showSuccessfullyAddToDownloadedMessge() {
-
+        showMessage("Episode is downloading...");
     }
 
     @Override
     public void showSuccessfullyDeleteMessage() {
-
+        showMessage("Episode deleted from offline");
     }
 
     @Override
-    public void showDownloadComplete(Episode episode) {
-
+    public void showDownloadComplete() {
+        showMessage("Episode download completed!");
     }
 
     @Override
@@ -225,6 +223,10 @@ public class FeaturesFragment extends DaggerFragment implements FeaturesContract
     @Override
     public void showAllFilterLabel() {
 
+    }
+
+    private void showMessage(String message) {
+        Snackbar.make(getView(), message, Snackbar.LENGTH_LONG).show();
     }
 
     @Override
@@ -279,7 +281,7 @@ public class FeaturesFragment extends DaggerFragment implements FeaturesContract
                         mPresenter.setFiltering(EpisodesFilterType.ALL_EPISODES);
                         break;
                 }
-                mPresenter.getEpisodeByType(EpisodeType.fromPrimetiveType(type));
+                mPresenter.loadFeaturedEpisode();
                 return true;
             }
         });
@@ -315,23 +317,22 @@ public class FeaturesFragment extends DaggerFragment implements FeaturesContract
                 switch (item.getItemId()) {
                     case R.id.menu_download:
                         if (episode.isDownloaded()) {
-
+                            mEpisodeItemListener.onUnDownloadEpisodeClick(episode);
                         } else {
                             mEpisodeItemListener.onDownloadEpisodeClick(episode);
                         }
-
                         break;
                     case R.id.menu_listen:
                         mEpisodeItemListener.onEpisodeClick(episode);
                         break;
                     case R.id.menu_addtomylist:
                         if (episode.isFavorite()) {
+                            mEpisodeItemListener.onUnFavoriteEpisodeClick(episode);
                         } else {
                             mEpisodeItemListener.onFavoriteEpisodeClick(episode);
                         }
                         break;
                 }
-
                 return false;
             }
         });
@@ -348,7 +349,7 @@ public class FeaturesFragment extends DaggerFragment implements FeaturesContract
         if (isAdded()) {
             adapter = new CommonAdapter<Episode>(getActivity(), loadedDataList, R.layout.features_item_copy) {
                 public void convert(ViewHolder helper, final Episode item, final int pos) {
-                    if (isAdded()) {
+                    if (isAdded() && item != null) {
                         CardView normalItem = helper.getView(R.id.cardview_normal);
                         normalItem.setVisibility(View.VISIBLE);
                         ImageView imageIv = helper.getView(R.id.iv_image);

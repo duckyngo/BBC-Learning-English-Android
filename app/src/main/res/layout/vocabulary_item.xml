@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/whiteFa"
+    android:paddingBottom="@dimen/common_side_padding_8"
+    android:paddingLeft="@dimen/common_side_padding_16"
+    android:paddingRight="@dimen/common_side_padding_4"
+    android:paddingTop="@dimen/common_side_padding_8"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/order_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            style="@style/Base.TextAppearance.AppCompat.Headline"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/vocabulary_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            android:maxLines="2"
+            tools:text="drape" />
+
+        <TextView
+            android:id="@+id/definition_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- to put something such as cloth or a piece of clothing loosely over something: \n- to be loosely covered with a cloth: "
+            android:ellipsize="end"
+            android:maxLines="3"/>
+
+    </LinearLayout>
+
+</LinearLayout>

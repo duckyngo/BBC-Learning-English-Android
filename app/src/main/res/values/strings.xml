@@ -98,4 +98,51 @@
         <item>Downloads</item>
     </string-array>
 
+    <string-array name="list_vocabulary">
+        <item>stabilize</item>
+        <item>terrestrial</item>
+        <item>vegetation</item>
+        <item>Swath</item>
+        <item>amphibian</item>
+        <item>Porous</item>
+        <item>contribute</item>
+        <item>disrupt</item>
+        <item>infertile</item>
+        <item>residue</item>
+        <item>obliterate</item>
+        <item>consume</item>
+        <item>emit</item>
+        <item>sedimentation</item>
+        <item>drought</item>
+        <item>emission</item>
+        <item>facilitate</item>
+        <item>biodiversity</item>
+        <item>irreplaceable</item>
+
+    </string-array>
+
+    <string-array name="list_definition">
+
+        <item>to keep from changing , maintain</item>
+        <item>living on the land</item>
+        <item>Plants of region or era</item>
+        <item>a long strip or large area especially of land</item>
+        <item>that lives both on land and in water but must produce its eggs in water</item>
+        <item>describes something that has many small holes, so liquid or air can pass through, especially slowly</item>
+        <item>to give something in order to provide or achieve something together with other people</item>
+        <item>to prevent something from continuing as usual or as expected</item>
+        <item>cannot have babies, produce young, or produce new plants</item>
+        <item>something left after other parts have been taken away</item>
+        <item>to do away with completely, without leaving a trace</item>
+        <item>to use fuel, energy, or time, especially in large amounts</item>
+        <item>to send out a beam, noise, smell, or gas , release</item>
+        <item>deposition , sand, stones, etc. that slowly form a layer of rock</item>
+        <item>a long period when there is little or no rain</item>
+        <item>the act of sending out gas, heat, light, etc.</item>
+        <item>to make something possible or easier</item>
+        <item>the number and types of plants and animals that exist in a particular area</item>
+        <item>too special, unusual, or valuable to replace with something or someone else</item>
+
+    </string-array>
+
 </resources>

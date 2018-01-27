@@ -23,10 +23,11 @@
         </activity>
         <activity android:name=".features.FeaturesActivity">
         </activity>
-        <activity android:name=".episodedetail.EpisodeDetailActivity"
-            >
+        <activity android:name=".episodedetail.EpisodeDetailActivity">
         </activity>
         <activity android:name=".splash.SplashActivity">
+        </activity>
+        <activity android:name=".vocabularies.VocabulariesActivity">
         </activity>
     </application>
 

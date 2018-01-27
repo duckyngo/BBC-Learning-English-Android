@@ -85,6 +85,21 @@ public class EpisodesRepository implements EpisodesDataSource {
     }
 
     @Override
+    public void getEpisodesByListId(int[] ids, @NonNull final LoadEpisodesCallback callback) {
+        mEpisodeLocalDataSource.getEpisodesByListId(ids, new LoadEpisodesCallback() {
+            @Override
+            public void onEpisodesLoaded(List<Episode> episodes) {
+                callback.onEpisodesLoaded(episodes);
+            }
+
+            @Override
+            public void onDataNotAvailable() {
+                callback.onDataNotAvailable();
+            }
+        });
+    }
+
+    @Override
     public void getEpisodesByTypeAndPlayState(@NonNull EpisodeType type, @NonNull boolean isPlayed, @NonNull final LoadEpisodesCallback callback) {
         mEpisodeLocalDataSource.getEpisodesByTypeAndPlayState(type, isPlayed, new LoadEpisodesCallback() {
             @Override
