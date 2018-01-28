@@ -36,9 +36,9 @@ dependencies {
     compile "com.google.code.gson:gson:$rootProject.gsonVersion"
 
 //     Firebase
-//    compile "com.google.firebase:firebase-core:$rootProject.firebaseVersion"
-//    compile "com.google.firebase:firebase-config:$rootProject.firebaseVersion"
-//    compile "com.google.firebase:firebase-storage:$rootProject.firebaseVersion"
+    compile "com.google.firebase:firebase-core:$rootProject.firebaseVersion"
+    compile "com.google.firebase:firebase-config:$rootProject.firebaseVersion"
+    compile "com.google.firebase:firebase-storage:$rootProject.firebaseVersion"
 
     // Dagger dependencies
     annotationProcessor "com.google.dagger:dagger-compiler:$rootProject.daggerVersion"
@@ -67,12 +67,13 @@ dependencies {
     annotationProcessor "com.jakewharton:butterknife-compiler:$rootProject.ext.butterKnifeVersion"
 
     // Ripple Effect Dependency
-    compile "com.github.traex.rippleeffect:library:$rootProject.ext.rippleEffectVersion"
+    compile "com.github.traex.rippleeffect:lib" +
+            "rary:$rootProject.ext.rippleEffectVersion"
 
     // ExoMedia Dependency
     compile "com.devbrackets.android:exomedia:$rootProject.ext.exoMediaVersion"
     implementation project(':viewpagerindicator')
 
 }
-//apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.gms.google-services'
 

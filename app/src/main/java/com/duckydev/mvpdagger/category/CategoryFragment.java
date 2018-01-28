@@ -1,10 +1,14 @@
 package com.duckydev.mvpdagger.category;
 
+import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.widget.NestedScrollView;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -191,7 +195,7 @@ public class CategoryFragment extends DaggerFragment implements CategoryContract
                 mPresenter.loadAllPreviewEpisode();
             }
         });
-//        exportDatabse("Episodes.db");
+        exportDatabse("Episodes.db");
 
         return rootView;
     }
@@ -434,26 +438,68 @@ public class CategoryFragment extends DaggerFragment implements CategoryContract
     }
 
     public void exportDatabse(String databaseName) {
-        try {
-            File sd = Environment.getExternalStorageDirectory();
-            File data = Environment.getDataDirectory();
 
-            if (sd.canWrite()) {
-                String currentDBPath = "//data//"+getActivity().getPackageName()+"//databases//"+databaseName+"";
-                String backupDBPath = "backupname.db";
-                File currentDB = new File(data, currentDBPath);
-                File backupDB = new File(sd, backupDBPath);
+        if (Build.VERSION.SDK_INT >= 23) {
+            if (getActivity().checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE)
+                    == PackageManager.PERMISSION_GRANTED) {
+                try {
+                    File sd = Environment.getExternalStorageDirectory();
+                    File data = Environment.getDataDirectory();
 
-                if (currentDB.exists()) {
-                    FileChannel src = new FileInputStream(currentDB).getChannel();
-                    FileChannel dst = new FileOutputStream(backupDB).getChannel();
-                    dst.transferFrom(src, 0, src.size());
-                    src.close();
-                    dst.close();
+                    if (sd.canWrite()) {
+                        String currentDBPath = "//data//"+getActivity().getPackageName()+"//databases//"+databaseName+"";
+                        String backupDBPath = "backupname.db";
+                        File currentDB = new File(data, currentDBPath);
+                        File backupDB = new File(sd, backupDBPath);
+
+                        if (currentDB.exists()) {
+                            FileChannel src = new FileInputStream(currentDB).getChannel();
+                            FileChannel dst = new FileOutputStream(backupDB).getChannel();
+                            dst.transferFrom(src, 0, src.size());
+                            src.close();
+                            dst.close();
+                        }
+                    }
+                } catch (Exception e) {
+
                 }
+            } else {
+                ActivityCompat.requestPermissions(getActivity(), new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1);
             }
-        } catch (Exception e) {
+        }
+        else { //permission is automatically granted on sdk<23 upon installation
+            try {
+                File sd = Environment.getExternalStorageDirectory();
+                File data = Environment.getDataDirectory();
 
+                if (sd.canWrite()) {
+                    String currentDBPath = "//data//"+getActivity().getPackageName()+"//databases//"+databaseName+"";
+                    String backupDBPath = "backupname.db";
+                    File currentDB = new File(data, currentDBPath);
+                    File backupDB = new File(sd, backupDBPath);
+
+                    if (currentDB.exists()) {
+                        FileChannel src = new FileInputStream(currentDB).getChannel();
+                        FileChannel dst = new FileOutputStream(backupDB).getChannel();
+                        dst.transferFrom(src, 0, src.size());
+                        src.close();
+                        dst.close();
+                    }
+                }
+            } catch (Exception e) {
+
+            }
+        }
+
+
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if(grantResults[0]== PackageManager.PERMISSION_GRANTED){
+            //resume tasks needing this permission
+            exportDatabse("Episodes.db");
         }
     }
 }

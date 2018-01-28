@@ -114,7 +114,7 @@ public class CategoryPresenter implements CategoryContract.Presenter {
 //            }
 //        });
 //
-//        mEpisodesRepository.getFirstNumberOfEpisodeByType(EpisodeType.DRAMA, 15, new EpisodesDataSource.LoadEpisodesCallback() {
+//        mEpisodesRepository.getFirstNumberOfEpisodeByType(EpisodeType. , 15, new EpisodesDataSource.LoadEpisodesCallback() {
 //            @Override
 //            public void onEpisodesLoaded(List<Episode> episodes) {
 //                for (int i = 0; i <15; i++) {
