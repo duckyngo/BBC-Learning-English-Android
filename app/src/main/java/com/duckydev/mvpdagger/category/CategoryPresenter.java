@@ -1,16 +1,31 @@
 package com.duckydev.mvpdagger.category;
 
+import android.os.Environment;
+import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.util.Log;
 import android.widget.Toast;
 
+import com.duckydev.mvpdagger.BuildConfig;
+import com.duckydev.mvpdagger.R;
 import com.duckydev.mvpdagger.data.Episode;
 import com.duckydev.mvpdagger.data.source.EpisodesDataSource;
 import com.duckydev.mvpdagger.data.source.EpisodesRepository;
 import com.duckydev.mvpdagger.di.ActivityScoped;
 import com.duckydev.mvpdagger.util.EpisodeType;
+import com.duckydev.mvpdagger.util.SharePreferenceUtils;
 import com.duckydev.mvpdagger.util.wiget.DialogManager;
 import com.duckydev.mvpdagger.util.wiget.RateManager;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.remoteconfig.FirebaseRemoteConfig;
+import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -25,6 +40,13 @@ import javax.inject.Inject;
 @ActivityScoped
 public class CategoryPresenter implements CategoryContract.Presenter {
 
+    // Remote Config keys
+    private static final String LASTED_DATABASE_VERSION = "lasted_database_version";
+    private static final String LASTED_DATABASE_URL = "lasted_database_url";
+    private static final String LASTED_APPLICATION_VERSION = "lasted_application_version";
+    private static final String APPLICATION_PACKAGE_ID = "application_package_id";
+    private static final String APPLICATION_PACKAGE_ID_NEED_TO_UPDATE = "application_package_id_need_to_update";
+
     private final EpisodesRepository mEpisodesRepository;
 
     @Nullable
@@ -32,6 +54,7 @@ public class CategoryPresenter implements CategoryContract.Presenter {
     private int PREVIEW_EPISODE_SIZE = 6;
     private int DUCKY_EPISODE_SIZE = 7;
     boolean isFirstRun = true;
+    private FirebaseRemoteConfig mFirebaseRemoteConfig;
     List<Episode> duckyEpisodeList = new ArrayList<>();
 
     @Inject
@@ -39,10 +62,10 @@ public class CategoryPresenter implements CategoryContract.Presenter {
         mEpisodesRepository = episodesRepository;
     }
 
-//    List<Episode> episodes3 = new ArrayList<>();
-//    List<Episode> episodes2 = new ArrayList<>();
-//    List<Episode> episodes1 = new ArrayList<>();
-//    List<Episode> episodes0 = new ArrayList<>();
+    List<Episode> episodes3 = new ArrayList<>();
+    List<Episode> episodes2 = new ArrayList<>();
+    List<Episode> episodes1 = new ArrayList<>();
+    List<Episode> episodes0 = new ArrayList<>();
 
     @Override
     public void loadAllPreviewEpisode() {
@@ -114,7 +137,7 @@ public class CategoryPresenter implements CategoryContract.Presenter {
 //            }
 //        });
 //
-//        mEpisodesRepository.getFirstNumberOfEpisodeByType(EpisodeType. , 15, new EpisodesDataSource.LoadEpisodesCallback() {
+//        mEpisodesRepository.getFirstNumberOfEpisodeByType(EpisodeType.DRAMA , 15, new EpisodesDataSource.LoadEpisodesCallback() {
 //            @Override
 //            public void onEpisodesLoaded(List<Episode> episodes) {
 //                for (int i = 0; i <15; i++) {
@@ -135,9 +158,8 @@ public class CategoryPresenter implements CategoryContract.Presenter {
 //
 //            }
 //        });
-//
-//
-//
+
+
 //        Gson gson = new GsonBuilder().setPrettyPrinting().create();
 ////                Gson gson = new Gson();
 //        String version0 = gson.toJson(episodes0, new TypeToken<ArrayList<Episode>>() {
@@ -157,19 +179,15 @@ public class CategoryPresenter implements CategoryContract.Presenter {
 //        Log.d("ky.nd", version1);
 //        Log.d("ky.nd", version2);
 //        Log.d("ky.nd", version3);
+//        episodes0.clear();
+//        episodes1.clear();
+//        episodes2.clear();
+//        episodes3.clear();
+//
+// Create a storage reference from our app
+        // Create a storage reference from our app
 
-//        ArrayList<Episode> arrayList = new ArrayList();
-//        Gson gson = new Gson();
-//
-//        arrayList = gson.fromJson(loadJSONFromAsset(), new TypeToken<ArrayList<Episode>>() {
-//        }.getType());
-//
-//        Log.d("ky.nd", "" + arrayList.size());
-//
-//        if (!isFirstRun) {
-//                mEpisodesRepository.insertEpisodeList(arrayList);
-//        }
-//        isFirstRun = false;
+
         duckyEpisodeList.clear();
 
         loadPreviewEpisodes(EpisodeType.SIX_MINUTE_ENGLISH);
@@ -285,11 +303,80 @@ public class CategoryPresenter implements CategoryContract.Presenter {
     @Override
     public void takeView(CategoryContract.View view) {
         mCategoryView = view;
+
+        mFirebaseRemoteConfig = FirebaseRemoteConfig.getInstance();
+        FirebaseRemoteConfigSettings configSettings = new FirebaseRemoteConfigSettings.Builder()
+                .setDeveloperModeEnabled(BuildConfig.DEBUG)
+                .build();
+        mFirebaseRemoteConfig.setConfigSettings(configSettings);
+        mFirebaseRemoteConfig.setDefaults(R.xml.remote_config_defaults);
+
+        fetchWelcome();
         loadAllPreviewEpisode();
+
+
     }
 
     @Override
     public void dropView() {
         mCategoryView = null;
     }
+
+    private void updateDatabase() {
+        int closeVersion = (int) mFirebaseRemoteConfig.getLong(LASTED_DATABASE_VERSION);
+        if (mCategoryView != null && closeVersion != SharePreferenceUtils.getDatabaseVersion(((CategoryFragment) mCategoryView).getActivity())) {
+            FirebaseStorage storage = FirebaseStorage.getInstance();
+            StorageReference storageRef = storage.getReferenceFromUrl("gs://bbc-learning-english-1e193.appspot.com/database");
+            StorageReference islandRef = storageRef.child(closeVersion + ".json");
+
+            File rootPath = new File(Environment.getExternalStorageDirectory(), "cached_database");
+            if (!rootPath.exists()) {
+                rootPath.mkdirs();
+            }
+
+            final File localFile = new File(rootPath, "database_update.json");
+            final long ONE_MEGABYTE = 1024 * 1024;
+            islandRef.getBytes(ONE_MEGABYTE).addOnSuccessListener(new OnSuccessListener<byte[]>() {
+
+                @Override
+                public void onSuccess(byte[] bytes) {
+                    String json = new String(bytes);
+                    ArrayList<Episode> arrayList = new ArrayList();
+                    Gson gson = new Gson();
+
+                    arrayList = gson.fromJson(json, new TypeToken<ArrayList<Episode>>() {
+                    }.getType());
+
+                    Log.d("ky.nd", "" + arrayList.size());
+
+                    mEpisodesRepository.insertEpisodeList(arrayList);
+                }
+            }).addOnFailureListener(new OnFailureListener() {
+                @Override
+                public void onFailure(@NonNull Exception exception) {
+                    Log.e("firebase ", ";local tem file not created  created " + exception.toString());
+                }
+            });
+        }
+
+
+    }
+
+    private void fetchWelcome() {
+//        mWelcomeTextView.setText(mFirebaseRemoteConfig.getString(LOADING_PHRASE_CONFIG_KEY));
+
+        long cacheExpiration = 3600; // 1 hour in seconds.
+        // If your app is using developer mode, cacheExpiration is set to 0, so each fetch will
+        // retrieve values from the service.
+        if (mFirebaseRemoteConfig.getInfo().getConfigSettings().isDeveloperModeEnabled()) {
+            cacheExpiration = 0;
+        }
+
+
+    }
+
+
 }
+
+
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- START xml_defaults -->
+<defaultsMap>
+    <entry>
+        <key>lasted_database_version</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>lasted_database_url</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>lasted_application_version</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>application_package_id</key>
+        <value>com.duckydev.dagger</value>
+    </entry>
+    <entry>
+        <key>application_package_id_need_to_update</key>
+        <value>fasle</value>
+    </entry>
+</defaultsMap>
+    <!-- END xml_defaults -->

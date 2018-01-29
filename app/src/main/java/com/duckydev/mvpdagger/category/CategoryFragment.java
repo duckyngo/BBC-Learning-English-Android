@@ -195,7 +195,7 @@ public class CategoryFragment extends DaggerFragment implements CategoryContract
                 mPresenter.loadAllPreviewEpisode();
             }
         });
-        exportDatabse("Episodes.db");
+//        exportDatabse("Episodes.db");
 
         return rootView;
     }
@@ -494,12 +494,12 @@ public class CategoryFragment extends DaggerFragment implements CategoryContract
 
     }
 
-    @Override
-    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        if(grantResults[0]== PackageManager.PERMISSION_GRANTED){
-            //resume tasks needing this permission
-            exportDatabse("Episodes.db");
-        }
-    }
+//    @Override
+//    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+//        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+//        if(grantResults[0]== PackageManager.PERMISSION_GRANTED){
+//            //resume tasks needing this permission
+//            exportDatabse("Episodes.db");
+//        }
+//    }
 }
