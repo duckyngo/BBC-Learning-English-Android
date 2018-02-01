@@ -35,7 +35,7 @@ public abstract class RepositoryModule {
     @Singleton
     @Provides
     static CommonRoomDatabase provideDb(Application context) {
-        return Room.databaseBuilder(context.getApplicationContext(), CommonRoomDatabase.class, "backupnameOriginal.db")
+        return Room.databaseBuilder(context.getApplicationContext(), CommonRoomDatabase.class, "backupname.db")
                 .openHelperFactory(new AssetSQLiteOpenHelperFactory())
                 .build();
 

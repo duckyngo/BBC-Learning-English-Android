@@ -16,8 +16,10 @@ import com.duckydev.mvpdagger.util.EpisodeType;
 import com.duckydev.mvpdagger.util.SharePreferenceUtils;
 import com.duckydev.mvpdagger.util.wiget.DialogManager;
 import com.duckydev.mvpdagger.util.wiget.RateManager;
+import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings;
 import com.google.firebase.storage.FirebaseStorage;
@@ -26,8 +28,6 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -226,6 +226,12 @@ public class CategoryPresenter implements CategoryContract.Presenter {
             }
         });
 
+        if (isFirstRun) {
+            fetchWelcome();
+        }
+        isFirstRun = false;
+
+
     }
 
     @Override
@@ -253,22 +259,6 @@ public class CategoryPresenter implements CategoryContract.Presenter {
             }
         });
 
-    }
-
-    public String loadJSONFromAsset() {
-        String json = null;
-        try {
-            InputStream is = ((CategoryFragment) mCategoryView).getActivity().getAssets().open("yourfilename.json");
-            int size = is.available();
-            byte[] buffer = new byte[size];
-            is.read(buffer);
-            is.close();
-            json = new String(buffer, "UTF-8");
-        } catch (IOException ex) {
-            ex.printStackTrace();
-            return null;
-        }
-        return json;
     }
 
     @Override
@@ -311,10 +301,7 @@ public class CategoryPresenter implements CategoryContract.Presenter {
         mFirebaseRemoteConfig.setConfigSettings(configSettings);
         mFirebaseRemoteConfig.setDefaults(R.xml.remote_config_defaults);
 
-        fetchWelcome();
         loadAllPreviewEpisode();
-
-
     }
 
     @Override
@@ -322,48 +309,47 @@ public class CategoryPresenter implements CategoryContract.Presenter {
         mCategoryView = null;
     }
 
-    private void updateDatabase() {
-        int closeVersion = (int) mFirebaseRemoteConfig.getLong(LASTED_DATABASE_VERSION);
-        if (mCategoryView != null && closeVersion != SharePreferenceUtils.getDatabaseVersion(((CategoryFragment) mCategoryView).getActivity())) {
-            FirebaseStorage storage = FirebaseStorage.getInstance();
-            StorageReference storageRef = storage.getReferenceFromUrl("gs://bbc-learning-english-1e193.appspot.com/database");
-            StorageReference islandRef = storageRef.child(closeVersion + ".json");
+    private void updateDatabase(int closeVersion) {
 
-            File rootPath = new File(Environment.getExternalStorageDirectory(), "cached_database");
-            if (!rootPath.exists()) {
-                rootPath.mkdirs();
-            }
+        FirebaseStorage storage = FirebaseStorage.getInstance();
+        StorageReference storageRef = storage.getReferenceFromUrl("gs://bbc-learning-english-1e193.appspot.com/database");
+        StorageReference islandRef = storageRef.child(closeVersion + ".json");
 
-            final File localFile = new File(rootPath, "database_update.json");
-            final long ONE_MEGABYTE = 1024 * 1024;
-            islandRef.getBytes(ONE_MEGABYTE).addOnSuccessListener(new OnSuccessListener<byte[]>() {
-
-                @Override
-                public void onSuccess(byte[] bytes) {
-                    String json = new String(bytes);
-                    ArrayList<Episode> arrayList = new ArrayList();
-                    Gson gson = new Gson();
-
-                    arrayList = gson.fromJson(json, new TypeToken<ArrayList<Episode>>() {
-                    }.getType());
-
-                    Log.d("ky.nd", "" + arrayList.size());
-
-                    mEpisodesRepository.insertEpisodeList(arrayList);
-                }
-            }).addOnFailureListener(new OnFailureListener() {
-                @Override
-                public void onFailure(@NonNull Exception exception) {
-                    Log.e("firebase ", ";local tem file not created  created " + exception.toString());
-                }
-            });
+        File rootPath = new File(Environment.getExternalStorageDirectory(), "cached_database");
+        if (!rootPath.exists()) {
+            rootPath.mkdirs();
         }
+
+        final File localFile = new File(rootPath, "database_update.json");
+        final long ONE_MEGABYTE = 1024 * 1024;
+        islandRef.getBytes(ONE_MEGABYTE).addOnSuccessListener(new OnSuccessListener<byte[]>() {
+
+            @Override
+            public void onSuccess(byte[] bytes) {
+                String json = new String(bytes);
+                ArrayList<Episode> arrayList = new ArrayList();
+                Gson gson = new Gson();
+
+                arrayList = gson.fromJson(json, new TypeToken<ArrayList<Episode>>() {
+                }.getType());
+
+                Log.d("ky.nd", "" + arrayList.size());
+
+                mEpisodesRepository.insertEpisodeList(arrayList);
+                loadAllPreviewEpisode();
+            }
+        }).addOnFailureListener(new OnFailureListener() {
+            @Override
+            public void onFailure(@NonNull Exception exception) {
+                Log.e("firebase ", ";local tem file not created  created " + exception.toString());
+            }
+        });
 
 
     }
 
     private void fetchWelcome() {
-//        mWelcomeTextView.setText(mFirebaseRemoteConfig.getString(LOADING_PHRASE_CONFIG_KEY));
+        Toast.makeText(((CategoryFragment) mCategoryView).getActivity(), mFirebaseRemoteConfig.getString(APPLICATION_PACKAGE_ID), Toast.LENGTH_SHORT).show();
 
         long cacheExpiration = 3600; // 1 hour in seconds.
         // If your app is using developer mode, cacheExpiration is set to 0, so each fetch will
@@ -372,10 +358,62 @@ public class CategoryPresenter implements CategoryContract.Presenter {
             cacheExpiration = 0;
         }
 
+        // [START fetch_config_with_callback]
+        // cacheExpirationSeconds is set to cacheExpiration here, indicating the next fetch request
+        // will use fetch data from the Remote Config service, rather than cached parameter values,
+        // if cached parameter values are more than cacheExpiration seconds old.
+        // See Best Practices in the README for more information.
+        mFirebaseRemoteConfig.fetch(cacheExpiration)
+                .addOnCompleteListener(((CategoryFragment) mCategoryView).getActivity(), new OnCompleteListener<Void>() {
+                    @Override
+                    public void onComplete(@NonNull Task<Void> task) {
+                        if (task.isSuccessful()) {
+                            Log.d("ky.nd", "Fetch successful");
+
+                            // After config data is successfully fetched, it must be activated before newly fetched
+                            // values are returned.
+                            mFirebaseRemoteConfig.activateFetched();
+                        } else {
+                            Log.d("ky.nd", "Fetch fail");
+                        }
+//                        displayWelcomeMessage();
+                        int cloudVersion = Integer.parseInt(mFirebaseRemoteConfig.getString(LASTED_DATABASE_VERSION));
+
+                        if (cloudVersion > SharePreferenceUtils.getDatabaseVersion(((CategoryFragment) mCategoryView).getActivity())) {
+                            SharePreferenceUtils.updateDatabaseVersion(((CategoryFragment) mCategoryView).getActivity(), cloudVersion);
+                            updateDatabase(cloudVersion);
+                        }
+
+                    }
+                });
+        // [END fetch_config_with_callback]
 
     }
 
-
+//    private void showRemoteConfigureValue() {
+//        Log.d("ky.nd", mFirebaseRemoteConfig.getString(LASTED_DATABASE_VERSION));
+//        Log.d("ky.nd", mFirebaseRemoteConfig.getString(LASTED_DATABASE_URL));
+//        Log.d("ky.nd", mFirebaseRemoteConfig.getString(LASTED_APPLICATION_VERSION));
+//        Log.d("ky.nd", mFirebaseRemoteConfig.getString(APPLICATION_PACKAGE_ID_NEED_TO_UPDATE));
+//
+//    }
+//
+//    public String loadJSONFromAsset() {
+//        String json = null;
+//        try {
+//            InputStream is = ((CategoryFragment) mCategoryView).getActivity().getAssets().open("yourfilename.json");
+//            int size = is.available();
+//            byte[] buffer = new byte[size];
+//            is.read(buffer);
+//            is.close();
+//            json = new String(buffer, "UTF-8");
+//        } catch (IOException ex) {
+//            ex.printStackTrace();
+//            return null;
+//        }
+//        return json;
+//    }
+//
 }
 
 
